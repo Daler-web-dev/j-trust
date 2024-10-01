@@ -20,20 +20,20 @@ export default function MiddleTable({ translation }: { translation: Translation 
     return (
         <Card className="w-full mx-auto">
             <CardHeader>
-                <CardTitle className="text-lg font-semibold">{translation.title}</CardTitle>
+                <CardTitle className="text-lg font-semibold">{translation?.title}</CardTitle>
             </CardHeader>
             <CardContent className="overflow-x-auto">
                 <Table>
                     <TableHeader>
                         <TableRow>
                             <TableHead className="w-[50px]">№</TableHead>
-                            <TableHead>{translation.sections[0].rows[0].info}</TableHead>
-                            <TableHead>{translation.sections[0].rows[0].criteria}</TableHead>
-                            <TableHead className="w-[100px]">{translation.sections[0].rows[0].score}</TableHead>
+                            <TableHead>{translation?.sections[0].rows[0].info}</TableHead>
+                            <TableHead>{translation?.sections[0].rows[0].criteria}</TableHead>
+                            <TableHead className="w-[100px]">{translation?.sections[0].rows[0].score}</TableHead>
                         </TableRow>
                     </TableHeader>
                     <TableBody>
-                        {translation.sections.map((section, sectionIndex) => (
+                        {translation?.sections.map((section, sectionIndex) => (
                             <React.Fragment key={sectionIndex}>
                                 <TableRow>
                                     <TableCell colSpan={4} className="font-semibold">
@@ -54,7 +54,7 @@ export default function MiddleTable({ translation }: { translation: Translation 
                 </Table>
             </CardContent>
             <CardContent>
-                <p className="text-sm mt-4">{translation.responsibleNote}</p>
+                <p className="text-sm mt-4">{translation?.responsibleNote}</p>
             </CardContent>
         </Card>
     );

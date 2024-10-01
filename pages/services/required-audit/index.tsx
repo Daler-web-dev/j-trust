@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Index: React.FC<Props> = ({ className }) => {
-    const { services } = useContext<{ services: Services }>(TranslateContext)
+    const { services } = useContext(TranslateContext)
     const { requiredAudit: translation } = services
     return (
         <Container className={cn("mt-10 mb-20", className)}>
@@ -22,7 +22,7 @@ const Index: React.FC<Props> = ({ className }) => {
                     <p>{translation.section_1}</p>
                     <p>{translation.section_2}</p>
                     <ul>
-                        {translation.points.map((point, index) => (
+                        {translation.points.map((point: string, index: number) => (
                             <li key={index}>{point}</li>
                         ))}
                     </ul>

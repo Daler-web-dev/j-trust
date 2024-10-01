@@ -10,7 +10,7 @@ type Props = {
 };
 
 const Page: React.FC<Props> = ({ className }) => {
-    const { aboutPage } = useContext<TranslateContextType>(TranslateContext);
+    const { aboutPage } = useContext(TranslateContext);
 
     return (
         <Container className={cn("pt-5 pb-20", className)}>
@@ -54,7 +54,7 @@ const Page: React.FC<Props> = ({ className }) => {
                 <CardContent className='text-sm sm:text-base'>
                     {aboutPage?.clients?.companies && aboutPage?.clients?.companies.length > 0 ? (
                         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5' style={{ gridAutoRows: '200px' }}>
-                            {aboutPage.clients.companies.map((company: Client, index: number) => (
+                            {aboutPage.clients.companies.map((company: { title: string; description: string }, index: number) => (
                                 <div key={index} className='rounded-lg border border-gray-200 p-4 flex justify-start items-start gap-2 flex-col'>
                                     <h3 className='text-base font-medium'>{company.title}</h3>
                                     <p className='text-sm'>{company.description.length < 120 ? company.description : company.description.substring(0, 120) + '...'}</p>

@@ -61,52 +61,52 @@ export default function VacanciesForm({ translation }: Props) {
     return (
         <Card className="w-full mx-auto">
             <CardHeader className="bg-cblue text-white">
-                <CardTitle>{translation.formTitle}</CardTitle>
+                <CardTitle>{translation?.formTitle}</CardTitle>
             </CardHeader>
             <CardContent className="p-6">
                 <form className="space-y-8" onSubmit={handleSubmit(onSubmit)}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold">{translation.personalInfo}</h2>
+                            <h2 className="text-xl font-semibold">{translation?.personalInfo}</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="space-y-2">
-                                    <Label htmlFor="firstName">{translation.firstName}</Label>
+                                    <Label htmlFor="firstName">{translation?.firstName}</Label>
                                     <Input id="firstName" {...register("firstName", { required: true })} />
-                                    {errors.firstName && <span className="text-red-500">{translation.requiredField}</span>}
+                                    {errors.firstName && <span className="text-red-500">{translation?.requiredField}</span>}
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="lastName">{translation.lastName}</Label>
+                                    <Label htmlFor="lastName">{translation?.lastName}</Label>
                                     <Input id="lastName" {...register("lastName", { required: true })} />
-                                    {errors.lastName && <span className="text-red-500">{translation.requiredField}</span>}
+                                    {errors.lastName && <span className="text-red-500">{translation?.requiredField}</span>}
                                 </div>
                             </div>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="space-y-2">
-                                    <Label htmlFor="email">{translation.email}</Label>
+                                    <Label htmlFor="email">{translation?.email}</Label>
                                     <Input id="email" type="email" {...register("email", { required: true })} />
-                                    {errors.email && <span className="text-red-500">{translation.requiredField}</span>}
+                                    {errors.email && <span className="text-red-500">{translation?.requiredField}</span>}
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="phone">{translation.phone}</Label>
+                                    <Label htmlFor="phone">{translation?.phone}</Label>
                                     <Input id="phone" type="tel" {...register("phone", { required: true })} />
-                                    {errors.phone && <span className="text-red-500">{translation.requiredField}</span>}
+                                    {errors.phone && <span className="text-red-500">{translation?.requiredField}</span>}
                                 </div>
                             </div>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="space-y-2">
-                                    <Label htmlFor="age">{translation.age}</Label>
+                                    <Label htmlFor="age">{translation?.age}</Label>
                                     <Input id="age" type="number" {...register("age", { required: true })} />
-                                    {errors.age && <span className="text-red-500">{translation.requiredField}</span>}
+                                    {errors.age && <span className="text-red-500">{translation?.requiredField}</span>}
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="position">{translation.position}</Label>
+                                    <Label htmlFor="position">{translation?.position}</Label>
                                     <Input id="position" {...register("position", { required: true })} />
-                                    {errors.position && <span className="text-red-500">{translation.requiredField}</span>}
+                                    {errors.position && <span className="text-red-500">{translation?.requiredField}</span>}
                                 </div>
                             </div>
                         </div>
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold">{translation.languages}</h2>
+                            <h2 className="text-xl font-semibold">{translation?.languages}</h2>
                             {/* Add language proficiency input here if needed */}
                         </div>
                     </div>
@@ -114,26 +114,26 @@ export default function VacanciesForm({ translation }: Props) {
                     {/* Skills Section */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold">{translation.skills}</h2>
+                            <h2 className="text-xl font-semibold">{translation?.skills}</h2>
                             <div className="space-y-2">
-                                <Label htmlFor="skills">{translation.skills}</Label>
+                                <Label htmlFor="skills">{translation?.skills}</Label>
                                 <Textarea
                                     id="skills"
                                     {...register("skills")}
                                     maxLength={maxChars}
                                     className="resize-none"
-                                    placeholder={translation.skillsPlaceholder}
+                                    placeholder={translation?.skillsPlaceholder}
                                 />
                                 <p className="text-sm text-gray-500">{`${watch("skills")?.length || 0}/${maxChars}`}</p>
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="additionalSkills">{translation.additionalSkills}</Label>
+                                <Label htmlFor="additionalSkills">{translation?.additionalSkills}</Label>
                                 <Textarea
                                     id="additionalSkills"
                                     {...register("additionalSkills")}
                                     maxLength={maxChars}
                                     className="resize-none"
-                                    placeholder={translation.additionalSkillsPlaceholder}
+                                    placeholder={translation?.additionalSkillsPlaceholder}
                                 />
                                 <p className="text-sm text-gray-500">{`${watch("additionalSkills")?.length || 0}/${maxChars}`}</p>
                             </div>
@@ -141,37 +141,37 @@ export default function VacanciesForm({ translation }: Props) {
 
                         {/* Work Experience Section */}
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold">{translation.workExperience}</h2>
+                            <h2 className="text-xl font-semibold">{translation?.workExperience}</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="space-y-2">
-                                    <Label htmlFor="startDate">{translation.startDate}</Label>
+                                    <Label htmlFor="startDate">{translation?.startDate}</Label>
                                     <Input id="startDate" type="date" {...register("startDate")} />
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="endDate">{translation.endDate}</Label>
+                                    <Label htmlFor="endDate">{translation?.endDate}</Label>
                                     <Input id="endDate" type="date" {...register("endDate")} />
                                 </div>
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="company">{translation.company}</Label>
+                                <Label htmlFor="company">{translation?.company}</Label>
                                 <Input id="company" {...register("company")} />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="companyDescription">{translation.companyDescription}</Label>
+                                <Label htmlFor="companyDescription">{translation?.companyDescription}</Label>
                                 <Textarea id="companyDescription" {...register("companyDescription")} className="resize-none" />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="jobTitle">{translation.jobTitle}</Label>
+                                <Label htmlFor="jobTitle">{translation?.jobTitle}</Label>
                                 <Input id="jobTitle" {...register("jobTitle")} />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="responsibilities">{translation.responsibilities}</Label>
+                                <Label htmlFor="responsibilities">{translation?.responsibilities}</Label>
                                 <Textarea
                                     id="responsibilities"
                                     {...register("responsibilities")}
                                     maxLength={maxChars}
                                     className="resize-none"
-                                    placeholder={translation.responsibilitiesPlaceholder}
+                                    placeholder={translation?.responsibilitiesPlaceholder}
                                 />
                                 <p className="text-sm text-gray-500">{`${watch("responsibilities")?.length || 0}/${maxChars}`}</p>
                             </div>
@@ -181,46 +181,46 @@ export default function VacanciesForm({ translation }: Props) {
                     {/* Education Section */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold">{translation.education}</h2>
+                            <h2 className="text-xl font-semibold">{translation?.education}</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="space-y-2">
-                                    <Label htmlFor="eduStartDate">{translation.eduStartDate}</Label>
+                                    <Label htmlFor="eduStartDate">{translation?.eduStartDate}</Label>
                                     <Input id="eduStartDate" type="date" {...register("eduStartDate")} />
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="eduEndDate">{translation.eduEndDate}</Label>
+                                    <Label htmlFor="eduEndDate">{translation?.eduEndDate}</Label>
                                     <Input id="eduEndDate" type="date" {...register("eduEndDate")} />
                                 </div>
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="institution">{translation.institution}</Label>
+                                <Label htmlFor="institution">{translation?.institution}</Label>
                                 <Input id="institution" {...register("institution")} />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="degree">{translation.degree}</Label>
+                                <Label htmlFor="degree">{translation?.degree}</Label>
                                 <Input id="degree" {...register("degree")} />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="specialization">{translation.specialization}</Label>
+                                <Label htmlFor="specialization">{translation?.specialization}</Label>
                                 <Input id="specialization" {...register("specialization")} />
                             </div>
                         </div>
 
                         {/* Certificates Section */}
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold">{translation.certificates}</h2>
+                            <h2 className="text-xl font-semibold">{translation?.certificates}</h2>
                             <div className="space-y-2">
-                                <Label htmlFor="certName">{translation.certName}</Label>
+                                <Label htmlFor="certName">{translation?.certName}</Label>
                                 <Input id="certName" {...register("certName")} />
                             </div>
                             <div className="space-y-2">
-                                <Label htmlFor="certDescription">{translation.certDescription}</Label>
+                                <Label htmlFor="certDescription">{translation?.certDescription}</Label>
                                 <Textarea
                                     id="certDescription"
                                     {...register("certDescription")}
                                     maxLength={maxChars}
                                     className="resize-none"
-                                    placeholder={translation.certDescriptionPlaceholder}
+                                    placeholder={translation?.certDescriptionPlaceholder}
                                 />
                                 <p className="text-sm text-gray-500">{`${watch("certDescription")?.length || 0}/${maxChars}`}</p>
                             </div>
@@ -228,7 +228,7 @@ export default function VacanciesForm({ translation }: Props) {
                     </div>
 
                     <Button type="submit" className="mt-4">
-                        {translation.submit}
+                        {translation?.submit}
                     </Button>
                 </form>
             </CardContent>

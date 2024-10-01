@@ -16,14 +16,58 @@ export interface TranslationContextType {
     };
     becameAClient: {
         title: string;
-        forma: FormData; // Adjust this type as needed for your form translations
+        forma: {
+            warning: string;
+            name: string;
+            surname: string;
+            email: string;
+            phone: string;
+            company: string;
+            role: string;
+            typeAudit: string;
+            typeAudit_1: string;
+            typeAudit_2: string;
+            typeAudit_3: string;
+            mainJob: string;
+            mainJob_1: string;
+            mainJob_2: string;
+            mainJob_3: string;
+            status: string;
+            status_placeholder: string;
+            time: string;
+            time_1: string;
+            time_2: string;
+            time_3: string;
+            tax: string;
+            tax_1: string;
+            tax_2: string;
+            currency: string;
+            currency_1: string;
+            currency_2: string;
+            method: string;
+            method_1: string;
+            method_2: string;
+            employees: string;
+            accounting: string;
+            banks: string;
+            invoices: string;
+            revenue: string;
+            turnover: string;
+            date: string;
+            assets: string;
+            branches: string;
+            additional: string;
+            submit: string;
+            writeCount: string;
+            writePrice: string;
+            additionalPlaceholder: string;
+        };
     };
-    // Add more translation sections as needed
 }
 
 const Index: React.FC<Props> = ({ className }) => {
     const { becameAClient } = useContext<TranslationContextType>(TranslateContext);
-    const { title, forma } = becameAClient; // Destructure translations for clarity
+    const { title, forma } = becameAClient;
 
     return (
         <Container className={cn("mt-10 mb-20", className)}>

@@ -32,24 +32,24 @@ export default function JobListing({ translation }: Props) {
     return (
         <Card className="w-full">
             <CardHeader>
-                <CardTitle className="text-3xl font-bold">{translation.careerTitle}</CardTitle>
+                <CardTitle className="text-3xl font-bold">{translation?.careerTitle}</CardTitle>
                 <CardDescription className="text-lg mt-2">
-                    {translation.careerDescription}
+                    {translation?.careerDescription}
                 </CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="space-y-4">
-                    <p className="font-semibold">{translation.auditors}</p>
+                    <p className="font-semibold">{translation?.auditors}</p>
 
                     <Table>
                         <TableHeader>
                             <TableRow>
-                                <TableHead className="w-1/2">{translation.locationHeader}</TableHead>
-                                <TableHead className="w-1/2">{translation.positionHeader}</TableHead>
+                                <TableHead className="w-1/2">{translation?.locationHeader}</TableHead>
+                                <TableHead className="w-1/2">{translation?.positionHeader}</TableHead>
                             </TableRow>
                         </TableHeader>
                         <TableBody>
-                            {translation.positions.map((item, index) => (
+                            {translation?.positions.map((item, index) => (
                                 <TableRow key={index}>
                                     <TableCell>{item.location}</TableCell>
                                     <TableCell>{item.position}</TableCell>
@@ -59,13 +59,13 @@ export default function JobListing({ translation }: Props) {
                     </Table>
 
                     <div className="space-y-2">
-                        <p className="font-semibold">{translation.requirements}</p>
+                        <p className="font-semibold">{translation?.requirements}</p>
                         <ul className="list-disc list-inside space-y-1">
-                            {translation.requirementsList.map((req, index) => (
+                            {translation?.requirementsList.map((req, index) => (
                                 <li key={index}>{req}</li>
                             ))}
                         </ul>
-                        <p>{translation.registrationNotice}</p>
+                        <p>{translation?.registrationNotice}</p>
                     </div>
                 </div>
             </CardContent>

@@ -26,20 +26,20 @@ export default function TopText({ translation }: { translation: Translation }) {
     return (
         <Card className="w-full mx-auto">
             <CardHeader>
-                <CardTitle className="text-2xl font-bold">{translation.help.title}</CardTitle>
+                <CardTitle className="text-2xl font-bold">{translation?.help.title}</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
                 {/* Обучение */}
                 <div>
-                    <h2 className="text-xl font-semibold mb-2">{translation.help.training.title}</h2>
-                    {translation.help.training.content.map((paragraph, index) => (
+                    <h2 className="text-xl font-semibold mb-2">{translation?.help.training.title}</h2>
+                    {translation?.help.training.content.map((paragraph, index) => (
                         <p key={index} className="text-sm mt-2">{paragraph}</p>
                     ))}
                 </div>
 
                 {/* Программа обучения */}
                 <div>
-                    <h2 className="text-xl font-semibold mb-2">{translation.help.program.title}</h2>
+                    <h2 className="text-xl font-semibold mb-2">{translation?.help.program.title}</h2>
                     <Table>
                         <TableHeader>
                             <TableRow>
@@ -52,7 +52,7 @@ export default function TopText({ translation }: { translation: Translation }) {
                             </TableRow>
                         </TableHeader>
                         <TableBody>
-                            {translation.help.program.table.map((row, index) => (
+                            {translation?.help.program.table.map((row, index) => (
                                 <TableRow key={index}>
                                     <TableCell>{row.number}</TableCell>
                                     <TableCell>{row.group}</TableCell>

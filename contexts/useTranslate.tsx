@@ -1,5 +1,5 @@
 import React, { createContext } from "react"
 
-const TranslateContext: any = createContext([])
+const TranslateContext = createContext<any>({})
 
 export default TranslateContext;

@@ -40,7 +40,7 @@ export default function BottomForm({ translation }: { translation: TranslationTy
     return (
         <Card className="w-full mx-auto md:p-6 shadow-lg border border-gray-200 rounded-lg">
             <CardHeader>
-                <CardTitle className="text-2xl font-bold text-center">{translation.formTitle}</CardTitle>
+                <CardTitle className="text-2xl font-bold text-center">{translation?.formTitle}</CardTitle>
             </CardHeader>
             <CardContent>
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
@@ -50,52 +50,52 @@ export default function BottomForm({ translation }: { translation: TranslationTy
                     {errors.message && <p className="text-sm text-red-500">{errors.message.message}</p>}
 
                     <div className="space-y-2">
-                        <Label htmlFor="name">{translation.nameLabel}</Label>
+                        <Label htmlFor="name">{translation?.nameLabel}</Label>
                         <Input
                             id="name"
-                            placeholder={translation.namePlaceholder}
-                            {...register("name", { required: translation.requiredMessage })}
+                            placeholder={translation?.namePlaceholder}
+                            {...register("name", { required: translation?.requiredMessage })}
                             className="border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
 
                     <div className="space-y-2">
-                        <Label htmlFor="phone">{translation.phoneLabel}</Label>
+                        <Label htmlFor="phone">{translation?.phoneLabel}</Label>
                         <Input
                             id="phone"
                             type="tel"
-                            placeholder={translation.phonePlaceholder}
-                            {...register("phone", { required: translation.requiredMessage })}
+                            placeholder={translation?.phonePlaceholder}
+                            {...register("phone", { required: translation?.requiredMessage })}
                             className="border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
 
                     <div className="space-y-2">
-                        <Label htmlFor="email">{translation.emailLabel}</Label>
+                        <Label htmlFor="email">{translation?.emailLabel}</Label>
                         <Input
                             id="email"
                             type="email"
-                            placeholder={translation.emailPlaceholder}
-                            {...register("email", { required: translation.requiredMessage })}
+                            placeholder={translation?.emailPlaceholder}
+                            {...register("email", { required: translation?.requiredMessage })}
                             className="border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
 
                     <div className="space-y-2">
-                        <Label htmlFor="message">{translation.messageLabel}</Label>
+                        <Label htmlFor="message">{translation?.messageLabel}</Label>
                         <Textarea
                             id="message"
-                            placeholder={translation.messagePlaceholder}
+                            placeholder={translation?.messagePlaceholder}
                             {...register("message", {
-                                required: translation.requiredMessage,
-                                maxLength: { value: 400, message: translation.maxLengthMessage }
+                                required: translation?.requiredMessage,
+                                maxLength: { value: 400, message: translation?.maxLengthMessage }
                             })}
                             className="h-32 border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
 
                     <Button type="submit" disabled={isSubmitting} className="w-full bg-cblue hover:bg-blue-600 text-white rounded-lg py-3">
-                        {isSubmitting ? 'Submitting...' : translation.submitButton}
+                        {isSubmitting ? 'Submitting...' : translation?.submitButton}
                     </Button>
                 </form>
             </CardContent>

@@ -1,36 +1,23 @@
 // components/JobListing.tsx
-import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-interface Props {
-    translation: JobListingTranslation;
-}
+import React, { useContext } from 'react';
+import TranslateContext from '@/contexts/useTranslate';
+import { Container } from '@/components/Container';
+import VacanciesForm from './VacanciesForm';
+import JobListing from './JobListing';
 
-const JobListing: React.FC<Props> = ({ translation }) => {
+
+const Index = () => {
+    const { aboutCompanyPage } = useContext(TranslateContext);
+    const { vacancies: translation } = aboutCompanyPage;
+
+    console.log(translation);
+
     return (
-        <Card>
-            <CardHeader>
-                <CardTitle>{translation.careerTitle}</CardTitle>
-            </CardHeader>
-            <CardContent>
-                <p>{translation.careerDescription}</p>
-                <h3>{translation.locationHeader}</h3>
-                <ul>
-                    {translation.positions.map((item, index) => (
-                        <li key={index}>
-                            {item.position} - {item.location}
-                        </li>
-                    ))}
-                </ul>
-                <h3>{translation.requirements}</h3>
-                <ul>
-                    {translation.requirementsList.map((req, index) => (
-                        <li key={index}>{req}</li>
-                    ))}
-                </ul>
-                <p>{translation.registrationNotice}</p>
-            </CardContent>
-        </Card>
+        <Container className="mt-10 mb-20">
+            <JobListing translation={translation.jobListing} />
+            <VacanciesForm translation={translation.forma} />
+        </Container>
     );
 };
 
-export default JobListing;
+export default Index;

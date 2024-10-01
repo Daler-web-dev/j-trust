@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Index: React.FC<Props> = ({ className }) => {
-    const { services } = useContext<{ services: Services }>(TranslateContext)
+    const { services } = useContext(TranslateContext)
     const { consulting: translation } = services
 
     return (
@@ -22,14 +22,14 @@ const Index: React.FC<Props> = ({ className }) => {
                 <CardContent>
                     <h3 className="font-bold">{translation.questions_title}</h3>
                     <ul className="list-disc pl-5">
-                        {translation.questions.map((question, index) => (
+                        {translation.questions.map((question: string, index: number) => (
                             <li key={index}>{question}</li>
                         ))}
                     </ul>
                     <h3 className="font-bold mt-4">{translation.offer}</h3>
                     <h3 className="font-bold mt-4">{translation.consultationAreas_title}</h3>
                     <ul className="list-disc pl-5">
-                        {translation.consultationAreas.map((area, index) => (
+                        {translation.consultationAreas.map((area: string, index: number) => (
                             <li key={index}>{area}</li>
                         ))}
                     </ul>

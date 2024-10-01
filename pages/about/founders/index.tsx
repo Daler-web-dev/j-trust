@@ -10,7 +10,7 @@ interface Props {
 }
 
 const Index: React.FC<Props> = ({ className }) => {
-    const { aboutCompanyPage } = useContext<TranslateContextType>(TranslateContext);
+    const { aboutCompanyPage } = useContext(TranslateContext);
     const { founders } = aboutCompanyPage;
 
     return (

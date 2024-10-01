@@ -1,6 +1,5 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
-import Image from 'next/image';
 import { Button } from './ui/button';
 import { Translation } from './Translation';
 import Link from 'next/link';

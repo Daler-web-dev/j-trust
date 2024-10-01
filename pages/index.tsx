@@ -25,8 +25,7 @@ const geistMono = localFont({
 });
 
 export default function Home() {
-    const translation: any = useContext(TranslateContext);
-
+    const translation = useContext(TranslateContext)
     return (
         <div className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
             <Separator />

@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useContext } from "react"
 
 export default function ServicesGrid() {
-    const { services } = useContext<{ services: Services }>(TranslateContext)
+    const { services } = useContext(TranslateContext)
     const { main: translation } = services
 
     return (

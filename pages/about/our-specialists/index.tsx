@@ -6,7 +6,7 @@ import { useContext } from "react";
 
 
 const Index: React.FC = () => {
-    const { aboutCompanyPage } = useContext<TranslateContextType>(TranslateContext);
+    const { aboutCompanyPage } = useContext(TranslateContext);
     const { specialists: translation } = aboutCompanyPage;
 
     return (
@@ -17,7 +17,7 @@ const Index: React.FC = () => {
                     <section>
                         <h2 className="text-lg font-medium mb-2">{translation.sectionTitles.ourSpecialists}</h2>
                         <ul className="list-disc list-inside ml-4">
-                            {translation.ourSpecialists.map((point, index) => (
+                            {translation.ourSpecialists.map((point: string, index: number) => (
                                 <li key={index} className="mb-2">{point}</li>
                             ))}
                         </ul>
@@ -28,7 +28,7 @@ const Index: React.FC = () => {
                         <div>
                             <h3 className="font-semibold">{translation.sectionTitles.mainRequirements}</h3>
                             <ul className="list-disc list-inside ml-4">
-                                {translation.qualificationRequirementsForSpecialists.mainRequirements.map((req, index) => (
+                                {translation.qualificationRequirementsForSpecialists.mainRequirements.map((req: string, index: number) => (
                                     <li key={index} className="mb-2">{req}</li>
                                 ))}
                             </ul>
@@ -36,7 +36,7 @@ const Index: React.FC = () => {
                         <div className="mt-4">
                             <h3 className="font-semibold">{translation.sectionTitles.requirementsForAuditorAssistants}</h3>
                             <ul className="list-disc list-inside ml-4">
-                                {translation.qualificationRequirementsForSpecialists.requirementsForAuditorAssistants.map((req, index) => (
+                                {translation.qualificationRequirementsForSpecialists.requirementsForAuditorAssistants.map((req: string, index: number) => (
                                     <li key={index} className="mb-2">{req}</li>
                                 ))}
                             </ul>

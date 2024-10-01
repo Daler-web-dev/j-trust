@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Index: React.FC<Props> = ({ className }) => {
-    const { auditConclusions: translation } = useContext<{ auditConclusions: AuditConclusions }>(TranslateContext);
+    const { auditConclusions: translation } = useContext(TranslateContext);
 
     return (
         <Container className={cn("mt-10 mb-20", className)}>

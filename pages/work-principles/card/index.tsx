@@ -4,7 +4,7 @@ import TranslateContext from '@/contexts/useTranslate';
 import React, { useContext } from 'react';
 
 const Index = () => {
-    const { workPrinciples } = useContext<{ workPrinciples: WorkPrinciples }>(TranslateContext);
+    const { workPrinciples } = useContext(TranslateContext);
     const { partnerAuditorControl: translation } = workPrinciples;
 
     return (
