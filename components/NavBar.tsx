@@ -86,6 +86,14 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
         { key: 'auditReports', label: translation?.auditReports, href: '/audit-reports' },
     ];
 
+    const handleMouseEnter = (key: string) => {
+        setActiveDropdown(key);
+    };
+
+    const handleMouseLeave = () => {
+        setActiveDropdown(null);
+    };
+
     return (
         <nav className={cn("relative", className)}>
             <ul className="flex justify-center items-center space-x-4">
@@ -94,22 +102,26 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
                         <a
                             href={item.href}
                             className="text-sm sm:text-base md:text-lg font-medium text-gray-400 hover:text-black p-2 rounded-sm"
-                            onMouseEnter={() => setActiveDropdown(item.key)}
-                            onMouseLeave={() => setActiveDropdown(null)}
+                            onMouseEnter={() => handleMouseEnter(item.key)}
+                            onMouseLeave={handleMouseLeave}
+                            tabIndex={0} // Support keyboard focus
                         >
                             {item.label}
                         </a>
                         {item.children && activeDropdown === item.key && (
                             <ul
                                 className="absolute left-0 mt-0 w-[250px] bg-white border border-gray-200 rounded-md shadow-lg z-10"
-                                onMouseEnter={() => setActiveDropdown(item.key)}
-                                onMouseLeave={() => setActiveDropdown(null)}
+                                onMouseEnter={() => handleMouseEnter(item.key)}
+                                onMouseLeave={handleMouseLeave}
+                                onFocus={() => handleMouseEnter(item.key)} // Handle keyboard focus
+                                onBlur={handleMouseLeave} // Handle keyboard blur
                             >
                                 {item.children.map((subItem) => (
                                     <li key={subItem.key}>
                                         <a
                                             href={subItem.href}
                                             className="block w-full truncate text-sm sm:text-base md:text-lg font-medium hover:bg-gray-50 p-2 rounded-sm"
+                                            tabIndex={0} // Keyboard focus for sub-items
                                         >
                                             {subItem.label}
                                         </a>

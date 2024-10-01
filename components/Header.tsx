@@ -44,15 +44,16 @@ interface Props {
                 button_text: string;
             };
         };
-    }
+    };
 }
 
 export const Header: React.FC<Props> = ({ className, translation }) => {
     return (
         <div className={cn("flex justify-between items-center gap-5 py-5 md:py-8 lg:py-10", className)}>
             <Link href='/'>
-                {/* <Image src={"/images/logo.png"} width={200} height={200} alt={"logo"} /> */}
-                <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold'>J-<span className='text-cblue'>TRUST</span></h2>
+                <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold'>
+                    J-<span className='text-cblue'>TRUST</span>
+                </h2>
             </Link>
 
             <NavBar translation={translation.nav} />
@@ -62,12 +63,24 @@ export const Header: React.FC<Props> = ({ className, translation }) => {
 
                 <NavBarSheet translation={translation.nav} />
 
-                <div className='max-h-[50px] flex flex-col justify-center items-center max-xl:hidden'>
-                    <a href={`tel:${translation?.nav?.links?.number_1}`} target='_blank' className='text-sm sm:text-base md:text-lg font-medium text-gray-500 cursor-pointer truncate'>{translation?.nav?.links?.number_1}</a>
-                    <a href={`tel:${translation?.nav?.links?.number_2}`} target='_blank' className='text-sm sm:text-base md:text-lg font-medium text-gray-500 cursor-pointer truncate'>{translation?.nav?.links?.number_2}</a>
+                <div className='max-h-[50px] flex flex-col justify-center items-center max-2xl:hidden'>
+                    <a
+                        href={`tel:${translation?.nav?.links?.number_1}`}
+                        className='text-sm sm:text-base md:text-lg font-medium text-gray-500 cursor-pointer truncate'
+                        aria-label={`Call ${translation?.nav?.links?.number_1}`}
+                    >
+                        {translation?.nav?.links?.number_1}
+                    </a>
+                    <a
+                        href={`tel:${translation?.nav?.links?.number_2}`}
+                        className='text-sm sm:text-base md:text-lg font-medium text-gray-500 cursor-pointer truncate'
+                        aria-label={`Call ${translation?.nav?.links?.number_2}`}
+                    >
+                        {translation?.nav?.links?.number_2}
+                    </a>
                 </div>
 
-                <Button className='max-lg:hidden h-[50px] w-[100px] sm:w-[120px] md:w-[150px] lg:w-[200px] rounded-full bg-cblue hover:bg-blue-600 text-sm sm:text-base md:text-lg font-medium cursor-pointer truncate'>
+                <Button className='max-xl:hidden h-[50px] w-[100px] sm:w-[120px] md:w-[150px] lg:w-[200px] rounded-full bg-cblue hover:bg-blue-600 text-sm sm:text-base md:text-lg font-medium cursor-pointer truncate'>
                     {translation?.nav?.links?.button_text}
                 </Button>
             </div>
