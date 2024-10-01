@@ -19,9 +19,7 @@ const Layout = ({ children }: Layout) => {
                 <Header translation={translation?.header} />
             </Container>
             <main>{children}</main>
-            <Container>
-                <Footer translation={translation?.footer} />
-            </Container>
+            <Footer translation={translation?.footer} />
             <Toaster />
         </>
     );
