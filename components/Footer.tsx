@@ -23,7 +23,7 @@ export default function Footer({ translation }: {
             p6: string;
             p7: string;
             p8: string;
-        };
+        }; 
         services: {
             title: string;
             p1: string;
@@ -58,7 +58,7 @@ export default function Footer({ translation }: {
 }) {
     return (
         <div className="w-full mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:p-8 max-lg:p-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-8">
                 <div className="col-span-1 sm:col-span-2 lg:col-span-1">
                     <div className="flex items-center mb-4">
                         <Link href="/">
@@ -126,7 +126,7 @@ export default function Footer({ translation }: {
 
             <Separator />
 
-            <footer className="flex flex-col sm:flex-row justify-between items-center p-4 sm:p-6 lg:p-8 space-y-4 sm:space-y-0 max-lg:p-10">
+            <footer className="flex flex-col sm:flex-row justify-between items-center sm:py-6 lg:py-8 space-y-4 sm:space-y-0">
                 <p className="text-muted-foreground text-sm lg:text-base order-3 sm:order-1">© 2024 {translation?.company?.title}</p>
                 <div className="flex space-x-2 order-1 sm:order-2">
                     <Button variant="outline" size="icon">
