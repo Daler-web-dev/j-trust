@@ -213,7 +213,7 @@ export default function ReviewSwiper() {
                     <SwiperSlide key={review.id} className="py-10">
                         <Card className="bg-background/50 backdrop-blur-lg mb-6 select-none bg-gray-50 rounded-2xl flex flex-col justify-between" style={{ width: '100%', height: '300px' }}>
                             <CardContent className="p-6 flex flex-col justify-between" style={{ flexGrow: 1 }}>
-                                <div className="flex flex-col items-center text-center space-y-4 relative pt-24">
+                                <div className="flex flex-col items-center text-center space-y-4 relative pt-20 md:pt-24 ">
                                     <Avatar className="w-32 h-32 absolute -top-20 !z-10 border-[10px] border-white">
                                         <AvatarImage
                                             src={review.image}
@@ -223,9 +223,9 @@ export default function ReviewSwiper() {
                                         />
                                     </Avatar>
                                     <blockquote className="text-lg text-muted-foreground">
-                                        {review.quote.length < 150
+                                        {review.quote.length < 100
                                             ? `"${review.quote}"`
-                                            : `${review.quote.substring(0, 150)}...`}
+                                            : `${review.quote.substring(0, 100)}...`}
                                     </blockquote>
                                     <div>
                                         <h3 className="font-semibold">{review.name}</h3>
