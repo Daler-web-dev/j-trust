@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { cn } from '@/lib/utils';
 import { Container } from '@/components/Container';
 import TranslateContext from '@/contexts/useTranslate';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
 interface Props {
     className?: string;
@@ -27,16 +27,16 @@ const Index: React.FC<Props> = ({ className }) => {
                             <li key={index}>{point}</li>
                         ))}
                     </ul> <br />
-                    <p>{translation.company}</p>
+                    {/* <p>{translation.company}</p>
                     <ul className="list-disc pl-5">
                         {translation.projects.map((project: { name: string }, index: number) => (
                             <li key={index}>{project.name}</li>
                         ))}
-                    </ul>
+                    </ul> */}
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                     <p className="text-sm text-gray-500">Audit Information</p>
-                </CardFooter>
+                </CardFooter> */}
             </Card>
         </Container>
     );

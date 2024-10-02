@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from './ui/accordion';
 import { Menu } from 'lucide-react'; // Icons for mobile menu
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 interface Props {
     className?: string;
@@ -46,6 +47,8 @@ interface Props {
 
 export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
     const [open, setOpen] = useState(false);
+    const router = useRouter();
+    const { locale } = router;
 
     const handleLinkClick = () => {
         setOpen(false); // Close the sheet
@@ -64,7 +67,7 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                         <ul className="flex flex-col gap-2 w-full">
                             {/* Home Link */}
                             <li>
-                                <Link href="/" onClick={handleLinkClick} className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md">
+                                <Link href={`/${locale}`} onClick={handleLinkClick} className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md">
                                     {translation?.home}
                                 </Link>
                             </li>
@@ -97,9 +100,9 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                                         <Link href="/work-principles" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p6}
                                         </Link>
-                                        <Link href="/about/our-specialists" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        {/* <Link href="/about/our-specialists" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p7}
-                                        </Link>
+                                        </Link> */}
                                         <Link href="/about/management" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p8}
                                         </Link>
@@ -185,6 +188,6 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                     </SheetContent>
                 </Sheet>
             </div>
-        </div>
+        </div >
     );
 };

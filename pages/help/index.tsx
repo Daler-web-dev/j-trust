@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { cn } from '@/lib/utils';
 import { Container } from '@/components/Container';
-import TopText from './TopText';
-import MiddleTable from './MiddleTable';
+// import TopText from './TopText';
+// import MiddleTable from './MiddleTable';
 import BottomForm from './BottomForm';
 import TranslateContext from '@/contexts/useTranslate';
 
@@ -10,23 +10,23 @@ interface Props {
     className?: string;
 }
 
-interface TableRow {
-    number: string;
-    info: string;
-    criteria: string;
-    score: string;
-}
+// interface TableRow {
+//     number: string;
+//     info: string;
+//     criteria: string;
+//     score: string;
+// }
 
-interface Section {
-    sectionTitle: string;
-    rows: TableRow[];
-}
+// interface Section {
+//     sectionTitle: string;
+//     rows: TableRow[];
+// }
 
-interface MiddleTable {
-    title: string;
-    sections: Section[];
-    responsibleNote: string;
-}
+// interface MiddleTable {
+//     title: string;
+//     sections: Section[];
+//     responsibleNote: string;
+// }
 
 interface BottomForm {
     formTitle: string;
@@ -48,10 +48,10 @@ const Index: React.FC<Props> = ({ className }) => {
 
     return (
         <Container className={cn("mt-10 mb-20", className)}>
-            <TopText translation={help.topText} />
+            {/* <TopText translation={help.topText} />
             <br />
             <MiddleTable translation={help.middleTable} />
-            <br />
+            <br /> */}
             <BottomForm translation={help.bottomForm} />
         </Container>
     );

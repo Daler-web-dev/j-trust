@@ -40,13 +40,13 @@ export const uz = {
     footer: {
         address: {
             title: "Javlon Audit Servis",
-            street: "1) Yuridik manzili: Samarqand sh. Rudakiy ko‘chasi 140/18",
-            street2: "2) Toshkent shaxri, Uchtepa tumani, Qurilish, 3 tor kuchasi, Uy 3a, Kvartira 2"
+            street: "1) Samarqand shahri, Rudakiy ko‘chasi 140/18",
+            street2: "2) Toshkent shahri, Uchtepa tumani, Qurilish, 3-tor ko‘chasi, Uy 3a, Kvartira 2"
         },
         about: {
             title: "Kompaniya Haqida",
             p1: "Litsenziyalar va sertifikatlar",
-            p2: "Auditor sertifikatlari",
+            p2: "Auditorlar sertifikatlari",
             p3: "Bo'sh ish o'rinlari",
             p4: "Mijozlar",
             p5: "Asoschilar",
@@ -154,7 +154,7 @@ export const uz = {
 
         description_3: "Audit narxi ish hajmi va audit o‘tkazish uchun zarur bo‘lgan mehnat xarajatlari, shuningdek, audit o‘tkaziladigan davr, filiallar mavjudligi, pul oqimlari hajmi, korxona hujjat aylanishi, ishchilar soni, faoliyat turi va korxonaning qaysi soliqlarni to‘lovchi ekanligiga asoslanadi.",
         services: {
-            title: "MCHJ 'JavlonAuditService' tomonidan taqdim etilayotgan xizmatlar:",
+            title: "MCHJ 'Javlon Audit Servis' tomonidan taqdim etilayotgan xizmatlar:",
             opt: [
                 "Moliyaviy hisobotlarni audit qilish",
                 "Moliyaviy hisobotlarni IFRS ga muvofiq aylantirish",
@@ -242,7 +242,7 @@ export const uz = {
             title: "Sertifikatlar",
         },
         auditorCertificates: {
-            title: "Sertifikatlar auditorlari",
+            title: "Auditorlar sertifikatlari",
         },
         vacancies: {
             jobListing: {
@@ -450,7 +450,8 @@ export const uz = {
         },
         "founders": {
             "title": "Tashkilotchilar",
-            "description": "'JAVLON AUDIT SERVIS' MChJ mustaqil tashkilotdir. MChJning tashkilotchilari to'rtta jismoniy shaxs bo'lib, ular bir vaqtning o'zida 'JAVLON AUDIT SERVIS' MChJni boshqaradilar. Bunday boshqaruv tartibi tashkilot faoliyatini yuqori darajada nazorat qilish, barqarorlikni ta'minlash va 'JAVLON AUDIT SERVIS' MChJning moliyaviy va mehnat resurslaridan samarali foydalanishni kafolatlaydi."
+            "name": "MChJ 'Javlon Audit Servis' asoschisi Nuridinova Shaxnoza Tairovna",
+            "description": "Asosiy faoliyat — mijozlarga auditorlik faoliyati to‘g‘risidagi qonunga, xalqaro auditorlik standartlariga va buxgalteriya hisobi standartlariga muvofiq auditorlik tekshiruvlari va ularga bog‘liq xizmatlarni, shuningdek, buxgalteriya hisobi sohasidagi xizmatlar, buxgalteriya hisobini tiklash va yuritish xizmatlari, soliq solish xizmatlari, konsalting va dasturiy ta'minot xizmatlarini ko‘rsatish."
         },
         specialists: {
             "ourSpecialists": [
@@ -708,7 +709,7 @@ export const uz = {
             "quality_assurance": "'JAVLON AUDIT SERVIS' MChJ buxgalteriya xizmatlarini taqdim etishda tijorat ma'lumotlarining sifatini va maxfiyligini, soliq optimizatsiyasini, ishonchlilikni va bizning ish natijalarimizni tashqi va ichki iqtisodiy ma'lumotlardan foydalanuvchilardan himoya qilishni kafolatlaydi. Professional buxgalteriya xizmatlari sizga o'z tashkilotingizning moliyaviy holati haqida tezkor ma'lumot olish imkonini beradi va zarur bo'lsa, buxgalteriya va soliq hisobi bo'yicha malakali yordam olish imkoniyatini beradi. Buxgalteriya xizmatlari ko'rsatishda, mutaxassislarimiz sizning biznesingizni rivojlantirish uchun barcha sharoitlarni yaratishga intilishadi.",
             "service_includes": [
                 "Buxgalteriya hisobini tashkil etish va yuritish;",
-                "Kompleks buxgalteriya xizmatlari (outsourcing);",
+                "Kompleks buxgalteriya xizmatlari;",
                 "Inventarizatsiyalar o'tkazish: asosiy vositalar, tovar materiallari, jo'natilgan tovarlar, kelajak xarajatlar, naqd pul, xaridorlar bilan hisob-kitoblar, yetkazib beruvchilar va boshqa qarz beruvchilar va kredit beruvchilar bilan hisob-kitoblar, bank hisobi, chet el valyuta operatsiyalari va h.k.;",
                 "Soliq hisob-kitoblarini tayyorlash; byudjetdan tashqari fondlarga to'lovlar bo'yicha hisob-kitoblar; chet el shaxslarining doimiy muassasalari uchun soliq deklaratsiyalarini tayyorlash.",
                 "Biznes-rejalarni ishlab chiqish;",

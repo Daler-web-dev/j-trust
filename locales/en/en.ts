@@ -40,8 +40,8 @@ export const en = {
     footer: {
         address: {
             title: "Javlon Audit Servis",
-            street: "1) Samarkand. Rudakiy street 140/18",
-            street2: "2) Toshkent shakhri, Uchtepa tumani, Kurilish, 3 tor kuchasi, Uy 3a, Apartment 2"
+            street: "1) Samarkand city, Rudaki street 140/18",
+            street2: "2) Tashkent city, Uchtepa district, Qurilish, 3rd narrow street, House 3a, Apartment 2"
         },
         about: {
             title: "About Company",
@@ -469,9 +469,10 @@ export const en = {
                 ]
             }
         },
-        founders: {
-            title: "Founders",
-            description: "'JAVLON AUDIT SERVIS' LLC is an independent organization. The founders of the LLC are four individuals who simultaneously manage 'JAVLON AUDIT SERVIS' LLC. This arrangement allows for high-level control over the organization's activities, guaranteeing stability and efficient use of 'JAVLON AUDIT SERVIS' LLC's financial and human resources."
+        "founders": {
+            "title": "Founders",
+            "name": "Founder of LLC 'Javlon Audit Servis': Nuriddinova Shakhnoza Tairovna",
+            "description": "The main activity is to provide audit services to clients in the form of audit inspections and related services in accordance with the Law on Auditing, International Auditing Standards, and accounting standards, as well as services in the field of accounting, restoration and maintenance of accounting records, taxation services, consulting, and software development."
         },
         specialists: {
             "ourSpecialists": [
@@ -735,7 +736,7 @@ export const en = {
             "quality_assurance": "By providing accounting services, specialists at LLC 'JAVLON AUDIT SERVIS' guarantee the quality and confidentiality of commercial information, optimization of taxation, reliability, and protection of the results of our work before external and internal users of economic information. Professional accounting services will allow you to quickly obtain information about the financial position of your organization to make managerial decisions and, if necessary, qualified assistance on accounting and tax issues. When providing accounting services, our specialists strive to create all the conditions for the development of your business.",
             "service_includes": [
                 "Establishment and maintenance of accounting;",
-                "Comprehensive accounting service (outsourcing);",
+                "Comprehensive accounting service;",
                 "Conducting inventories: fixed assets, inventory items, shipped goods, future expenses, cash, settlements with customers, suppliers, and other debtors and creditors, bank accounts, foreign currency transactions, etc.;",
                 "Preparation of tax calculations; calculations for contributions to off-budget funds; preparation of tax declarations for permanent establishments of foreign entities.",
                 "Development of business plans;",

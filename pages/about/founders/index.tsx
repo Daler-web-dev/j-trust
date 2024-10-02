@@ -22,6 +22,7 @@ const Index: React.FC<Props> = ({ className }) => {
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
+                    {founders?.name}: <br />
                     {founders?.description}
                 </CardContent>
             </Card>

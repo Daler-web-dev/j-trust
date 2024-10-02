@@ -56,10 +56,10 @@ export default function Hero({ translation }: {
             <div className="relative z-1 text-center px-4 max-w-4xl mx-auto flex flex-col justify-center items-center">
                 {/* <p className="text-gray-500 font-medium text-xl mb-5">{translation?.company}</p> */}
                 <Image src={"/icons/logo.png"} width={200} height={200} alt="logo" />
-                <h1 className="font-medium text-3xl lg:text-5xl text-gray-900 mb-5">
+                {/* <h1 className="font-medium text-3xl lg:text-5xl text-gray-900 mb-5">
                     {translation?.title}{translation?.subtitle}
-                </h1>
-                <p className="text-gray-500 font-medium text-xl mb-10">{translation?.text}</p>
+                </h1> */}
+                <p className="text-gray-500 font-medium text-xl mb-10 mt-5">{translation?.text}</p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <Link href={"/about"}>
                         <Button size="lg" className="bg-cblue hover:bg-blue-600 text-white px-20 text-lg py-5">

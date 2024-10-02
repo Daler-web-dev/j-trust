@@ -31,7 +31,6 @@ const Index: React.FC<Props> = ({ className }) => {
                 <h3 className="text-xl font-semibold text-gray-800 mt-4">{translation.purposeO.title}</h3>
                 <p className="text-gray-600 mb-2">{translation.purposeO.text}</p>
 
-                <h3 className="text-xl font-semibold text-gray-800 mt-4">Can Be Conducted:</h3>
                 <ul className="list-disc pl-6 text-gray-600">
                     {translation.initiativeAuditCanBeConducted.map((item: string, index: number) => (
                         <li key={index}>{item}</li>

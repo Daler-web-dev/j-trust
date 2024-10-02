@@ -28,12 +28,12 @@ const Index: React.FC<Props> = ({ className }) => {
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_2.png"} alt="certificate" width={300} height={200} />
                     </div>
-                    <div className='w-full h-full border border-gray-200'>
+                    {/* <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_3.png"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_4.png"} alt="certificate" width={300} height={200} />
-                    </div>
+                    </div> */}
                 </CardContent>
             </Card>
         </Container>

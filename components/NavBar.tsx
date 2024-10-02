@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { cn } from '@/lib/utils';
+import { useRouter } from 'next/router';
 
 interface Props {
     className?: string;
@@ -43,6 +44,9 @@ interface Props {
 export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
+    const router = useRouter();
+    const { locale } = router;
+
     const menuItems = [
         { key: 'home', label: translation?.home, href: '/' },
         {
@@ -56,7 +60,7 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
                 // { key: 'p4', label: translation?.about?.p4, href: '/about/clients' },
                 { key: 'p5', label: translation?.about?.p5, href: '/about/founders' },
                 { key: 'p6', label: translation?.about?.p6, href: '/work-principles' },
-                { key: 'p7', label: translation?.about?.p7, href: '/about/our-specialists' },
+                // { key: 'p7', label: translation?.about?.p7, href: '/about/our-specialists' },
                 { key: 'p8', label: translation?.about?.p8, href: '/about/management' },
             ],
         },
@@ -100,7 +104,7 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
                 {menuItems.map((item) => (
                     <li key={item.key} className="relative">
                         <a
-                            href={item.href}
+                            href={`/${locale}${item.href}`}
                             className="text-sm sm:text-lg lg:text-xl font-medium truncate text-gray-400 hover:text-black p-2 rounded-sm"
                             onMouseEnter={() => handleMouseEnter(item.key)}
                             onMouseLeave={handleMouseLeave}
@@ -119,7 +123,7 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
                                 {item.children.map((subItem) => (
                                     <li key={subItem.key}>
                                         <a
-                                            href={subItem.href}
+                                            href={`/${locale}${subItem.href}`}
                                             className="block w-full truncate text-sm sm:text-base md:text-lg font-medium hover:bg-gray-50 p-2 rounded-sm"
                                             tabIndex={0} // Keyboard focus for sub-items
                                         >
