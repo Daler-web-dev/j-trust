@@ -13,7 +13,7 @@ const Page: React.FC<Props> = ({ className }) => {
     const { aboutPage } = useContext(TranslateContext);
 
     return (
-        <Container className={cn("pt-5 pb-20", className)}>
+        <Container className={cn("pt-5", className)}>
             <Card className='my-5 sm:my-10'>
                 <CardHeader>
                     <CardTitle className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium'>{aboutPage?.title}</CardTitle>
@@ -47,7 +47,7 @@ const Page: React.FC<Props> = ({ className }) => {
                 </CardContent>
             </Card>
 
-            <Card className='my-5 sm:my-10'>
+            <Card>
                 <CardHeader>
                     <CardTitle className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium'>{aboutPage?.clients?.title}</CardTitle>
                 </CardHeader>

@@ -3,7 +3,6 @@ import { cn } from '@/lib/utils';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from './ui/accordion';
 import { Menu } from 'lucide-react'; // Icons for mobile menu
-import { Button } from './ui/button';
 import Link from 'next/link';
 
 interface Props {
@@ -65,7 +64,7 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                         <ul className="flex flex-col gap-2 w-full">
                             {/* Home Link */}
                             <li>
-                                <Link href="/" onClick={handleLinkClick} className="text-base font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md">
+                                <Link href="/" onClick={handleLinkClick} className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md">
                                     {translation?.home}
                                 </Link>
                             </li>
@@ -73,35 +72,35 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                             {/* About Section Accordion */}
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="about">
-                                    <AccordionTrigger className="text-base font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md flex justify-start items-center gap-5 hover:no-underline">
+                                    <AccordionTrigger className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md flex justify-start items-center gap-5 hover:no-underline">
                                         {translation?.about?.title}
                                     </AccordionTrigger>
                                     <AccordionContent className="ml-4 flex flex-col">
-                                        <Link href="/about" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/about" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.title}
                                         </Link>
-                                        <Link href="/certificates" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/certificates" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p1}
                                         </Link>
-                                        <Link href="/audit-certificates" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/audit-certificates" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p2}
                                         </Link>
-                                        <Link href="/about/vacancies" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/about/vacancies" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p3}
                                         </Link>
-                                        <Link href="/about/clients" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/about/clients" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p4}
                                         </Link>
-                                        <Link href="/about/founders" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/about/founders" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p5}
                                         </Link>
-                                        <Link href="/work-principles" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/work-principles" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p6}
                                         </Link>
-                                        <Link href="/about/our-specialists" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/about/our-specialists" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p7}
                                         </Link>
-                                        <Link href="/about/management" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/about/management" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p8}
                                         </Link>
                                     </AccordionContent>
@@ -111,35 +110,35 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                             {/* Services Section Accordion */}
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="services">
-                                    <AccordionTrigger className="text-base font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md flex justify-start items-center gap-5 hover:no-underline">
+                                    <AccordionTrigger className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md flex justify-start items-center gap-5 hover:no-underline">
                                         {translation?.services?.title}
                                     </AccordionTrigger>
                                     <AccordionContent className="ml-4 flex flex-col">
-                                        <Link href="/services" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.title}
                                         </Link>
-                                        <Link href="/services/general-information" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/general-information" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p1}
                                         </Link>
-                                        <Link href="/services/crisis-management" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/crisis-management" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p2}
                                         </Link>
-                                        <Link href="/services/procedure-due-diligence" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/procedure-due-diligence" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p3}
                                         </Link>
-                                        <Link href="/services/required-audit" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/required-audit" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p4}
                                         </Link>
-                                        <Link href="/services/initiative-audit" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/initiative-audit" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p5}
                                         </Link>
-                                        <Link href="/services/project-scholarship-audit" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/project-scholarship-audit" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p6}
                                         </Link>
-                                        <Link href="/services/consulting" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/consulting" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p7}
                                         </Link>
-                                        <Link href="/services/accounting-services" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/services/accounting-services" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.services?.p8}
                                         </Link>
                                     </AccordionContent>
@@ -149,14 +148,14 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                             {/* Became a Client Section Accordion */}
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="becameAClient">
-                                    <AccordionTrigger className="text-base font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md flex justify-start items-center gap-5 hover:no-underline">
+                                    <AccordionTrigger className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md flex justify-start items-center gap-5 hover:no-underline">
                                         {translation?.becameAClient?.title}
                                     </AccordionTrigger>
                                     <AccordionContent className="ml-4 flex flex-col">
-                                        <Link href="/became-a-client" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/became-a-client" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.becameAClient?.title}
                                         </Link>
-                                        <Link href="/help" onClick={handleLinkClick} className="text-base hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        <Link href="/help" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.becameAClient?.p1}
                                         </Link>
                                     </AccordionContent>
@@ -165,7 +164,7 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
 
                             {/* Audit Reports Link */}
                             <li>
-                                <Link href="/audit-reports" onClick={handleLinkClick} className="text-base font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md">
+                                <Link href="/audit-reports" onClick={handleLinkClick} className="text-base md:text-lg font-medium text-gray-700 hover:bg-gray-200 p-2 rounded-md">
                                     {translation?.auditReports}
                                 </Link>
                             </li>
@@ -174,14 +173,14 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                         {/* Contact Information */}
                         <div className='flex justify-center items-start gap-2 flex-col w-full'>
                             <div className="flex flex-col items-start mt-4">
-                                <a href={`tel:${translation?.links?.number_1}`} className="text-gray-500 text-base">{translation?.links?.number_1}</a>
-                                <a href={`tel:${translation?.links?.number_2}`} className="text-gray-500 text-base">{translation?.links?.number_2}</a>
+                                <a href={`tel:${translation?.links?.number_1}`} className="text-gray-500 text-base md:text-lg">{translation?.links?.number_1}</a>
+                                <a href={`tel:${translation?.links?.number_2}`} className="text-gray-500 text-base md:text-lg">{translation?.links?.number_2}</a>
                             </div>
 
                             {/* Contact Button */}
-                            <Button className="mt-5 w-full rounded-full bg-cblue hover:bg-blue-600 text-sm font-medium">
+                            {/* <Button className="mt-5 w-full rounded-full bg-cblue hover:bg-blue-600 text-sm font-medium">
                                 {translation?.links?.button_text}
-                            </Button>
+                            </Button> */}
                         </div>
                     </SheetContent>
                 </Sheet>

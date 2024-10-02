@@ -3,7 +3,6 @@ import React, { useContext } from 'react';
 import TranslateContext from '@/contexts/useTranslate';
 import { Container } from '@/components/Container';
 import VacanciesForm from './VacanciesForm';
-import JobListing from './JobListing';
 
 
 const Index = () => {
@@ -14,7 +13,7 @@ const Index = () => {
 
     return (
         <Container className="mt-10 mb-20">
-            <JobListing translation={translation.jobListing} />
+            {/* <JobListing translation={translation.jobListing} /> */}
             <VacanciesForm translation={translation.forma} />
         </Container>
     );

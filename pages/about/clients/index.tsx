@@ -19,8 +19,8 @@ const ClientsComponent = () => {
                     {/* Non-Profit Companies */}
                     <section className="mb-6">
                         <h2 className="text-lg font-bold">{translation.nonProfit.title}</h2>
-                        <ul className="list-disc list-inside ml-4">;
-                            {translation.nonProfit.companies.map((company:string, index:number) => (
+                        <ul className="list-disc list-inside ml-4">
+                            {translation.nonProfit.companies.map((company: string, index: number) => (
                                 <li key={index}>{company}</li>
                             ))}
                         </ul>
@@ -30,7 +30,7 @@ const ClientsComponent = () => {
                     <section className="mb-6">
                         <h2 className="text-lg font-bold">{translation.industrial.title}</h2>
                         <ul className="list-disc list-inside ml-4">
-                            {translation.industrial.companies.map((company:string, index:number) => (
+                            {translation.industrial.companies.map((company: string, index: number) => (
                                 <li key={index}>{company}</li>
                             ))}
                         </ul>
@@ -40,7 +40,7 @@ const ClientsComponent = () => {
                     <section className="mb-6">
                         <h2 className="text-lg font-bold">{translation.foreignInvestment.title}</h2>
                         <ul className="list-disc list-inside ml-4">
-                            {translation.foreignInvestment.companies.map((company:string, index:number) => (
+                            {translation.foreignInvestment.companies.map((company: string, index: number) => (
                                 <li key={index}>{company}</li>
                             ))}
                         </ul>
@@ -50,7 +50,7 @@ const ClientsComponent = () => {
                     <section className="mb-6">
                         <h2 className="text-lg font-bold">{translation.unions.title}</h2>
                         <ul className="list-disc list-inside ml-4">
-                            {translation.unions.companies.map((company:string, index:number) => (
+                            {translation.unions.companies.map((company: string, index: number) => (
                                 <li key={index}>{company}</li>
                             ))}
                         </ul>
@@ -60,7 +60,7 @@ const ClientsComponent = () => {
                     <section className="mb-6">
                         <h2 className="text-lg font-bold">{translation.trading.title}</h2>
                         <ul className="list-disc list-inside ml-4">
-                            {translation.trading.companies.map((company:string, index:number) => (
+                            {translation.trading.companies.map((company: string, index: number) => (
                                 <li key={index}>{company}</li>
                             ))}
                         </ul>

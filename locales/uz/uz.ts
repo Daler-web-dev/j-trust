@@ -40,8 +40,8 @@ export const uz = {
     },
     footer: {
         address: {
-            title: "Marikon Audit",
-            street: "Muhammad Yusuf ko'chasi, 46/2"
+            title: "Javlon Audit Service",
+            street: "Yuridik manzili: Samarqand sh. Rudakiy ko‘chasi 140/18"
         },
         about: {
             title: "Kompaniya Haqida",
@@ -75,18 +75,18 @@ export const uz = {
         },
         contacts: {
             title: "Aloqa",
-            email: "info@marikon.uz",
-            number_1: "+99890 919 36 90",
-            number_2: "+99888 780 77 88",
+            email: "javlon_audit@mail.ru",
+            number_1: "+99891 523 57 75",
+            number_2: "+99833 288 01 02",
         },
         company: {
-            title: "Marikon Audit",
+            title: "Javlon Audit Service",
             termsAndConditions: "Shartlar va shartlar",
             privacyPolicy: "Maxfiylik siyosati",
         }
     },
     "hero": {
-        "company": "MARIKON AUDIT",
+        "company": "JAVLON AUDIT SERVICE",
         "title": "Audit tashkiloti",
         "subtitle": "buxgalteriya va soliq sohasida",
         "text": "Bugungi kunda Xalqaro moliyaviy hisobot standartlari (XMH) bo‘yicha audit O‘zbekistonda tobora ommalashib bormoqda.",
@@ -144,11 +144,11 @@ export const uz = {
     },
     aboutPage: {
         title: "Kompaniya Haqida",
-        description_1: "O’zbekiston Respublikasining Adliya vazirligida 2000-yil 20-aprelda № 598 raqami bilan ro'yxatdan o'tgan MCHJ 'MARIKON AUDIT' ko'plab yillar davomida O'zbekistondagi audit kompaniyalari orasida yuqori o'rinlarga va reytinglarga ega bo'lib, doimiy ravishda eng yaxshi o'nta audit firmasi qatorida bo'lib kelmoqda. Bizning tashkilotimiz siyosati xizmatlar sifatini doimiy ravishda yaxshilashga, auditlar davomida mijozlarga moliyaviy va iqtisodiy faoliyat masalalarida yordam ko'rsatishga qaratilgan.",
-        description_2: "Tashkilotda 40 nafar xodim ishlaydi, jumladan: 9 nafar sertifikatlangan auditor, 3 nafar ACCA sertifikatiga ega auditor, IFRS bo'yicha moliyaviy hisobotlarni tayyorlash bo'yicha mutaxassislar, 16 nafar CPA sertifikatiga ega auditor yordamchilari, qimmatli qog'ozlar va korporativ boshqaruv bo'yicha sertifikatlangan mutaxassis, yuridik, qurilish, monopoliyalar, mahalliylashtirish va boshqa sohalarda mutaxassislar. Bugungi kunda 'MARIKON-AUDIT' ning ustav kapitali 5000 minimum ish haqini tashkil etadi, uning 90% naqd pul va 10% uskunalardan iborat.",
-        description_3: "Biz taqdim etilgan xizmatlar uchun to'liq javobgarlikni o'z zimmamizga olamiz. MCHJ 'MARIKON AUDIT' ning risklari 2 000 000 000 (ikki milliard) so'm miqdorida sug'urta kompaniyasi bilan sug'urtalangan.",
+        description_1: "O’zbekiston Respublikasining Adliya vazirligida 2000-yil 20-aprelda № 598 raqami bilan ro'yxatdan o'tgan MCHJ 'JAVLON AUDIT SERVICE' ko'plab yillar davomida O'zbekistondagi audit kompaniyalari orasida yuqori o'rinlarga va reytinglarga ega bo'lib, doimiy ravishda eng yaxshi o'nta audit firmasi qatorida bo'lib kelmoqda. Bizning tashkilotimiz siyosati xizmatlar sifatini doimiy ravishda yaxshilashga, auditlar davomida mijozlarga moliyaviy va iqtisodiy faoliyat masalalarida yordam ko'rsatishga qaratilgan.",
+        description_2: "Tashkilotda 40 nafar xodim ishlaydi, jumladan: 9 nafar sertifikatlangan auditor, 3 nafar ACCA sertifikatiga ega auditor, IFRS bo'yicha moliyaviy hisobotlarni tayyorlash bo'yicha mutaxassislar, 16 nafar CPA sertifikatiga ega auditor yordamchilari, qimmatli qog'ozlar va korporativ boshqaruv bo'yicha sertifikatlangan mutaxassis, yuridik, qurilish, monopoliyalar, mahalliylashtirish va boshqa sohalarda mutaxassislar. Bugungi kunda 'JAVLON AUDIT SERVICE' ning ustav kapitali 5000 minimum ish haqini tashkil etadi, uning 90% naqd pul va 10% uskunalardan iborat.",
+        description_3: "Biz taqdim etilgan xizmatlar uchun to'liq javobgarlikni o'z zimmamizga olamiz. MCHJ 'JAVLON AUDIT SERVICE' ning risklari 2 000 000 000 (ikki milliard) so'm miqdorida sug'urta kompaniyasi bilan sug'urtalangan.",
         services: {
-            title: "MCHJ 'MarikonAudit' tomonidan taqdim etilayotgan xizmatlar:",
+            title: "MCHJ 'JavlonAuditService' tomonidan taqdim etilayotgan xizmatlar:",
             opt: [
                 "Moliyaviy hisobotlarni audit qilish",
                 "Moliyaviy hisobotlarni IFRS ga muvofiq aylantirish",
@@ -232,10 +232,16 @@ export const uz = {
         },
     },
     "aboutCompanyPage": {
+        certificates: {
+            title: "Sertifikatlar",
+        },
+        auditorCertificates: {
+            title: "Sertifikatlar auditorlari",
+        },
         vacancies: {
             jobListing: {
                 careerTitle: "Kompaniyada karera",
-                careerDescription: "Hozirda audit tashkiloti MChJ 'Marikon audit' ishga taklif qiladi:",
+                careerDescription: "Hozirda audit tashkiloti MChJ 'JAVLON AUDIT SERVICE' ishga taklif qiladi:",
                 auditors: "Sertifikatlangan audito'rlar",
                 locationHeader: "Manzil",
                 positionHeader: "Bo'sh lavozimlar",
@@ -293,7 +299,7 @@ export const uz = {
         },
         "clients": {
             "title": "Mijozlarimiz",
-            "description": "Hozirda 'MARICON AUDIT' auditorlik kompaniyasi turli xil va barcha mulk shakllaridagi tashkilotlar bilan hamkorlik qilishda davom etmoqda va ularga auditorlik xizmatlarini ko'rsatmoqda. Mijozlarimiz quyidagilarni o'z ichiga oladi:",
+            "description": "Hozirda 'JAVLON AUDIT SERVICE' auditorlik kompaniyasi turli xil va barcha mulk shakllaridagi tashkilotlar bilan hamkorlik qilishda davom etmoqda va ularga auditorlik xizmatlarini ko'rsatmoqda. Mijozlarimiz quyidagilarni o'z ichiga oladi:",
             "nonProfit": {
                 "title": "Notijorat tashkilotlar",
                 "companies": [
@@ -430,7 +436,7 @@ export const uz = {
         },
         "founders": {
             "title": "Tashkilotchilar",
-            "description": "'MARIKON-AUDIT' MChJ mustaqil tashkilotdir. MChJning tashkilotchilari to'rtta jismoniy shaxs bo'lib, ular bir vaqtning o'zida 'MARIKON-AUDIT' MChJni boshqaradilar. Bunday boshqaruv tartibi tashkilot faoliyatini yuqori darajada nazorat qilish, barqarorlikni ta'minlash va 'MARIKON-AUDIT' MChJning moliyaviy va mehnat resurslaridan samarali foydalanishni kafolatlaydi."
+            "description": "'JAVLON AUDIT SERVICE' MChJ mustaqil tashkilotdir. MChJning tashkilotchilari to'rtta jismoniy shaxs bo'lib, ular bir vaqtning o'zida 'JAVLON AUDIT SERVICE' MChJni boshqaradilar. Bunday boshqaruv tartibi tashkilot faoliyatini yuqori darajada nazorat qilish, barqarorlikni ta'minlash va 'JAVLON AUDIT SERVICE' MChJning moliyaviy va mehnat resurslaridan samarali foydalanishni kafolatlaydi."
         },
         specialists: {
             "ourSpecialists": [
@@ -536,8 +542,8 @@ export const uz = {
         },
         "generalInformation": {
             "title": "Umumiy Ma'lumot",
-            "text_1": "Auditorlik va buxgalteriya va soliq sohasidagi professional maslahatlar (konsalting) O'zbekiston Respublikasi kompaniyalari tomonidan uzoq vaqtdan beri talab qilinmoqda. Ammo ushbu xizmatlarning samaradorligi, siz murojaat qilmoqchi bo'lgan kompaniya mutaxassislari tomonidan muammolarni mustaqil va innovatsion ravishda hal qilish qobiliyati, tajribasi va professionalizmidan kelib chiqadi. «MARIKON-AUDIT» MCHJ sizga amaliy tajribaga ega bunday mutaxassislarni taqdim etishga tayyor. Hozirgi O'zbekiston qonunchiligi buxgalteriya hisobi va soliq sohasida juda keng, doimiy ravishda o'zgarib turadi, ko'p qarama-qarshiliklarni o'z ichiga oladi, lekin afsuski, ko'pincha munozarali va murakkab savollarga to'g'ridan-to'g'ri javob bermaydi. Shu sababli, hatto yuqori malakali buxgalterlar ham qiyin vaziyatda to'g'ri qaror qabul qilishda qiyinchiliklarga duch kelishlari ko'p uchraydi.",
-            "text_2": "«MARIKON-AUDIT» MCHJ katta sanoat korxonalarining turli faoliyat turlaridagi auditorlik tekshiruvlariga ixtisoslashgan va quyidagi xizmatlarni ko'rsatadi: buxgalteriya va boshqaruv buxgalteriyati bo'yicha maslahatlar, huquqiy va soliq bo'yicha maslahatlar, soliqni optimallashtirish, buxgalteriya hisobini yuritish, moliyaviy hisobotlarni MDS (Xalqaro Moliyaviy Hisobot Standartlari) ga muvofiq o'zgartirish, moliyaviy hisobotni tahlil qilish, korxonalar va tashkilotlarni nazorat organlari tomonidan tekshirishlar vaqtida qo'llab-quvvatlash, va mijozlarning manfaatlarini davlat va sud organlarida maxsus masalalar bo'yicha himoya qilish."
+            "text_1": "Auditorlik va buxgalteriya va soliq sohasidagi professional maslahatlar (konsalting) O'zbekiston Respublikasi kompaniyalari tomonidan uzoq vaqtdan beri talab qilinmoqda. Ammo ushbu xizmatlarning samaradorligi, siz murojaat qilmoqchi bo'lgan kompaniya mutaxassislari tomonidan muammolarni mustaqil va innovatsion ravishda hal qilish qobiliyati, tajribasi va professionalizmidan kelib chiqadi. «JAVLON AUDIT SERVICE» MCHJ sizga amaliy tajribaga ega bunday mutaxassislarni taqdim etishga tayyor. Hozirgi O'zbekiston qonunchiligi buxgalteriya hisobi va soliq sohasida juda keng, doimiy ravishda o'zgarib turadi, ko'p qarama-qarshiliklarni o'z ichiga oladi, lekin afsuski, ko'pincha munozarali va murakkab savollarga to'g'ridan-to'g'ri javob bermaydi. Shu sababli, hatto yuqori malakali buxgalterlar ham qiyin vaziyatda to'g'ri qaror qabul qilishda qiyinchiliklarga duch kelishlari ko'p uchraydi.",
+            "text_2": "«JAVLON AUDIT SERVICE» MCHJ katta sanoat korxonalarining turli faoliyat turlaridagi auditorlik tekshiruvlariga ixtisoslashgan va quyidagi xizmatlarni ko'rsatadi: buxgalteriya va boshqaruv buxgalteriyati bo'yicha maslahatlar, huquqiy va soliq bo'yicha maslahatlar, soliqni optimallashtirish, buxgalteriya hisobini yuritish, moliyaviy hisobotlarni MDS (Xalqaro Moliyaviy Hisobot Standartlari) ga muvofiq o'zgartirish, moliyaviy hisobotni tahlil qilish, korxonalar va tashkilotlarni nazorat organlari tomonidan tekshirishlar vaqtida qo'llab-quvvatlash, va mijozlarning manfaatlarini davlat va sud organlarida maxsus masalalar bo'yicha himoya qilish."
         },
         antiCrisisManagement: {
             "title": "Inqirozga qarshi boshqaruv",
@@ -547,7 +553,7 @@ export const uz = {
         },
         procedureDueDiligence: {
             "title": "Due Diligence Jarayoni",
-            "introduction": "«Marikon Audit» audit kompaniyasi turli iqtisodiyot sektorlarida faoliyat yurituvchi kompaniyalar bilan shartnomalar asosida kompleks Due Diligence xizmatlarini taqdim etish bo'yicha tajribaga ega.",
+            "introduction": "«JAVLON AUDIT SERVICE» audit kompaniyasi turli iqtisodiyot sektorlarida faoliyat yurituvchi kompaniyalar bilan shartnomalar asosida kompleks Due Diligence xizmatlarini taqdim etish bo'yicha tajribaga ega.",
             "section_1": "Due Diligence jarayoni investitsiya obyektining ob'ektiv tasvirini shakllantirish jarayonidir. Ushbu jarayonlarni ob'ektiv va malakali amalga oshirishdan ham investor (sotib oluvchi), ham investitsiya jalb qiluvchi tomon (sotuvchi) manfaatdor.",
             "section_2": "Due Diligence ning asosiy maqsadi mustaqil va ob'ektiv tasvirni shakllantirishdir:",
             "points": [
@@ -612,7 +618,7 @@ export const uz = {
                 "Sarflar bo‘yicha xarajatlarni qoplash uchun arizalarni tasdiqlovchi xarajatlar bo‘yicha hisobotlar.",
                 "Moliyalashtirishga taqdim etilgan xarajatlar."
             ],
-            "company": "«Marikon Audit» kompaniyasi O‘zbekiston Respublikasi/Karakalpakistonda quyidagi loyihalar (grantlar) bo‘yicha auditlarni o‘tkazgan:",
+            "company": "«JAVLON AUDIT SERVICE» kompaniyasi O‘zbekiston Respublikasi/Karakalpakistonda quyidagi loyihalar (grantlar) bo‘yicha auditlarni o‘tkazgan:",
             "projects": [
                 {
                     "name": "Yaponiya tomonidan Mahalliy Loyihalar uchun Grant Yordam (GAGP)"
@@ -683,9 +689,9 @@ export const uz = {
                 "Yetkazib beruvchilar bilan to'lovlar (ko'rsatilgan xizmatlar) bo'yicha hisob-kitoblarning aniqligi va o'z vaqtida bajarilishi."
             ],
             "importance": "Shu sababli, tashkilotning buxgalteriya bo'limida yuqori malakali mutaxassislar ishlashi juda muhimdir, buxgalteriya hisobi va soliqlar sohasida bilimga ega bo'lish bilan birga, mehnat va fuqaro qonunchiligi normalariga ham ega bo'lishi kerak. Ammo, bunday xodimlar mavjud bo'lsa ham, ko'pincha tashqi va mustaqil mutaxassislarni jalb etishni talab qiladigan bir qator savollar yoki muammolar paydo bo'ladi.",
-            "service_offer": "Buxgalteriya xizmatlari hozirda beriladigan xizmatlar turi nuqtai nazaridan eng foydali va talabga ega takliflardan biridir. Foyda shundaki, 'MARIKON-AUDIT' MChJ mutaxassislarining tajribasi sizning tashkilotingiz xodimlarining tajribasini to'ldiradi, bu xodimlar joriy ish bilan band bo'lishi mumkin va ayrim noaniqliklarni ko'rmasligi mumkin. Hamkorlik bu noaniqliklarni tushunishga va xodimlaringizni ularni eng kam xarajat bilan hal qilishga o'rgatishga yordam beradi.",
+            "service_offer": "Buxgalteriya xizmatlari hozirda beriladigan xizmatlar turi nuqtai nazaridan eng foydali va talabga ega takliflardan biridir. Foyda shundaki, 'JAVLON AUDIT SERVICE' MChJ mutaxassislarining tajribasi sizning tashkilotingiz xodimlarining tajribasini to'ldiradi, bu xodimlar joriy ish bilan band bo'lishi mumkin va ayrim noaniqliklarni ko'rmasligi mumkin. Hamkorlik bu noaniqliklarni tushunishga va xodimlaringizni ularni eng kam xarajat bilan hal qilishga o'rgatishga yordam beradi.",
             "contract_benefits": "Agar siz biz bilan buxgalteriya xizmatlari ko'rsatish bo'yicha shartnoma tuzsangiz, hisobotlar to'liq, kech yoki qoidalarni buzib berilganligi haqida xavotir olmaysiz. Siz soliq va buxgalteriya qonunchiligini buzish bilan bog'liq jarimalar va to'lovlar xavfini kamaytirishingiz mumkin.",
-            "quality_assurance": "'MARIKON-AUDIT' MChJ buxgalteriya xizmatlarini taqdim etishda tijorat ma'lumotlarining sifatini va maxfiyligini, soliq optimizatsiyasini, ishonchlilikni va bizning ish natijalarimizni tashqi va ichki iqtisodiy ma'lumotlardan foydalanuvchilardan himoya qilishni kafolatlaydi. Professional buxgalteriya xizmatlari sizga o'z tashkilotingizning moliyaviy holati haqida tezkor ma'lumot olish imkonini beradi va zarur bo'lsa, buxgalteriya va soliq hisobi bo'yicha malakali yordam olish imkoniyatini beradi. Buxgalteriya xizmatlari ko'rsatishda, mutaxassislarimiz sizning biznesingizni rivojlantirish uchun barcha sharoitlarni yaratishga intilishadi.",
+            "quality_assurance": "'JAVLON AUDIT SERVICE' MChJ buxgalteriya xizmatlarini taqdim etishda tijorat ma'lumotlarining sifatini va maxfiyligini, soliq optimizatsiyasini, ishonchlilikni va bizning ish natijalarimizni tashqi va ichki iqtisodiy ma'lumotlardan foydalanuvchilardan himoya qilishni kafolatlaydi. Professional buxgalteriya xizmatlari sizga o'z tashkilotingizning moliyaviy holati haqida tezkor ma'lumot olish imkonini beradi va zarur bo'lsa, buxgalteriya va soliq hisobi bo'yicha malakali yordam olish imkoniyatini beradi. Buxgalteriya xizmatlari ko'rsatishda, mutaxassislarimiz sizning biznesingizni rivojlantirish uchun barcha sharoitlarni yaratishga intilishadi.",
             "service_includes": [
                 "Buxgalteriya hisobini tashkil etish va yuritish;",
                 "Kompleks buxgalteriya xizmatlari (outsourcing);",

@@ -1,3 +1,4 @@
+import { title } from "process";
 
 export const en = {
     header: {
@@ -31,16 +32,16 @@ export const en = {
                 p1: "Help",
             },
             links: {
-                number_1: "+99890 919 36 90",
-                number_2: "+99888 780 77 88",
+                number_1: "+99891 523 57 75",
+                number_2: "+99833 288 01 02",
                 button_text: "Contacts"
             }
         }
     },
     footer: {
         address: {
-            title: "Marikon Audit",
-            street: "St. Muhammad Yusuf, 46/2"
+            title: "Javlon Audit Service",
+            street: "Legal address: Samarkand. Rudakiy street 140/18"
         },
         about: {
             title: "About Company",
@@ -74,18 +75,18 @@ export const en = {
         },
         contacts: {
             title: "Contacts",
-            email: "info@marikon.uz",
-            number_1: "+99890 919 36 90",
-            number_2: "+99888 780 77 88",
+            email: "javlon_audit@mail.ru",
+            number_1: "+99891 523 57 75",
+            number_2: "+99833 288 01 02",
         },
         company: {
-            title: "Marikon Audit",
+            title: "Javlon Audit Service",
             termsAndConditions: "Terms and Conditions",
             privacyPolicy: "Privacy Policy",
         }
     },
     hero: {
-        company: "MARIKON AUDIT",
+        company: "JAVLON AUDIT SERVICE",
         title: "Audit organization",
         subtitle: "in the field of accounting and taxes",
         text: "Аудит по Международным стандартам финансовой отчетности(МСА) на сегодняшний день получают всё большую популярность в Узбекистане.",
@@ -143,11 +144,11 @@ export const en = {
     },
     aboutPage: {
         title: "About the Company",
-        description_1: "LLC 'MARIKON AUDIT' was registered on April 20, 2000, in the Ministry of Justice of Uzbekistan under № 598. For many years, our company has held high positions and ratings among auditing companies in Uzbekistan and consistently ranks among the top ten auditing firms. The policy of our organization is aimed at continuously improving the quality of services, assisting and supporting clients in all matters of financial and economic activity during audits.",
-        description_2: "The organization employs 40 staff, including: 9 certified auditors, 3 auditors with ACCA certificates, 2 specialists DipIFR, who are experts in preparing financial statements according to IFRS, 16 auditor assistants with CPA certificates, a certified specialist in securities and corporate governance, a lawyer, specialists in construction, monopolies, localization, and others. As of today, the authorized capital of 'MARIKON-AUDIT' is 5000 minimum wages, 90% of which are cash and 10% are equipment.",
-        description_3: "We take full responsibility for the services provided. The risks of LLC 'MARIKON AUDIT' are insured with an insurance company for the amount of 2,000,000,000 (two billion) sums.",
+        description_1: "LLC 'JAVLON AUDIT SERVICE' was registered on April 20, 2000, in the Ministry of Justice of Uzbekistan under № 598. For many years, our company has held high positions and ratings among auditing companies in Uzbekistan and consistently ranks among the top ten auditing firms. The policy of our organization is aimed at continuously improving the quality of services, assisting and supporting clients in all matters of financial and economic activity during audits.",
+        description_2: "The organization employs 40 staff, including: 9 certified auditors, 3 auditors with ACCA certificates, 2 specialists DipIFR, who are experts in preparing financial statements according to IFRS, 16 auditor assistants with CPA certificates, a certified specialist in securities and corporate governance, a lawyer, specialists in construction, monopolies, localization, and others. As of today, the authorized capital of 'JAVLON AUDIT SERVICE' is 5000 minimum wages, 90% of which are cash and 10% are equipment.",
+        description_3: "We take full responsibility for the services provided. The risks of LLC 'JAVLON AUDIT SERVICE' are insured with an insurance company for the amount of 2,000,000,000 (two billion) sums.",
         services: {
-            title: "Services Provided by LLC 'MarikonAudit':",
+            title: "Services Provided by LLC 'JavlonAuditService':",
             opt: [
                 "Audit of financial statements",
                 "Transformation of financial statements in accordance with IFRS",
@@ -231,10 +232,16 @@ export const en = {
         }
     },
     aboutCompanyPage: {
+        certificates: {
+            title: "Certificates",
+        },
+        auditorCertificates: {
+            title: "Auditor Certificates",
+        },
         vacancies: {
             jobListing: {
                 careerTitle: "Career at the Company",
-                careerDescription: "Currently, the audit organization LLC 'Marikon audit' invites to work:",
+                careerDescription: "Currently, the audit organization LLC 'JAVLON AUDIT SERVICE' invites to work:",
                 auditors: "Certified Auditors",
                 locationHeader: "Location",
                 positionHeader: "Vacant Positions",
@@ -293,7 +300,7 @@ export const en = {
         },
         "clients": {
             "title": "Our Clients",
-            "description": "Currently, the Audit Company 'MARICON AUDIT' cooperates and continues its activities by providing auditing services to organizations of all types and forms of ownership. Our clients include:",
+            "description": "Currently, the Audit Company 'JAVLON AUDIT SERVICE' cooperates and continues its activities by providing auditing services to organizations of all types and forms of ownership. Our clients include:",
             "nonProfit": {
                 "title": "Non-Profit Organizations",
                 "companies": [
@@ -452,7 +459,7 @@ export const en = {
         },
         founders: {
             title: "Founders",
-            description: "'MARIKON-AUDIT' LLC is an independent organization. The founders of the LLC are four individuals who simultaneously manage 'MARIKON-AUDIT' LLC. This arrangement allows for high-level control over the organization's activities, guaranteeing stability and efficient use of 'MARIKON-AUDIT' LLC's financial and human resources."
+            description: "'JAVLON AUDIT SERVICE' LLC is an independent organization. The founders of the LLC are four individuals who simultaneously manage 'JAVLON AUDIT SERVICE' LLC. This arrangement allows for high-level control over the organization's activities, guaranteeing stability and efficient use of 'JAVLON AUDIT SERVICE' LLC's financial and human resources."
         },
         specialists: {
             "ourSpecialists": [
@@ -558,8 +565,8 @@ export const en = {
         },
         "generalInformation": {
             "title": "General Information",
-            "text_1": "Audit and professional consulting (consulting) in the field of accounting and taxation have long been in demand by most companies in the Republic of Uzbekistan. However, the effectiveness of these services depends on the experience, professionalism, and ability to solve emerging problems independently and innovatively by specialists of the company you have chosen to contact. LLC 'MARIKON-AUDIT' is ready to provide you with exactly such specialists who have practical experience. The current Uzbek legislation in the field of accounting and taxation is quite extensive, constantly changing, contains many contradictions, but unfortunately often does not provide direct answers to controversial and complex questions. This is why even highly qualified accountants often find it difficult to make the right decision in complicated situations.",
-            "text_2": "LLC 'MARIKON-AUDIT' specializes in audit checks of large industrial enterprises in various fields of activity and provides related services: consulting in accounting and management accounting, legal and tax consulting, tax optimization, bookkeeping, transformation of financial statements in accordance with IFRS (International Financial Reporting Standards), financial statement analysis, support of enterprises and organizations during inspections by regulatory authorities, and protection of clients' interests in governmental and judicial bodies on special issues."
+            "text_1": "Audit and professional consulting (consulting) in the field of accounting and taxation have long been in demand by most companies in the Republic of Uzbekistan. However, the effectiveness of these services depends on the experience, professionalism, and ability to solve emerging problems independently and innovatively by specialists of the company you have chosen to contact. LLC 'JAVLON AUDIT SERVICE' is ready to provide you with exactly such specialists who have practical experience. The current Uzbek legislation in the field of accounting and taxation is quite extensive, constantly changing, contains many contradictions, but unfortunately often does not provide direct answers to controversial and complex questions. This is why even highly qualified accountants often find it difficult to make the right decision in complicated situations.",
+            "text_2": "LLC 'JAVLON AUDIT SERVICE' specializes in audit checks of large industrial enterprises in various fields of activity and provides related services: consulting in accounting and management accounting, legal and tax consulting, tax optimization, bookkeeping, transformation of financial statements in accordance with IFRS (International Financial Reporting Standards), financial statement analysis, support of enterprises and organizations during inspections by regulatory authorities, and protection of clients' interests in governmental and judicial bodies on special issues."
         },
         antiCrisisManagement: {
             "title": "Crisis Management",
@@ -569,7 +576,7 @@ export const en = {
         },
         procedureDueDiligence: {
             "title": "Due Diligence Procedure",
-            "introduction": "The auditing company «Marikon Audit» has experience providing comprehensive Due Diligence services under contracts with companies operating in various sectors of the economy.",
+            "introduction": "The auditing company «JAVLON AUDIT SERVICE» has experience providing comprehensive Due Diligence services under contracts with companies operating in various sectors of the economy.",
             "section_1": "The Due Diligence procedure is a process for forming an objective representation of the investment object. Both parties, the investor (buyer) and the investment-attracting side (seller), are interested in the competent and objective execution of these procedures.",
             "section_2": "The main goal of Due Diligence is to form an independent, objective representation of:",
             "points": [
@@ -634,7 +641,7 @@ export const en = {
                 "Regarding expense statements confirming reimbursement requests.",
                 "Expenses indicated in requests for financing."
             ],
-            "company": "The company ‘Marikon Audit’ has conducted audits of the following projects (grants) in the Republic of Uzbekistan/Karakalpakstan:",
+            "company": "The company ‘JAVLON AUDIT SERVICE’ has conducted audits of the following projects (grants) in the Republic of Uzbekistan/Karakalpakstan:",
             "projects": [
                 {
                     "name": "Japan’s Grant Assistance for Grass Roots Projects (GAGP)"
@@ -711,9 +718,9 @@ export const en = {
                 "The accuracy and timeliness of settlements with counterparties for delivered goods (services rendered), with personnel for wages, and with the budget for taxes and fees."
             ],
             "importance": "That is why it is very important that highly qualified specialists work in the accounting department of the organization/company, possessing knowledge not only in accounting and taxation but also in labor and civil law norms. However, even with such employees, a number of questions or problems often arise, requiring the involvement of external and independent specialists.",
-            "service_offer": "Accounting services are now one of the most profitable and in-demand offerings in terms of the types of services provided. The benefit lies in the fact that the experience of the specialists at LLC 'MARIKON-AUDIT' harmoniously complements the experience of your organization’s employees, who may be busy with current work and not see certain nuances. Collaboration allows you to understand these nuances and teach your employees to resolve them in the least costly way.",
+            "service_offer": "Accounting services are now one of the most profitable and in-demand offerings in terms of the types of services provided. The benefit lies in the fact that the experience of the specialists at LLC 'JAVLON AUDIT SERVICE' harmoniously complements the experience of your organization’s employees, who may be busy with current work and not see certain nuances. Collaboration allows you to understand these nuances and teach your employees to resolve them in the least costly way.",
             "contract_benefits": "By entering into a contract with us for the provision of accounting services for your company, you will stop worrying about reporting, which may be submitted either incompletely, late, or in violation of regulations. You will be able to reduce the risks of fines and penalties associated with violations of tax and accounting legislation.",
-            "quality_assurance": "By providing accounting services, specialists at LLC 'MARIKON-AUDIT' guarantee the quality and confidentiality of commercial information, optimization of taxation, reliability, and protection of the results of our work before external and internal users of economic information. Professional accounting services will allow you to quickly obtain information about the financial position of your organization to make managerial decisions and, if necessary, qualified assistance on accounting and tax issues. When providing accounting services, our specialists strive to create all the conditions for the development of your business.",
+            "quality_assurance": "By providing accounting services, specialists at LLC 'JAVLON AUDIT SERVICE' guarantee the quality and confidentiality of commercial information, optimization of taxation, reliability, and protection of the results of our work before external and internal users of economic information. Professional accounting services will allow you to quickly obtain information about the financial position of your organization to make managerial decisions and, if necessary, qualified assistance on accounting and tax issues. When providing accounting services, our specialists strive to create all the conditions for the development of your business.",
             "service_includes": [
                 "Establishment and maintenance of accounting;",
                 "Comprehensive accounting service (outsourcing);",

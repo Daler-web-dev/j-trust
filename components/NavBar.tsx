@@ -101,7 +101,7 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
                     <li key={item.key} className="relative">
                         <a
                             href={item.href}
-                            className="text-sm sm:text-base md:text-lg font-medium text-gray-400 hover:text-black p-2 rounded-sm"
+                            className="text-sm sm:text-lg lg:text-xl font-medium truncate text-gray-400 hover:text-black p-2 rounded-sm"
                             onMouseEnter={() => handleMouseEnter(item.key)}
                             onMouseLeave={handleMouseLeave}
                             tabIndex={0} // Support keyboard focus

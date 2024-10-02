@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
 import { Separator } from "./ui/separator";
 import Link from "next/link";
+import { Card, CardContent, CardFooter } from "./ui/card";
 
 const about_company_links = ["/certificates", "/audit-certificates", "/about/vacancies", "/about/clients", "/about/founders", "/work-principles", "/about/our-specialists", "/about/management"];
 const services_links = ["/services/general-information", "/services/crisis-management", "/services/procedure-due-diligence", "/services/required-audit", "/services/initiative-audit", "/services/project-scholarship-audit", "/services/consulting", "/services/accounting-services"];
@@ -23,7 +24,7 @@ export default function Footer({ translation }: {
             p6: string;
             p7: string;
             p8: string;
-        }; 
+        };
         services: {
             title: string;
             p1: string;
@@ -57,8 +58,8 @@ export default function Footer({ translation }: {
     }
 }) {
     return (
-        <div className="w-full mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-8">
+        <Card className="w-full mx-auto my-20" id="footer">
+            <CardContent className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-8">
                 <div className="col-span-1 sm:col-span-2 lg:col-span-1">
                     <div className="flex items-center mb-4">
                         <Link href="/">
@@ -122,11 +123,11 @@ export default function Footer({ translation }: {
                     <a href={`tel:${translation?.contacts?.number_1}`} className="text-sm lg:text-base block hover:underline text-gray-500">{translation?.contacts?.number_1}</a>
                     <a href={`tel:${translation?.contacts?.number_2}`} className="text-sm lg:text-base block hover:underline text-gray-500">{translation?.contacts?.number_2}</a>
                 </div>
-            </div>
+            </CardContent>
 
             <Separator />
 
-            <footer className="flex flex-col sm:flex-row justify-between items-center sm:py-6 lg:py-8 space-y-4 sm:space-y-0">
+            <CardFooter className="flex flex-col sm:flex-row justify-between items-center sm:py-6 lg:py-8 space-y-4 sm:space-y-0">
                 <p className="text-muted-foreground text-sm lg:text-base order-3 sm:order-1">© 2024 {translation?.company?.title}</p>
                 <div className="flex space-x-2 order-1 sm:order-2">
                     <Button variant="outline" size="icon">
@@ -143,7 +144,7 @@ export default function Footer({ translation }: {
                     <Button variant="link" className="text-muted-foreground text-sm lg:text-base p-0 h-auto">{translation?.company?.termsAndConditions}</Button>
                     <Button variant="link" className="text-muted-foreground text-sm lg:text-base p-0 h-auto">{translation?.company?.privacyPolicy}</Button>
                 </div>
-            </footer>
-        </div>
+            </CardFooter>
+        </Card>
     );
 }
