@@ -61,6 +61,14 @@ export interface TranslationContextType {
             writeCount: string;
             writePrice: string;
             additionalPlaceholder: string;
+            toast: {
+                title: string;
+                description: string;
+            }
+            error_toast: {
+                title: string;
+                description: string;
+            }
         };
     };
 }

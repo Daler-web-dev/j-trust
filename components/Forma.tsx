@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { useToast } from "@/hooks/use-toast"
+import { sendMessages } from "@/pages/api/sendMessages"
 
 interface FormValues {
     name: string
@@ -39,6 +40,10 @@ export default function ConsultingForm({ translation }: {
             title: string;
             description: string;
         };
+        error_toast: {
+            title: string;
+            description: string;
+        };
     }
 }) {
     const [isSubmitting, setIsSubmitting] = useState(false)
@@ -53,18 +58,36 @@ export default function ConsultingForm({ translation }: {
         },
     })
 
-    function onSubmit(values: FormValues) {
-        console.log({ values })
-
+    function onSubmit(info: FormValues) {
         setIsSubmitting(true)
-        setTimeout(() => {
-            setIsSubmitting(false)
-            toast({
-                title: translation?.toast?.title,
-                description: translation?.toast?.description,
-            })
-            form.reset()
-        }, 2000)
+
+        let msg = `🆕 Бесплатная консультация! \n`;
+        msg += `📌 Имя: ${info?.name} \n`;
+        msg += `📌 Фамилия: ${info?.surname} \n`;
+        msg += `📌 Номер телефона: ${info?.phone} \n`;
+        msg += `📌 Почта: ${info?.email} \n`;
+
+
+        const res = sendMessages(msg)
+
+        res.then((res) => {
+            if (res?.res?.status === 200 || res?.res?.status === 201) {
+                {
+                    setIsSubmitting(false)
+                    toast({
+                        title: translation?.toast?.title,
+                        description: translation?.toast?.description,
+                    })
+                    form.reset()
+
+                }
+            } else {
+                toast({
+                    title: translation?.error_toast?.title,
+                    description: translation?.error_toast?.description,
+                })
+            }
+        })
     }
 
     return (

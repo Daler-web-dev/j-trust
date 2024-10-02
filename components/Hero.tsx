@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
@@ -52,10 +53,11 @@ export default function Hero({ translation }: {
                 ))}
             </div>
 
-            <div className="relative z-1 text-center px-4 max-w-4xl mx-auto">
-                <p className="text-gray-500 font-medium text-xl mb-5">{translation?.company}</p>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-5">
-                    {translation?.title} <span className="text-gray-600 font-medium text-3xl lg:text-5xl">{translation?.subtitle}</span>
+            <div className="relative z-1 text-center px-4 max-w-4xl mx-auto flex flex-col justify-center items-center">
+                {/* <p className="text-gray-500 font-medium text-xl mb-5">{translation?.company}</p> */}
+                <Image src={"/icons/logo.png"} width={200} height={200} alt="logo" />
+                <h1 className="font-medium text-3xl lg:text-5xl text-gray-900 mb-5">
+                    {translation?.title}{translation?.subtitle}
                 </h1>
                 <p className="text-gray-500 font-medium text-xl mb-10">{translation?.text}</p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">

@@ -88,9 +88,9 @@ export const NavBarSheet: React.FC<Props> = ({ className, translation }) => {
                                         <Link href="/about/vacancies" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p3}
                                         </Link>
-                                        <Link href="/about/clients" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
+                                        {/* <Link href="/about/clients" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p4}
-                                        </Link>
+                                        </Link> */}
                                         <Link href="/about/founders" onClick={handleLinkClick} className="text-base md:text-lg hover:text-black hover:bg-gray-100 p-1 rounded-md">
                                             {translation?.about?.p5}
                                         </Link>

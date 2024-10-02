@@ -47,7 +47,7 @@ const Page: React.FC<Props> = ({ className }) => {
                 </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
                 <CardHeader>
                     <CardTitle className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium'>{aboutPage?.clients?.title}</CardTitle>
                 </CardHeader>
@@ -65,7 +65,7 @@ const Page: React.FC<Props> = ({ className }) => {
                         <p>No data available.</p>
                     )}
                 </CardContent>
-            </Card>
+            </Card> */}
         </Container>
     );
 };

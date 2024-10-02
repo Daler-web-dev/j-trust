@@ -4,6 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { sendMessages } from "@/pages/api/sendMessages";
+import { toast } from "@/hooks/use-toast";
 
 interface Props {
     translation: {
@@ -40,6 +42,14 @@ interface Props {
         additionalSkillsPlaceholder: string;
         responsibilitiesPlaceholder: string;
         certDescriptionPlaceholder: string;
+        toast: {
+            title: string;
+            description: string;
+        }
+        error_toast: {
+            title: string;
+            description: string;
+        }
     };
 }
 
@@ -48,14 +58,54 @@ export default function VacanciesForm({ translation }: Props) {
         register,
         handleSubmit,
         watch,
+        reset,
         formState: { errors },
     } = useForm();
 
     const maxChars = 200;
 
-    const onSubmit = (data: FieldValues) => {
-        console.log(data);
-        // Handle your form submission here (e.g., API call)
+    const onSubmit = (info: FieldValues) => {
+        let msg = `🆕 Вакансия на трудоустройство! \n`;
+        msg += `📌 Имя: ${info?.firstName} \n`;
+        msg += `📌 Фамилия: ${info?.lastName} \n`;
+        msg += `📌 Номер телефона: ${info?.phone} \n`;
+        msg += `📌 Почта: ${info?.email} \n`;
+        msg += `📌 Должность: ${info?.position} \n`;
+        msg += `📌 Опыт Работы \n`;
+        msg += `📌 Дата начала работы: ${info?.startDate} \n`;
+        msg += `📌 Дата окончания работы: ${info?.endDate} \n`;
+        msg += `📌 Название компании: ${info?.company} \n`;
+        msg += `📌 Краткое описание деятельности компании: ${info?.companyDescription} \n`;
+        msg += `📌 Должность в компании: ${info?.jobTitle} \n`;
+        msg += `📌 Должностные обязанности в компании: ${info?.responsibilities} \n`;
+        msg += `📌 Компьютерные навыки и знания \n`;
+        msg += `📌 Навыки: ${info?.skills} \n`;
+        msg += `📌 Дополнительные навыки: ${info?.additionalSkills} \n`;
+        msg += `📌 Образование \n`;
+        msg += `📌 Начало обучения: ${info?.eduStartDate} \n`;
+        msg += `📌 Конец обучения: ${info?.eduEndDate} \n`;
+        msg += `📌 Название место образования: ${info?.eduEndDate} \n`;
+        msg += `📌 Полученная степень: ${info?.degree} \n`;
+        msg += `📌 Специальность по диплому: ${info?.specialization} \n`;
+        msg += `📌 Сертификаты \n`;
+        msg += `📌 Название сертификата: ${info?.certName} \n`;
+        msg += `📌 Краткое описание сертификата: ${info?.certDescription} \n`;
+
+        const res = sendMessages(msg);
+        res.then((res) => {
+            if (res?.res?.status === 200 || res?.res?.status === 201) {
+                toast({
+                    title: translation?.toast?.title,
+                    description: translation?.toast?.description,
+                });
+                reset();
+            } else {
+                toast({
+                    title: translation?.error_toast?.title,
+                    description: translation?.error_toast?.description,
+                });
+            }
+        })
     };
 
     return (

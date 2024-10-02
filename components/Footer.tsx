@@ -13,6 +13,7 @@ export default function Footer({ translation }: {
         address: {
             title: string;
             street: string;
+            street2: string;
         };
         about: {
             title: string;
@@ -68,7 +69,8 @@ export default function Footer({ translation }: {
                     </div>
                     <address className="not-italic">
                         <h3 className="font-semibold text-base lg:text-lg mb-2 text-gray-500">{translation?.address?.title}</h3>
-                        <p className="text-sm lg:text-base text-gray-500">{translation?.address?.street}</p>
+                        <p className="font-normal text-sm lg:text-base text-gray-500 mb-2">{translation?.address?.street}</p>
+                        <p className="font-normal text-sm lg:text-base text-gray-500">{translation?.address?.street2}</p>
                     </address>
                 </div>
 
@@ -79,7 +81,8 @@ export default function Footer({ translation }: {
                         </Button>
                     </Link>
                     <ul className="space-y-2">
-                        {[translation?.about?.p1, translation?.about?.p2, translation?.about?.p3, translation?.about?.p4, translation?.about?.p5, translation?.about?.p6, translation?.about?.p7, translation?.about?.p8].map((item, idx) => (
+                        {/* translation?.about?.p4 */}
+                        {[translation?.about?.p1, translation?.about?.p2, translation?.about?.p3, , translation?.about?.p5, translation?.about?.p6, translation?.about?.p7, translation?.about?.p8].map((item, idx) => (
                             <li key={item}>
                                 <Link href={about_company_links[idx]}>
                                     <Button variant="link" className="text-sm lg:text-base p-0 h-auto text-gray-500">{item}</Button>

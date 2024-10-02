@@ -1,5 +1,5 @@
 import { Container } from "@/components/Container";
-import Placeholder from "@/components/Placeholder";
+// import Placeholder from "@/components/Placeholder";
 import { Card, CardContent } from "@/components/ui/card";
 import TranslateContext from "@/contexts/useTranslate";
 import { useContext } from "react";
@@ -12,7 +12,7 @@ const Index: React.FC = () => {
     return (
         <Container className="mt-10 mb-20">
             <Card className="mx-auto mb-8 shadow-lg">
-                <Placeholder />
+                {/* <Placeholder /> */}
                 <CardContent className="mt-10">
                     <section>
                         <h2 className="text-lg font-medium mb-2">{translation.sectionTitles.ourSpecialists}</h2>

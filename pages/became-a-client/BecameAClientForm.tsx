@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { sendMessages } from "../api/sendMessages"
+import { toast } from "@/hooks/use-toast"
 
 interface FormData {
     firstName: string;
@@ -14,22 +16,6 @@ interface FormData {
     phone: string;
     company?: string;
     position?: string;
-    auditType: string;
-    activityType: string;
-    organizationStatus?: string;
-    inspectionPeriod: string;
-    taxationMode: string;
-    currencyOperations: string;
-    inspectionMethod: string;
-    employeeCount?: number;
-    accountingStaff?: number;
-    bankAccounts?: number;
-    invoiceCount?: number;
-    revenue?: number;
-    turnover?: number;
-    date?: string;
-    assets?: number;
-    branchCount?: number;
     additional?: string;
 }
 
@@ -79,13 +65,44 @@ export default function AuditRequestForm({ translation }: {
         writeCount: string;
         writePrice: string;
         additionalPlaceholder: string;
+        toast: {
+            title: string;
+            description: string;
+        }
+        error_toast: {
+            title: string;
+            description: string;
+        }
     }
 }) {
-    const { register, handleSubmit, formState: { errors } } = useForm<FormData>()
+    const { register, handleSubmit, reset, formState: { errors } } = useForm<FormData>()
 
-    const onSubmit = (data: FormData) => {
-        console.log(data)
-        // Handle form submission (e.g., API call)
+    const onSubmit = (info: FormData) => {
+        let msg = `🆕 Стать Клиентом! \n`;
+        msg += `📌 Имя: ${info?.firstName} \n`;
+        msg += `📌 Фамилия: ${info?.lastName} \n`;
+        msg += `📌 Номер телефона: ${info?.phone} \n`;
+        msg += `📌 Почта: ${info?.email} \n`;
+        msg += `📌 Должность: ${info?.position} \n`;
+        msg += `📌 Компания: ${info?.company} \n`;
+        msg += `📌 Дополнительно: ${info?.additional} \n`;
+
+
+        const res = sendMessages(msg);
+        res.then((res) => {
+            if (res?.res?.status === 200 || res?.res?.status === 201) {
+                toast({
+                    title: translation?.toast?.title,
+                    description: translation?.toast?.description,
+                });
+                reset();
+            } else {
+                toast({
+                    title: translation?.error_toast?.title,
+                    description: translation?.error_toast?.description,
+                });
+            }
+        })
     }
 
     return (

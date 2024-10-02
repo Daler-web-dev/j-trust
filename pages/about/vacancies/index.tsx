@@ -8,9 +8,6 @@ import VacanciesForm from './VacanciesForm';
 const Index = () => {
     const { aboutCompanyPage } = useContext(TranslateContext);
     const { vacancies: translation } = aboutCompanyPage;
-
-    console.log(translation);
-
     return (
         <Container className="mt-10 mb-20">
             {/* <JobListing translation={translation.jobListing} /> */}

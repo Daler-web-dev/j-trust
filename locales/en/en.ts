@@ -1,4 +1,3 @@
-import { title } from "process";
 
 export const en = {
     header: {
@@ -40,8 +39,9 @@ export const en = {
     },
     footer: {
         address: {
-            title: "Javlon Audit Service",
-            street: "Legal address: Samarkand. Rudakiy street 140/18"
+            title: "Javlon Audit Servis",
+            street: "1) Samarkand. Rudakiy street 140/18",
+            street2: "2) Toshkent shakhri, Uchtepa tumani, Kurilish, 3 tor kuchasi, Uy 3a, Apartment 2"
         },
         about: {
             title: "About Company",
@@ -80,16 +80,16 @@ export const en = {
             number_2: "+99833 288 01 02",
         },
         company: {
-            title: "Javlon Audit Service",
+            title: "Javlon Audit Servis",
             termsAndConditions: "Terms and Conditions",
             privacyPolicy: "Privacy Policy",
         }
     },
     hero: {
-        company: "JAVLON AUDIT SERVICE",
+        company: "JAVLON AUDIT SERVIS",
         title: "Audit organization",
         subtitle: "in the field of accounting and taxes",
-        text: "Аудит по Международным стандартам финансовой отчетности(МСА) на сегодняшний день получают всё большую популярность в Узбекистане.",
+        text: "The audit organization 'JAVLON AUDIT SERVIS', in the form of a limited liability company, is pleased to cooperate with you and offer its services in the field of audit in accordance with the Law on Auditing Activities, International Auditing Standards, and accounting and financial reporting standards.",
         button: "More"
     },
     financial: {
@@ -140,15 +140,19 @@ export const en = {
         toast: {
             title: "Consultation Request Submitted",
             description: "We'll get back to you soon!"
+        },
+        error_toast: {
+            title: "Something went wrong",
+            description: "There was some error. Please try again!"
         }
     },
     aboutPage: {
         title: "About the Company",
-        description_1: "LLC 'JAVLON AUDIT SERVICE' was registered on April 20, 2000, in the Ministry of Justice of Uzbekistan under № 598. For many years, our company has held high positions and ratings among auditing companies in Uzbekistan and consistently ranks among the top ten auditing firms. The policy of our organization is aimed at continuously improving the quality of services, assisting and supporting clients in all matters of financial and economic activity during audits.",
-        description_2: "The organization employs 40 staff, including: 9 certified auditors, 3 auditors with ACCA certificates, 2 specialists DipIFR, who are experts in preparing financial statements according to IFRS, 16 auditor assistants with CPA certificates, a certified specialist in securities and corporate governance, a lawyer, specialists in construction, monopolies, localization, and others. As of today, the authorized capital of 'JAVLON AUDIT SERVICE' is 5000 minimum wages, 90% of which are cash and 10% are equipment.",
-        description_3: "We take full responsibility for the services provided. The risks of LLC 'JAVLON AUDIT SERVICE' are insured with an insurance company for the amount of 2,000,000,000 (two billion) sums.",
+        description_1: "The audit organization 'JAVLON AUDIT SERVIS' has been operating in the audit services market for over eighteen years. Our organization was established on March 1, 2004. The organization’s charter capital is 240,000,000 UZS. The annual insurance policy is 400,000,000 UZS. The specialists of the organization have work experience in audit firms ranging from three to twenty years and specialize in auditing large industrial enterprises, organizations, joint-stock companies, limited liability companies, and private enterprises. The organization has qualified specialists familiar with the methodology of accounting systems according to national and international standards. They can provide audit services and analyze financial statements in accordance with audit standards. We offer the following services to our clients: auditing according to audit standards in line with accounting standards, services in accounting, restoration, and maintenance of accounting records, taxation services, consulting, construction work expertise, and software development. Our primary mission is to provide quality services to our clients that will help them improve their operations and contribute to increasing their profitability.",
+        description_2: "In line with the tasks of audit organizations, we perform an analysis and confirmation of the reliability of financial statements of an economic entity based on a real and objective assessment of the efficiency of economic activity. We develop constructive proposals to improve the efficiency of economic entities. By identifying risks and problems for each client and considering their individual needs, we ensure that all issues related to legislation, operations, and the financial reporting system are properly addressed. The reputation of our audit organization is of great importance to us, and for this reason, our specialists with auditor qualification certificates create and maintain a sustainable positive image of the organization. The organization has ten employees, including 4 certified auditors, 4 auditor assistants, 1 securities expert, 1 construction specialist, and others working on a contractual basis. Two specialists hold CIPA certificates (Certified International Professional Accountant), and five specialists have CAP certificates (Certified Accounting Practitioner). Upon request from the client, we defend their interests during inspections by tax authorities and other bodies, take full responsibility for the audit results, and provide free consultations for the following year after the audit. We guarantee the high quality of our audit services and assume responsibility for any inaccurate audit conclusions. We sincerely thank you for your attention and look forward to long-term mutually beneficial cooperation. Should you be interested in partnering with our organization, we are ready to meet with you at any convenient time to discuss the details.",
+        description_3: "The cost of an audit is determined based on the scope of work and the labor required to conduct the audit, as well as the audit period, the presence of branches, the size of cash flows, the company's document turnover, the number of employees, the type of business, and the taxes the company is liable to pay.",
         services: {
-            title: "Services Provided by LLC 'JavlonAuditService':",
+            title: "Services Provided by LLC 'JavlonAuditServis':",
             opt: [
                 "Audit of financial statements",
                 "Transformation of financial statements in accordance with IFRS",
@@ -241,7 +245,7 @@ export const en = {
         vacancies: {
             jobListing: {
                 careerTitle: "Career at the Company",
-                careerDescription: "Currently, the audit organization LLC 'JAVLON AUDIT SERVICE' invites to work:",
+                careerDescription: "Currently, the audit organization LLC 'JAVLON AUDIT SERVIS' invites to work:",
                 auditors: "Certified Auditors",
                 locationHeader: "Location",
                 positionHeader: "Vacant Positions",
@@ -295,12 +299,20 @@ export const en = {
                 additionalSkillsPlaceholder: `Additional skills (max. 200 characters)`,
                 responsibilitiesPlaceholder: `Describe your job responsibilities (max. 200 characters)`,
                 certDescriptionPlaceholder: `Describe the certificate (max. 200 characters)`,
+                toast: {
+                    title: "Request Submitted",
+                    description: "We'll get back to you soon!"
+                },
+                error_toast: {
+                    title: "Something went wrong",
+                    description: "There was some error. Please try again!"
+                }
             }
 
         },
         "clients": {
             "title": "Our Clients",
-            "description": "Currently, the Audit Company 'JAVLON AUDIT SERVICE' cooperates and continues its activities by providing auditing services to organizations of all types and forms of ownership. Our clients include:",
+            "description": "Currently, the Audit Company 'JAVLON AUDIT SERVIS' cooperates and continues its activities by providing auditing services to organizations of all types and forms of ownership. Our clients include:",
             "nonProfit": {
                 "title": "Non-Profit Organizations",
                 "companies": [
@@ -459,7 +471,7 @@ export const en = {
         },
         founders: {
             title: "Founders",
-            description: "'JAVLON AUDIT SERVICE' LLC is an independent organization. The founders of the LLC are four individuals who simultaneously manage 'JAVLON AUDIT SERVICE' LLC. This arrangement allows for high-level control over the organization's activities, guaranteeing stability and efficient use of 'JAVLON AUDIT SERVICE' LLC's financial and human resources."
+            description: "'JAVLON AUDIT SERVIS' LLC is an independent organization. The founders of the LLC are four individuals who simultaneously manage 'JAVLON AUDIT SERVIS' LLC. This arrangement allows for high-level control over the organization's activities, guaranteeing stability and efficient use of 'JAVLON AUDIT SERVIS' LLC's financial and human resources."
         },
         specialists: {
             "ourSpecialists": [
@@ -565,8 +577,8 @@ export const en = {
         },
         "generalInformation": {
             "title": "General Information",
-            "text_1": "Audit and professional consulting (consulting) in the field of accounting and taxation have long been in demand by most companies in the Republic of Uzbekistan. However, the effectiveness of these services depends on the experience, professionalism, and ability to solve emerging problems independently and innovatively by specialists of the company you have chosen to contact. LLC 'JAVLON AUDIT SERVICE' is ready to provide you with exactly such specialists who have practical experience. The current Uzbek legislation in the field of accounting and taxation is quite extensive, constantly changing, contains many contradictions, but unfortunately often does not provide direct answers to controversial and complex questions. This is why even highly qualified accountants often find it difficult to make the right decision in complicated situations.",
-            "text_2": "LLC 'JAVLON AUDIT SERVICE' specializes in audit checks of large industrial enterprises in various fields of activity and provides related services: consulting in accounting and management accounting, legal and tax consulting, tax optimization, bookkeeping, transformation of financial statements in accordance with IFRS (International Financial Reporting Standards), financial statement analysis, support of enterprises and organizations during inspections by regulatory authorities, and protection of clients' interests in governmental and judicial bodies on special issues."
+            "text_1": "Audit and professional consulting (consulting) in the field of accounting and taxation have long been in demand by most companies in the Republic of Uzbekistan. However, the effectiveness of these services depends on the experience, professionalism, and ability to solve emerging problems independently and innovatively by specialists of the company you have chosen to contact. LLC 'JAVLON AUDIT SERVIS' is ready to provide you with exactly such specialists who have practical experience. The current Uzbek legislation in the field of accounting and taxation is quite extensive, constantly changing, contains many contradictions, but unfortunately often does not provide direct answers to controversial and complex questions. This is why even highly qualified accountants often find it difficult to make the right decision in complicated situations.",
+            "text_2": "LLC 'JAVLON AUDIT SERVIS' specializes in audit checks of large industrial enterprises in various fields of activity and provides related services: consulting in accounting and management accounting, legal and tax consulting, tax optimization, bookkeeping, transformation of financial statements in accordance with IFRS (International Financial Reporting Standards), financial statement analysis, support of enterprises and organizations during inspections by regulatory authorities, and protection of clients' interests in governmental and judicial bodies on special issues."
         },
         antiCrisisManagement: {
             "title": "Crisis Management",
@@ -576,7 +588,7 @@ export const en = {
         },
         procedureDueDiligence: {
             "title": "Due Diligence Procedure",
-            "introduction": "The auditing company «JAVLON AUDIT SERVICE» has experience providing comprehensive Due Diligence services under contracts with companies operating in various sectors of the economy.",
+            "introduction": "The auditing company «JAVLON AUDIT SERVIS» has experience providing comprehensive Due Diligence services under contracts with companies operating in various sectors of the economy.",
             "section_1": "The Due Diligence procedure is a process for forming an objective representation of the investment object. Both parties, the investor (buyer) and the investment-attracting side (seller), are interested in the competent and objective execution of these procedures.",
             "section_2": "The main goal of Due Diligence is to form an independent, objective representation of:",
             "points": [
@@ -641,7 +653,7 @@ export const en = {
                 "Regarding expense statements confirming reimbursement requests.",
                 "Expenses indicated in requests for financing."
             ],
-            "company": "The company ‘JAVLON AUDIT SERVICE’ has conducted audits of the following projects (grants) in the Republic of Uzbekistan/Karakalpakstan:",
+            "company": "The company ‘JAVLON AUDIT SERVIS’ has conducted audits of the following projects (grants) in the Republic of Uzbekistan/Karakalpakstan:",
             "projects": [
                 {
                     "name": "Japan’s Grant Assistance for Grass Roots Projects (GAGP)"
@@ -718,9 +730,9 @@ export const en = {
                 "The accuracy and timeliness of settlements with counterparties for delivered goods (services rendered), with personnel for wages, and with the budget for taxes and fees."
             ],
             "importance": "That is why it is very important that highly qualified specialists work in the accounting department of the organization/company, possessing knowledge not only in accounting and taxation but also in labor and civil law norms. However, even with such employees, a number of questions or problems often arise, requiring the involvement of external and independent specialists.",
-            "service_offer": "Accounting services are now one of the most profitable and in-demand offerings in terms of the types of services provided. The benefit lies in the fact that the experience of the specialists at LLC 'JAVLON AUDIT SERVICE' harmoniously complements the experience of your organization’s employees, who may be busy with current work and not see certain nuances. Collaboration allows you to understand these nuances and teach your employees to resolve them in the least costly way.",
+            "service_offer": "Accounting services are now one of the most profitable and in-demand offerings in terms of the types of services provided. The benefit lies in the fact that the experience of the specialists at LLC 'JAVLON AUDIT SERVIS' harmoniously complements the experience of your organization’s employees, who may be busy with current work and not see certain nuances. Collaboration allows you to understand these nuances and teach your employees to resolve them in the least costly way.",
             "contract_benefits": "By entering into a contract with us for the provision of accounting services for your company, you will stop worrying about reporting, which may be submitted either incompletely, late, or in violation of regulations. You will be able to reduce the risks of fines and penalties associated with violations of tax and accounting legislation.",
-            "quality_assurance": "By providing accounting services, specialists at LLC 'JAVLON AUDIT SERVICE' guarantee the quality and confidentiality of commercial information, optimization of taxation, reliability, and protection of the results of our work before external and internal users of economic information. Professional accounting services will allow you to quickly obtain information about the financial position of your organization to make managerial decisions and, if necessary, qualified assistance on accounting and tax issues. When providing accounting services, our specialists strive to create all the conditions for the development of your business.",
+            "quality_assurance": "By providing accounting services, specialists at LLC 'JAVLON AUDIT SERVIS' guarantee the quality and confidentiality of commercial information, optimization of taxation, reliability, and protection of the results of our work before external and internal users of economic information. Professional accounting services will allow you to quickly obtain information about the financial position of your organization to make managerial decisions and, if necessary, qualified assistance on accounting and tax issues. When providing accounting services, our specialists strive to create all the conditions for the development of your business.",
             "service_includes": [
                 "Establishment and maintenance of accounting;",
                 "Comprehensive accounting service (outsourcing);",
@@ -782,7 +794,15 @@ export const en = {
             "additional": "Additional Information",
             "submit": "Submit",
             "writeCount": "Enter the quantity",
-            "writePrice": "Enter the amount"
+            "writePrice": "Enter the amount",
+            toast: {
+                title: "Request Submitted",
+                description: "We'll get back to you soon!"
+            },
+            error_toast: {
+                title: "Something went wrong",
+                description: "There was some error. Please try again!"
+            }
         }
     },
     help: {
@@ -879,7 +899,15 @@ export const en = {
             "messagePlaceholder": "Enter your message",
             "requiredMessage": "This field is required",
             "maxLengthMessage": "Maximum length is 400 characters",
-            "submitButton": "Submit"
+            "submitButton": "Submit",
+            toast: {
+                title: "Request Submitted",
+                description: "We'll get back to you soon!"
+            },
+            error_toast: {
+                title: "Something went wrong",
+                description: "There was some error. Please try again!"
+            }
         }
     }
 }

@@ -23,7 +23,16 @@ const Index: React.FC<Props> = ({ className }) => {
                 </CardHeader>
                 <CardContent className='grid grid-cols-4 justify-center items-center gap-5'>
                     <div className='w-full h-full border border-gray-200'>
+                        <Image src={"/auditor_certificates/auditor_7.png"} alt="certificate" width={300} height={200} />
+                    </div>
+                    <div className='w-full h-full border border-gray-200'>
+                        <Image src={"/auditor_certificates/auditor_5.png"} alt="certificate" width={300} height={200} />
+                    </div>
+                    <div className='w-full h-full border border-gray-200'>
                         <Image src={"/auditor_certificates/auditor_1.png"} alt="certificate" width={300} height={200} />
+                    </div>
+                    <div className='w-full h-full border border-gray-200'>
+                        <Image src={"/auditor_certificates/auditor_8.png"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/auditor_certificates/auditor_2.png"} alt="certificate" width={300} height={200} />
@@ -32,25 +41,13 @@ const Index: React.FC<Props> = ({ className }) => {
                         <Image src={"/auditor_certificates/auditor_3.png"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/auditor_certificates/auditor_4.png"} alt="certificate" width={300} height={200} />
-                    </div>
-                    <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/auditor_certificates/auditor_5.png"} alt="certificate" width={300} height={200} />
-                    </div>
-                    <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/auditor_certificates/auditor_7.png"} alt="certificate" width={300} height={200} />
-                    </div>
-                    <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/auditor_certificates/auditor_8.png"} alt="certificate" width={300} height={200} />
-                    </div>
-                    <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/auditor_certificates/auditor_9.jpg"} alt="certificate" width={300} height={200} />
-                    </div>
-                    <div className='w-full h-full border border-gray-200'>
                         <Image src={"/auditor_certificates/auditor_10.png"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/auditor_certificates/auditor_11.png"} alt="certificate" width={300} height={200} />
+                    </div>
+                    <div className='w-full h-full border border-gray-200'>
+                        <Image src={"/auditor_certificates/auditor_9.jpg"} alt="certificate" width={300} height={200} />
                     </div>
                 </CardContent>
             </Card>

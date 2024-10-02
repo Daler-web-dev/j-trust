@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
+import { sendMessages } from "../api/sendMessages";
+import { toast } from "@/hooks/use-toast";
 
 type FormData = {
     name: string;
@@ -27,14 +29,42 @@ type TranslationType = {
     requiredMessage: string;
     maxLengthMessage: string;
     submitButton: string;
+    toast: {
+        title: string;
+        description: string;
+    };
+    error_toast: {
+        title: string;
+        description: string;
+    };
 };
 
 export default function BottomForm({ translation }: { translation: TranslationType }) {
-    const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm<FormData>();
+    const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm<FormData>();
 
-    const onSubmit = (data: FormData) => {
-        console.log(data);
-        // Here you would typically send the data to your backend
+    const onSubmit = (info: FormData) => {
+        console.log(info);
+        let msg = `🆕 Помощь! \n`;
+        msg += `📌 Имя/Фамилия: ${info?.name} \n`;
+        msg += `📌 Номер телефона: ${info?.phone} \n`;
+        msg += `📌 Почта: ${info?.email} \n`;
+        msg += `📌 Сообщение: ${info?.message} \n`;
+
+        const res = sendMessages(msg);
+        res.then((res) => {
+            if (res?.res?.status === 200 || res?.res?.status === 201) {
+                toast({
+                    title: translation?.toast?.title,
+                    description: translation?.toast?.description,
+                });
+                reset();
+            } else {
+                toast({
+                    title: translation?.error_toast?.title,
+                    description: translation?.error_toast?.description,
+                });
+            }
+        })
     };
 
     return (

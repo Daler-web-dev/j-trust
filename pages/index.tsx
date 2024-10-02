@@ -2,7 +2,6 @@ import { Container } from "@/components/Container";
 import FinancialAILayout from "@/components/FinancialLayoutsInfo";
 import Forma from "@/components/Forma";
 import Hero from "@/components/Hero";
-import ReviewSwiper from "@/components/ReviewsSwiper";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -37,7 +36,7 @@ export default function Home() {
                 <FinancialAILayout translation={translation.financial} />
             </Container>
             <Separator />
-            <ReviewSwiper />
+            {/* <ReviewSwiper /> */}
             <Container className="flex flex-col md:flex-row justify-center items-start gap-5 my-10 px-4">
                 <Card className="w-full md:w-[80%] lg:w-[60%]">
                     <CardHeader>

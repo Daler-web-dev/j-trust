@@ -1,4 +1,3 @@
-import { spec } from "node:test/reporters";
 
 export const uz = {
     header: {
@@ -40,8 +39,9 @@ export const uz = {
     },
     footer: {
         address: {
-            title: "Javlon Audit Service",
-            street: "Yuridik manzili: Samarqand sh. Rudakiy ko‘chasi 140/18"
+            title: "Javlon Audit Servis",
+            street: "1) Yuridik manzili: Samarqand sh. Rudakiy ko‘chasi 140/18",
+            street2: "2) Toshkent shaxri, Uchtepa tumani, Qurilish, 3 tor kuchasi, Uy 3a, Kvartira 2"
         },
         about: {
             title: "Kompaniya Haqida",
@@ -80,16 +80,16 @@ export const uz = {
             number_2: "+99833 288 01 02",
         },
         company: {
-            title: "Javlon Audit Service",
+            title: "Javlon Audit Servis",
             termsAndConditions: "Shartlar va shartlar",
             privacyPolicy: "Maxfiylik siyosati",
         }
     },
     "hero": {
-        "company": "JAVLON AUDIT SERVICE",
+        "company": "JAVLON AUDIT SERVIS",
         "title": "Audit tashkiloti",
         "subtitle": "buxgalteriya va soliq sohasida",
-        "text": "Bugungi kunda Xalqaro moliyaviy hisobot standartlari (XMH) bo‘yicha audit O‘zbekistonda tobora ommalashib bormoqda.",
+        "text": "MChJ shaklidagi «JAVLON AUDIT SERVIS» auditorlik tashkiloti siz bilan hamkorlik qilishdan mamnun va audit sohasida o‘z xizmatlarini, Auditorlik faoliyati to‘g‘risidagi qonun, Xalqaro audit standartlari hamda buxgalteriya hisobi va moliyaviy hisobot standartlariga muvofiq, taklif etadi.",
         "button": "Batafsil"
     },
     "financial": {
@@ -140,13 +140,19 @@ export const uz = {
         "toast": {
             "title": "Maslahat so‘rovi yuborildi",
             "description": "Biz tez orada siz bilan bog'lanamiz!"
+        },
+        error_toast: {
+            title: "Nimadir noto'g'ri ketdi",
+            description: "Ba'zi xatolik yuz berdi. Qayta urinib ko'ring!"
         }
     },
     aboutPage: {
         title: "Kompaniya Haqida",
-        description_1: "O’zbekiston Respublikasining Adliya vazirligida 2000-yil 20-aprelda № 598 raqami bilan ro'yxatdan o'tgan MCHJ 'JAVLON AUDIT SERVICE' ko'plab yillar davomida O'zbekistondagi audit kompaniyalari orasida yuqori o'rinlarga va reytinglarga ega bo'lib, doimiy ravishda eng yaxshi o'nta audit firmasi qatorida bo'lib kelmoqda. Bizning tashkilotimiz siyosati xizmatlar sifatini doimiy ravishda yaxshilashga, auditlar davomida mijozlarga moliyaviy va iqtisodiy faoliyat masalalarida yordam ko'rsatishga qaratilgan.",
-        description_2: "Tashkilotda 40 nafar xodim ishlaydi, jumladan: 9 nafar sertifikatlangan auditor, 3 nafar ACCA sertifikatiga ega auditor, IFRS bo'yicha moliyaviy hisobotlarni tayyorlash bo'yicha mutaxassislar, 16 nafar CPA sertifikatiga ega auditor yordamchilari, qimmatli qog'ozlar va korporativ boshqaruv bo'yicha sertifikatlangan mutaxassis, yuridik, qurilish, monopoliyalar, mahalliylashtirish va boshqa sohalarda mutaxassislar. Bugungi kunda 'JAVLON AUDIT SERVICE' ning ustav kapitali 5000 minimum ish haqini tashkil etadi, uning 90% naqd pul va 10% uskunalardan iborat.",
-        description_3: "Biz taqdim etilgan xizmatlar uchun to'liq javobgarlikni o'z zimmamizga olamiz. MCHJ 'JAVLON AUDIT SERVICE' ning risklari 2 000 000 000 (ikki milliard) so'm miqdorida sug'urta kompaniyasi bilan sug'urtalangan.",
+        description_1: "«JAVLON AUDIT SERVIS» auditorlik tashkiloti audit xizmatlari bozorida o‘n sakkiz yildan ortiq faoliyat yuritib kelmoqda. Bizning tashkilot 2004 yil 1 martda tashkil etilgan. Tashkilotning ustav kapitali 240 000 000 so‘mni tashkil etadi. Yillik sug‘urta polisi 400 000 000 so‘m. Tashkilot mutaxassislari uch yildan yigirma yilgacha auditorlik tashkilotlarida ishlash tajribasiga ega va yirik sanoat korxonalari, tashkilotlar, aksiyadorlik jamiyatlari, mas’uliyati cheklangan jamiyatlar va xususiy korxonalar auditini o‘tkazishga ixtisoslashgan. Tashkilot milliy va xalqaro standartlarga muvofiq buxgalteriya hisobi tizimining metodologiyasiga ega bo‘lgan malakali mutaxassislarga ega bo‘lib, ular audit xizmatlarini ko‘rsatish va audit standartlariga muvofiq moliyaviy hisobotlarni tahlil qilish imkoniyatiga ega. Biz mijozlarimizga quyidagi xizmatlarni taklif etamiz: buxgalteriya hisobi standartlariga muvofiq audit standartlari bo‘yicha audit, buxgalteriya hisobi sohasidagi xizmatlar, buxgalteriya hisobi bo‘yicha tiklash va yuritish xizmatlari, soliq solish xizmatlari, konsalting, qurilish ishlari bo‘yicha ekspert xizmatlari, dasturiy ta’minot. Bizning asosiy missiyamiz mijozlarimizga ularning faoliyatini yaxshilashga yordam beradigan va ularning daromadlarini oshirishga yordam beradigan sifatli xizmatlar ko‘rsatish hisoblanadi.",
+
+        description_2: "Auditorlik tashkilotlarining vazifalariga muvofiq biz xo‘jalik yurituvchi subyektning moliyaviy hisobotlarining ishonchliligini tahlil qilamiz va tasdiqlaymiz, xo‘jalik yurituvchi subyektlarning faoliyat samaradorligini oshirish bo‘yicha konstruktiv takliflar ishlab chiqamiz. Har bir mijozning xavf-xatarlarini va muammolarini aniqlagan holda, ularning individual ehtiyojlarini hisobga olib, mijozning qonunchilik, faoliyat va moliyaviy hisobot tizimi bilan bog‘liq barcha masalalarni to‘g‘ri aks ettirishga harakat qilamiz. Bizning auditorlik tashkilotimizning obro‘si biz uchun katta ahamiyatga ega va shu sababli auditorlik malaka sertifikatlariga ega bo‘lgan tashkilot mutaxassislari tashkilotning ijobiy imidjini yaratadi va qo‘llab-quvvatlaydi. Tashkilotda o‘n nafar xodim ishlaydi, jumladan: 4 nafar sertifikatlangan auditor, 4 nafar auditor yordamchilari, 1 nafar qimmatli qog‘ozlar bo‘yicha ekspert, 1 nafar qurilish mutaxassisi va boshqalar shartnoma asosida. Ikki nafar mutaxassis CIPA sertifikatlariga (Sertifikatlangan xalqaro professional buxgalter) ega, besh nafar mutaxassis esa CAP (Sertifikatlangan buxgalter amaliyotchisi) sertifikatlariga ega. Buyurtmachining talabiga binoan biz uning manfaatlarini soliq va boshqa organlar tomonidan o‘tkaziladigan tekshiruvlarda himoya qilamiz, tekshiruv natijalari bo‘yicha to‘liq javobgarlikni o‘z zimmamizga olamiz va auditdan so‘ng bir yil davomida bepul maslahatlar beramiz. Biz audit xizmatlarining yuqori sifatini kafolatlaymiz va noto‘g‘ri auditorlik xulosasi uchun javobgarlikni o‘z zimmamizga olamiz. Diqqat uchun samimiy minnatdorchilik bildiramiz va uzoq muddatli o‘zaro manfaatli hamkorlikka umid qilamiz. Agar siz bizning tashkilotimiz bilan hamkorlik qilishga qiziqsangiz, istalgan vaqtda uchrashishga tayyormiz va muhokama qilishga tayyormiz.",
+
+        description_3: "Audit narxi ish hajmi va audit o‘tkazish uchun zarur bo‘lgan mehnat xarajatlari, shuningdek, audit o‘tkaziladigan davr, filiallar mavjudligi, pul oqimlari hajmi, korxona hujjat aylanishi, ishchilar soni, faoliyat turi va korxonaning qaysi soliqlarni to‘lovchi ekanligiga asoslanadi.",
         services: {
             title: "MCHJ 'JavlonAuditService' tomonidan taqdim etilayotgan xizmatlar:",
             opt: [
@@ -241,7 +247,7 @@ export const uz = {
         vacancies: {
             jobListing: {
                 careerTitle: "Kompaniyada karera",
-                careerDescription: "Hozirda audit tashkiloti MChJ 'JAVLON AUDIT SERVICE' ishga taklif qiladi:",
+                careerDescription: "Hozirda audit tashkiloti MChJ 'JAVLON AUDIT SERVIS' ishga taklif qiladi:",
                 auditors: "Sertifikatlangan audito'rlar",
                 locationHeader: "Manzil",
                 positionHeader: "Bo'sh lavozimlar",
@@ -295,11 +301,19 @@ export const uz = {
                 additionalSkillsPlaceholder: `Qo'shimcha ko'nikmalar (maks. 200 belgidan iborat)`,
                 responsibilitiesPlaceholder: `Lavozim vazifalaringizni tasvirlang (maks. 200 belgidan iborat)`,
                 certDescriptionPlaceholder: `Sertifikatni tasvirlang (maks. 200 belgidan iborat)`,
+                "toast": {
+                    "title": "So‘rov yuborildi",
+                    "description": "Biz tez orada siz bilan bog'lanamiz!"
+                },
+                error_toast: {
+                    title: "Nimadir noto'g'ri ketdi",
+                    description: "Ba'zi xatolik yuz berdi. Qayta urinib ko'ring!"
+                }
             }
         },
         "clients": {
             "title": "Mijozlarimiz",
-            "description": "Hozirda 'JAVLON AUDIT SERVICE' auditorlik kompaniyasi turli xil va barcha mulk shakllaridagi tashkilotlar bilan hamkorlik qilishda davom etmoqda va ularga auditorlik xizmatlarini ko'rsatmoqda. Mijozlarimiz quyidagilarni o'z ichiga oladi:",
+            "description": "Hozirda 'JAVLON AUDIT SERVIS' auditorlik kompaniyasi turli xil va barcha mulk shakllaridagi tashkilotlar bilan hamkorlik qilishda davom etmoqda va ularga auditorlik xizmatlarini ko'rsatmoqda. Mijozlarimiz quyidagilarni o'z ichiga oladi:",
             "nonProfit": {
                 "title": "Notijorat tashkilotlar",
                 "companies": [
@@ -436,7 +450,7 @@ export const uz = {
         },
         "founders": {
             "title": "Tashkilotchilar",
-            "description": "'JAVLON AUDIT SERVICE' MChJ mustaqil tashkilotdir. MChJning tashkilotchilari to'rtta jismoniy shaxs bo'lib, ular bir vaqtning o'zida 'JAVLON AUDIT SERVICE' MChJni boshqaradilar. Bunday boshqaruv tartibi tashkilot faoliyatini yuqori darajada nazorat qilish, barqarorlikni ta'minlash va 'JAVLON AUDIT SERVICE' MChJning moliyaviy va mehnat resurslaridan samarali foydalanishni kafolatlaydi."
+            "description": "'JAVLON AUDIT SERVIS' MChJ mustaqil tashkilotdir. MChJning tashkilotchilari to'rtta jismoniy shaxs bo'lib, ular bir vaqtning o'zida 'JAVLON AUDIT SERVIS' MChJni boshqaradilar. Bunday boshqaruv tartibi tashkilot faoliyatini yuqori darajada nazorat qilish, barqarorlikni ta'minlash va 'JAVLON AUDIT SERVIS' MChJning moliyaviy va mehnat resurslaridan samarali foydalanishni kafolatlaydi."
         },
         specialists: {
             "ourSpecialists": [
@@ -542,8 +556,8 @@ export const uz = {
         },
         "generalInformation": {
             "title": "Umumiy Ma'lumot",
-            "text_1": "Auditorlik va buxgalteriya va soliq sohasidagi professional maslahatlar (konsalting) O'zbekiston Respublikasi kompaniyalari tomonidan uzoq vaqtdan beri talab qilinmoqda. Ammo ushbu xizmatlarning samaradorligi, siz murojaat qilmoqchi bo'lgan kompaniya mutaxassislari tomonidan muammolarni mustaqil va innovatsion ravishda hal qilish qobiliyati, tajribasi va professionalizmidan kelib chiqadi. «JAVLON AUDIT SERVICE» MCHJ sizga amaliy tajribaga ega bunday mutaxassislarni taqdim etishga tayyor. Hozirgi O'zbekiston qonunchiligi buxgalteriya hisobi va soliq sohasida juda keng, doimiy ravishda o'zgarib turadi, ko'p qarama-qarshiliklarni o'z ichiga oladi, lekin afsuski, ko'pincha munozarali va murakkab savollarga to'g'ridan-to'g'ri javob bermaydi. Shu sababli, hatto yuqori malakali buxgalterlar ham qiyin vaziyatda to'g'ri qaror qabul qilishda qiyinchiliklarga duch kelishlari ko'p uchraydi.",
-            "text_2": "«JAVLON AUDIT SERVICE» MCHJ katta sanoat korxonalarining turli faoliyat turlaridagi auditorlik tekshiruvlariga ixtisoslashgan va quyidagi xizmatlarni ko'rsatadi: buxgalteriya va boshqaruv buxgalteriyati bo'yicha maslahatlar, huquqiy va soliq bo'yicha maslahatlar, soliqni optimallashtirish, buxgalteriya hisobini yuritish, moliyaviy hisobotlarni MDS (Xalqaro Moliyaviy Hisobot Standartlari) ga muvofiq o'zgartirish, moliyaviy hisobotni tahlil qilish, korxonalar va tashkilotlarni nazorat organlari tomonidan tekshirishlar vaqtida qo'llab-quvvatlash, va mijozlarning manfaatlarini davlat va sud organlarida maxsus masalalar bo'yicha himoya qilish."
+            "text_1": "Auditorlik va buxgalteriya va soliq sohasidagi professional maslahatlar (konsalting) O'zbekiston Respublikasi kompaniyalari tomonidan uzoq vaqtdan beri talab qilinmoqda. Ammo ushbu xizmatlarning samaradorligi, siz murojaat qilmoqchi bo'lgan kompaniya mutaxassislari tomonidan muammolarni mustaqil va innovatsion ravishda hal qilish qobiliyati, tajribasi va professionalizmidan kelib chiqadi. «JAVLON AUDIT SERVIS» MCHJ sizga amaliy tajribaga ega bunday mutaxassislarni taqdim etishga tayyor. Hozirgi O'zbekiston qonunchiligi buxgalteriya hisobi va soliq sohasida juda keng, doimiy ravishda o'zgarib turadi, ko'p qarama-qarshiliklarni o'z ichiga oladi, lekin afsuski, ko'pincha munozarali va murakkab savollarga to'g'ridan-to'g'ri javob bermaydi. Shu sababli, hatto yuqori malakali buxgalterlar ham qiyin vaziyatda to'g'ri qaror qabul qilishda qiyinchiliklarga duch kelishlari ko'p uchraydi.",
+            "text_2": "«JAVLON AUDIT SERVIS» MCHJ katta sanoat korxonalarining turli faoliyat turlaridagi auditorlik tekshiruvlariga ixtisoslashgan va quyidagi xizmatlarni ko'rsatadi: buxgalteriya va boshqaruv buxgalteriyati bo'yicha maslahatlar, huquqiy va soliq bo'yicha maslahatlar, soliqni optimallashtirish, buxgalteriya hisobini yuritish, moliyaviy hisobotlarni MDS (Xalqaro Moliyaviy Hisobot Standartlari) ga muvofiq o'zgartirish, moliyaviy hisobotni tahlil qilish, korxonalar va tashkilotlarni nazorat organlari tomonidan tekshirishlar vaqtida qo'llab-quvvatlash, va mijozlarning manfaatlarini davlat va sud organlarida maxsus masalalar bo'yicha himoya qilish."
         },
         antiCrisisManagement: {
             "title": "Inqirozga qarshi boshqaruv",
@@ -553,7 +567,7 @@ export const uz = {
         },
         procedureDueDiligence: {
             "title": "Due Diligence Jarayoni",
-            "introduction": "«JAVLON AUDIT SERVICE» audit kompaniyasi turli iqtisodiyot sektorlarida faoliyat yurituvchi kompaniyalar bilan shartnomalar asosida kompleks Due Diligence xizmatlarini taqdim etish bo'yicha tajribaga ega.",
+            "introduction": "«JAVLON AUDIT SERVIS» audit kompaniyasi turli iqtisodiyot sektorlarida faoliyat yurituvchi kompaniyalar bilan shartnomalar asosida kompleks Due Diligence xizmatlarini taqdim etish bo'yicha tajribaga ega.",
             "section_1": "Due Diligence jarayoni investitsiya obyektining ob'ektiv tasvirini shakllantirish jarayonidir. Ushbu jarayonlarni ob'ektiv va malakali amalga oshirishdan ham investor (sotib oluvchi), ham investitsiya jalb qiluvchi tomon (sotuvchi) manfaatdor.",
             "section_2": "Due Diligence ning asosiy maqsadi mustaqil va ob'ektiv tasvirni shakllantirishdir:",
             "points": [
@@ -618,7 +632,7 @@ export const uz = {
                 "Sarflar bo‘yicha xarajatlarni qoplash uchun arizalarni tasdiqlovchi xarajatlar bo‘yicha hisobotlar.",
                 "Moliyalashtirishga taqdim etilgan xarajatlar."
             ],
-            "company": "«JAVLON AUDIT SERVICE» kompaniyasi O‘zbekiston Respublikasi/Karakalpakistonda quyidagi loyihalar (grantlar) bo‘yicha auditlarni o‘tkazgan:",
+            "company": "«JAVLON AUDIT SERVIS» kompaniyasi O‘zbekiston Respublikasi/Karakalpakistonda quyidagi loyihalar (grantlar) bo‘yicha auditlarni o‘tkazgan:",
             "projects": [
                 {
                     "name": "Yaponiya tomonidan Mahalliy Loyihalar uchun Grant Yordam (GAGP)"
@@ -689,9 +703,9 @@ export const uz = {
                 "Yetkazib beruvchilar bilan to'lovlar (ko'rsatilgan xizmatlar) bo'yicha hisob-kitoblarning aniqligi va o'z vaqtida bajarilishi."
             ],
             "importance": "Shu sababli, tashkilotning buxgalteriya bo'limida yuqori malakali mutaxassislar ishlashi juda muhimdir, buxgalteriya hisobi va soliqlar sohasida bilimga ega bo'lish bilan birga, mehnat va fuqaro qonunchiligi normalariga ham ega bo'lishi kerak. Ammo, bunday xodimlar mavjud bo'lsa ham, ko'pincha tashqi va mustaqil mutaxassislarni jalb etishni talab qiladigan bir qator savollar yoki muammolar paydo bo'ladi.",
-            "service_offer": "Buxgalteriya xizmatlari hozirda beriladigan xizmatlar turi nuqtai nazaridan eng foydali va talabga ega takliflardan biridir. Foyda shundaki, 'JAVLON AUDIT SERVICE' MChJ mutaxassislarining tajribasi sizning tashkilotingiz xodimlarining tajribasini to'ldiradi, bu xodimlar joriy ish bilan band bo'lishi mumkin va ayrim noaniqliklarni ko'rmasligi mumkin. Hamkorlik bu noaniqliklarni tushunishga va xodimlaringizni ularni eng kam xarajat bilan hal qilishga o'rgatishga yordam beradi.",
+            "service_offer": "Buxgalteriya xizmatlari hozirda beriladigan xizmatlar turi nuqtai nazaridan eng foydali va talabga ega takliflardan biridir. Foyda shundaki, 'JAVLON AUDIT SERVIS' MChJ mutaxassislarining tajribasi sizning tashkilotingiz xodimlarining tajribasini to'ldiradi, bu xodimlar joriy ish bilan band bo'lishi mumkin va ayrim noaniqliklarni ko'rmasligi mumkin. Hamkorlik bu noaniqliklarni tushunishga va xodimlaringizni ularni eng kam xarajat bilan hal qilishga o'rgatishga yordam beradi.",
             "contract_benefits": "Agar siz biz bilan buxgalteriya xizmatlari ko'rsatish bo'yicha shartnoma tuzsangiz, hisobotlar to'liq, kech yoki qoidalarni buzib berilganligi haqida xavotir olmaysiz. Siz soliq va buxgalteriya qonunchiligini buzish bilan bog'liq jarimalar va to'lovlar xavfini kamaytirishingiz mumkin.",
-            "quality_assurance": "'JAVLON AUDIT SERVICE' MChJ buxgalteriya xizmatlarini taqdim etishda tijorat ma'lumotlarining sifatini va maxfiyligini, soliq optimizatsiyasini, ishonchlilikni va bizning ish natijalarimizni tashqi va ichki iqtisodiy ma'lumotlardan foydalanuvchilardan himoya qilishni kafolatlaydi. Professional buxgalteriya xizmatlari sizga o'z tashkilotingizning moliyaviy holati haqida tezkor ma'lumot olish imkonini beradi va zarur bo'lsa, buxgalteriya va soliq hisobi bo'yicha malakali yordam olish imkoniyatini beradi. Buxgalteriya xizmatlari ko'rsatishda, mutaxassislarimiz sizning biznesingizni rivojlantirish uchun barcha sharoitlarni yaratishga intilishadi.",
+            "quality_assurance": "'JAVLON AUDIT SERVIS' MChJ buxgalteriya xizmatlarini taqdim etishda tijorat ma'lumotlarining sifatini va maxfiyligini, soliq optimizatsiyasini, ishonchlilikni va bizning ish natijalarimizni tashqi va ichki iqtisodiy ma'lumotlardan foydalanuvchilardan himoya qilishni kafolatlaydi. Professional buxgalteriya xizmatlari sizga o'z tashkilotingizning moliyaviy holati haqida tezkor ma'lumot olish imkonini beradi va zarur bo'lsa, buxgalteriya va soliq hisobi bo'yicha malakali yordam olish imkoniyatini beradi. Buxgalteriya xizmatlari ko'rsatishda, mutaxassislarimiz sizning biznesingizni rivojlantirish uchun barcha sharoitlarni yaratishga intilishadi.",
             "service_includes": [
                 "Buxgalteriya hisobini tashkil etish va yuritish;",
                 "Kompleks buxgalteriya xizmatlari (outsourcing);",
@@ -753,7 +767,15 @@ export const uz = {
             "additional": "Qo'shimcha ma'lumot",
             "submit": "Jo'natish",
             "writeCount": "Soni kiriting",
-            "writePrice": "Summa kiriting"
+            "writePrice": "Summa kiriting",
+            "toast": {
+                "title": "So‘rov yuborildi",
+                "description": "Biz tez orada siz bilan bog'lanamiz!"
+            },
+            error_toast: {
+                title: "Nimadir noto'g'ri ketdi",
+                description: "Ba'zi xatolik yuz berdi. Qayta urinib ko'ring!"
+            }
         }
     },
     "help": {
@@ -806,53 +828,60 @@ export const uz = {
         }
         ,
         "middleTable": {
-            "title": "Технические показатели, обычно используемые при выборе аудиторской организации:",
+            "title": "Audit tashkilotini tanlashda odatda ishlatiladigan texnik ko‘rsatkichlar:",
             "sections": [
                 {
-                    "sectionTitle": "1. Стабильность и устойчивость на рынке, масштабность/мощность и квалификация специалистов",
+                    "sectionTitle": "1. Bozor barqarorligi va barqarorligi, keng qamrov / quvvat va mutaxassislar malakasi",
                     "rows": [
                         {
                             "number": "1.1.",
-                            "info": "Лицензия на осуществление деятельности (копия)",
-                            "criteria": "Определяет право на проведение независимого аудита",
+                            "info": "Faoliyatni amalga oshirish litsenziyasi (nusxa)",
+                            "criteria": "Mustaqil audit o‘tkazish huquqini aniqlaydi",
                             "score": ""
                         },
                         {
                             "number": "1.2.",
-                            "info": "Страховые полисы за последние три года (не менее 5% от страхового покрытия за каждый год)",
-                            "criteria": "Наличие большого страхового полиса гарантирует стабильность аудиторской организации и возможность возмещения ущерба в наступлении страховой ситуации.",
+                            "info": "Oxirgi uch yil uchun sug‘urta polislar (har bir yil uchun sug‘urta qoplamasining kamida 5%)",
+                            "criteria": "Katta sug‘urta polisi mavjudligi auditorlik tashkilotining barqarorligini va sug‘urta holatida zararni qoplash imkoniyatini kafolatlaydi.",
                             "score": ""
                         }
                     ]
                 },
                 {
-                    "sectionTitle": "2. Информация для оценки репутации аудитора, гарантии качества условий аудиторских услуг",
+                    "sectionTitle": "2. Auditorning obro‘sini baholash uchun ma’lumotlar, auditorlik xizmatlari shartlarining sifat kafolati",
                     "rows": [
                         {
                             "number": "2.1.",
-                            "info": "Информация о наличии филиалов (договоры аренды, филиалов)",
-                            "criteria": "Говорит о масштабности и мощности аудиторской организации.",
+                            "info": "Filiallar mavjudligi to‘g‘risidagi ma’lumot (ijara shartnomalari, filiallar)",
+                            "criteria": "Auditorlik tashkilotining keng qamrovi va quvvatini bildiradi.",
                             "score": ""
                         }
                     ]
                 }
             ],
-            "responsibleNote": "Ответственный за внесение данных ___________________"
+            "responsibleNote": "Ma’lumotlarni kiritish uchun mas’ul shaxs ___________________"
         },
         "bottomForm": {
-            "formTitle": "Заказ звонка",
-            "nameLabel": "Как к вам обращаться?",
-            "namePlaceholder": "Введите ваше имя",
-            "phoneLabel": "Ваш номер телефона",
-            "phonePlaceholder": "Введите ваш номер телефона",
-            "emailLabel": "Ваш E-mail",
-            "emailPlaceholder": "Введите ваш E-mail",
-            "messageLabel": "Текст обращения",
-            "messagePlaceholder": "Введите ваше сообщение",
-            "requiredMessage": "Это поле обязательно",
-            "maxLengthMessage": "Максимальная длина 400 символов",
-            "submitButton": "Отправить"
+            "formTitle": "Qo‘ng‘iroq buyurtmasi",
+            "nameLabel": "Sizni qanday chaqiraylik?",
+            "namePlaceholder": "Ismingizni kiriting",
+            "phoneLabel": "Telefon raqamingiz",
+            "phonePlaceholder": "Telefon raqamingizni kiriting",
+            "emailLabel": "Sizning E-mail",
+            "emailPlaceholder": "E-mailingizni kiriting",
+            "messageLabel": "Murojaat matni",
+            "messagePlaceholder": "Xabaringizni kiriting",
+            "requiredMessage": "Bu maydon majburiy",
+            "maxLengthMessage": "Maksimal uzunlik 400 belgidan iborat",
+            "submitButton": "Yuborish",
+            "toast": {
+                "title": "So‘rov yuborildi",
+                "description": "Biz tez orada siz bilan bog'lanamiz!"
+            },
+            "error_toast": {
+                "title": "Nimadir noto'g'ri ketdi",
+                "description": "Ba'zi xatolik yuz berdi. Qayta urinib ko'ring!"
+            }
         }
     }
-
 }
