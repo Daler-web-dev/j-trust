@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { useToast } from "@/hooks/use-toast"
-import { sendMessages } from "@/pages/api/sendMessages"
+import { sendMessages } from "@/lib/htpps.request"
 
 interface FormValues {
     name: string

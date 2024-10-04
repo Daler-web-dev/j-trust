@@ -6,8 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import { sendMessages } from "../api/sendMessages";
 import { toast } from "@/hooks/use-toast";
+import { sendMessages } from "@/lib/htpps.request";
 
 type FormData = {
     name: string;
@@ -43,7 +43,6 @@ export default function BottomForm({ translation }: { translation: TranslationTy
     const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm<FormData>();
 
     const onSubmit = (info: FormData) => {
-        console.log(info);
         let msg = `🆕 Помощь! \n`;
         msg += `📌 Имя/Фамилия: ${info?.name} \n`;
         msg += `📌 Номер телефона: ${info?.phone} \n`;
