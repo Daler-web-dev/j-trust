@@ -3,47 +3,116 @@ import { cn } from '@/lib/utils';
 import { Container } from '@/components/Container';
 import TranslateContext from '@/contexts/useTranslate';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Dot } from 'lucide-react';
 
 type Props = {
     className?: string;
 };
 
 const Page: React.FC<Props> = ({ className }) => {
-    const { aboutPage } = useContext(TranslateContext);
+    const { aboutPage: translation } = useContext(TranslateContext);
 
     return (
         <Container className={cn("pt-5", className)}>
             <Card className='my-5 sm:my-10'>
                 <CardHeader>
-                    <CardTitle className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium'>{aboutPage?.title}</CardTitle>
+                    <CardTitle className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium'>{translation?.title}</CardTitle>
                 </CardHeader>
                 <CardContent className='text-sm sm:text-base'>
-                    {aboutPage?.description_1}
+                    {translation?.description_1}
                     <br /><br />
-                    {aboutPage?.description_2}
+                    {translation?.description_2}
                     <br /><br />
-                    {aboutPage?.description_3}
+                    {translation?.description_3}
                 </CardContent>
             </Card>
 
-            <Card className='my-5 sm:my-10'>
-                <CardHeader>
-                    <CardTitle className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium'>{aboutPage?.services?.title}</CardTitle>
+            <Card className="rounded-lg border-gray-200">
+                <CardHeader className="px-6 py-4 rounded-t-lg">
+                    <CardTitle className="text-2xl font-bold text-gray-800">
+                        {translation.services.title}
+                    </CardTitle>
                 </CardHeader>
-                <CardContent className='text-sm sm:text-base'>
-                    {aboutPage?.services?.opt && aboutPage?.services?.opt.length > 0 ? (
-                        <ul className='list-disc pl-5'>
-                            {aboutPage.services.opt.map((opt: string, index: number) => (
-                                <li key={index} className='flex justify-start items-center gap-1'>
-                                    <Dot width={10} height={10} className="text-primary" />
-                                    <span>{opt}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    ) : (
-                        <p>No data available.</p>
-                    )}
+                <CardContent className="p-6 space-y-4 text-gray-700">
+
+                    {/* Подход к аудиту */}
+                    <p className="text-lg leading-relaxed">
+                        {translation.services.approach.description}
+                    </p>
+
+                    {/* Основные характеристики подхода */}
+                    <ul className="list-disc pl-5 space-y-2">
+                        {translation.services.approach.keyFeatures.map((feature: string, index: number) => (
+                            <li key={index} className="text-lg">
+                                {feature}
+                            </li>
+                        ))}
+                    </ul>
+
+                    <p>{translation.services.approach.uniqueApproach}</p>
+                    <p>{translation.services.approach.riskAssessment}</p>
+
+                    {/* Этапы методологии */}
+                    <h3 className="text-xl font-semibold text-gray-900 mt-6">
+                        Этапы методологии
+                    </h3>
+
+                    {translation.services.stages.map((stage: {
+                        stage: number;
+                        title: string;
+                        description: string;
+                        steps: {
+                            title: string;
+                            factors?: string[];
+                            description?: string;
+                            steps?: string[];
+                            result?: string;
+                        }[];
+                    }, index: number) => (
+                        <div key={index} className="mt-4">
+                            {/* Заголовок этапа */}
+                            <h4 className="text-lg font-bold text-gray-900">
+                                {stage.stage}. {stage.title}
+                            </h4>
+
+                            {/* Описание этапа */}
+                            <p>{stage.description}</p>
+
+                            {/* Шаги этапа */}
+                            {stage.steps && stage.steps.length > 0 && (
+                                <ul className="list-disc pl-5 mt-2">
+                                    {stage.steps.map((step: {
+                                        title: string;
+                                        factors?: string[];
+                                        description?: string;
+                                        steps?: string[];
+                                        result?: string;
+                                    }, stepIndex: number) => (
+                                        <li key={stepIndex}>
+                                            {typeof step === 'string' ? step : (
+                                                <>
+                                                    <strong>{step.title}</strong>
+                                                    <ul className="list-disc pl-5">
+                                                        {step.factors?.map((factor: string, factorIndex: number) => (
+                                                            <li key={factorIndex}>{factor}</li>
+                                                        ))}
+                                                    </ul>
+                                                    <p>{step.description}</p>
+                                                    {step.steps && (
+                                                        <ul className="list-disc pl-5 mt-2">
+                                                            {step.steps.map((subStep: string, subStepIndex: number) => (
+                                                                <li key={subStepIndex}>{subStep}</li>
+                                                            ))}
+                                                        </ul>
+                                                    )}
+                                                    <p>{step.result}</p>
+                                                </>
+                                            )}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </div>
+                    ))}
                 </CardContent>
             </Card>
 

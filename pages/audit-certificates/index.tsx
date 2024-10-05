@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { cn } from '@/lib/utils';
 import { Container } from '@/components/Container';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
 import TranslateContext from '@/contexts/useTranslate';
 
@@ -20,6 +20,7 @@ const Index: React.FC<Props> = ({ className }) => {
             <Card>
                 <CardHeader>
                     <CardTitle>{translation?.title}</CardTitle>
+                    <CardDescription className='mt-2 text-base lg:text-lg'>{translation?.description}</CardDescription>
                 </CardHeader>
                 <CardContent className='grid grid-cols-4 justify-center items-center gap-5'>
                     <div className='w-full h-full border border-gray-200'>
@@ -50,9 +51,6 @@ const Index: React.FC<Props> = ({ className }) => {
                         <Image src={"/auditor_certificates/auditor_9.jpg"} alt="certificate" width={300} height={200} />
                     </div>
                 </CardContent>
-                <CardFooter>
-                    <CardDescription className='mt-2 text-base lg:text-lg'>{translation?.description}</CardDescription>
-                </CardFooter>
             </Card>
         </Container>
     );

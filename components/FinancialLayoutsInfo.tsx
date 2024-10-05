@@ -40,9 +40,9 @@ export default function FinancialLayoutsInfo({ translation }: {
         <div className="container mx-auto py-6 space-y-6 mb-20">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-10"><span className="text-cblue">{translation?.title}</span> {translation?.subtitle}</h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <Link href={'/services/general-information'}>
-                    <Card>
+            <div className="flex flex-wrap gap-6">
+                <Link href={'/services/general-information'} className="flex-grow">
+                    <Card className="flex flex-col h-full">
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
@@ -51,13 +51,14 @@ export default function FinancialLayoutsInfo({ translation }: {
                                 {translation?.generalInformation?.title}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="flex-grow">
                             {translation?.generalInformation?.description}
                         </CardContent>
                     </Card>
                 </Link>
-                <Link href={"/services/crisis-management"}>
-                    <Card>
+
+                <Link href={"/services/audit-technology"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
@@ -66,13 +67,14 @@ export default function FinancialLayoutsInfo({ translation }: {
                                 {translation?.antiCrisisManagement?.title}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="flex-grow">
                             {translation?.antiCrisisManagement?.description}
                         </CardContent>
                     </Card>
                 </Link>
-                <Link href={"/services/procedure-due-diligence"}>
-                    <Card>
+
+                <Link href={"/services/methodology-of-provided-services"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
@@ -81,13 +83,14 @@ export default function FinancialLayoutsInfo({ translation }: {
                                 {translation?.dueDiligence?.title}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="flex-grow">
                             {translation?.dueDiligence?.description}
                         </CardContent>
                     </Card>
                 </Link>
-                <Link href={"/services/required-audit"}>
-                    <Card>
+
+                <Link href={"/services/required-audit"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
@@ -96,11 +99,12 @@ export default function FinancialLayoutsInfo({ translation }: {
                                 {translation?.mandatoryAudit?.title}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent>{translation?.mandatoryAudit?.description}</CardContent>
+                        <CardContent className="flex-grow">{translation?.mandatoryAudit?.description}</CardContent>
                     </Card>
                 </Link>
-                <Link href={"/services/initiative-audit"}>
-                    <Card>
+
+                <Link href={"/services/initiative-audit"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
@@ -109,13 +113,14 @@ export default function FinancialLayoutsInfo({ translation }: {
                                 {translation?.initiativeAudit?.title}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="flex-grow">
                             {translation?.initiativeAudit?.description}
                         </CardContent>
                     </Card>
                 </Link>
-                <Link href={"/services/project-scholarship-audit"}>
-                    <Card>
+
+                <Link href={"/services/project-scholarship-audit"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
@@ -124,7 +129,7 @@ export default function FinancialLayoutsInfo({ translation }: {
                                 {translation?.auditOfProjects?.title}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="flex-grow">
                             {translation?.auditOfProjects?.description}
                         </CardContent>
                     </Card>

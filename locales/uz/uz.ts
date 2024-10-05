@@ -9,7 +9,7 @@ export const uz = {
                 p2: "Auditor sertifikatlari",
                 p3: "Bo'sh ish o'rinlari",
                 p4: "Mijozlar",
-                p5: "Asoschilar",
+                p5: "Asoschisi",
                 p6: "Ishlash prinsiplari",
                 p7: "Bizning mutaxassislar",
                 p8: "Boshqaruv"
@@ -49,7 +49,7 @@ export const uz = {
             p2: "Auditorlar sertifikatlari",
             p3: "Bo'sh ish o'rinlari",
             p4: "Mijozlar",
-            p5: "Asoschilar",
+            p5: "Asoschisi",
             p6: "Ishlash prinsiplari",
             p7: "Bizning mutaxassislar",
             p8: "Boshqaruv"
@@ -94,32 +94,33 @@ export const uz = {
     },
     "financial": {
         "title": "Xizmatlar",
-        "subtitle": "biz taklif qilamiz",
+        "subtitle": "biz taklif qiladigan",
         "generalInformation": {
-            "title": "Umumiy ma'lumot",
-            "description": "XMH (Evropa hisobot standartlari), GAAP (AQSH hisobot standartlari) va boshqa mamlakatlar bo‘yicha moliyaviy hisobotlarni tayyorlash va konsolidatsiyalash."
+            "title": "Umumiy Ma'lumot",
+            "description": "2004 yilda tashkil etilgan va o'n sakkiz yildan ortiq tajribaga ega bo'lgan 'JAVLON AUDIT SERVIS' audit tashkiloti katta korxonalar va xususiy tashkilotlar uchun keng turdagi audit va maslahat xizmatlarini taqdim etadi, ishining sifatiga va samaradorligiga hamda sohadagi ijobiy imidjini saqlashga e'tibor beradi."
         },
         "antiCrisisManagement": {
-            "title": "Krizisga qarshi boshqaruv",
-            "description": "U kompleks va tizimli xarakterga ega bo‘lib, biznes uchun noqulay hodisalarning oldini olish yoki bartaraf etishga qaratilgan bo‘lib, zamonaviy boshqaruvning barcha imkoniyatlaridan foydalaniladi."
+            "title": "Audit Texnologiyasi",
+            "description": "Zamonaviy texnologiyalar samarali audit o'tkazishda muhim rol o'ynaydi, individual ravishda sozlanadigan audit muhitini ta'minlaydi va bizning mutaxassislarimiz tomonidan ishlab chiqilgan dasturiy ta'minot va metodologiyalar auditning barcha bosqichlarini, jumladan rejalashtirish, ijro etish va hisobot berishni qo'llab-quvvatlashini kafolatlaydi, har bir mijozning noyob xavf va ehtiyojlariga e'tibor qaratadi."
         },
         "dueDiligence": {
-            "title": "Due Diligence protsedurasi",
-            "description": "Investitsiya obyekti to‘g‘risida ob'ektiv tasavvur hosil qilish jarayoni. Ushbu protseduralarni ob'ektiv va malakali o‘tkazishda ikki tomon ham manfaatdor."
+            "title": "Ta'minlanadigan Xizmatlar Metodologiyasi",
+            "description": "'Javlon audit servis' tashkilotining audit yondashuvi mijozning loyihasini tushunishga va ehtiyotkorona rejalashtirishga e'tibor qaratadi, bu esa jamoaning xabardorligini va vazifalarni bajarish samaradorligini ta'minlaydi; uning farqlovchi xususiyatlari xavflarni baholash asosida rejalashtirish, buxgalteriya tizimini tahlil qilish va to'plangan bilimlarni qo'llashni o'z ichiga oladi, va metodologiya to'rtta bosqichdan iborat: strategik rejalashtirish, axborot tizimlarini ko'rib chiqish, tranzaktsiyalarni batafsil sinovdan o'tkazish va moliyaviy hisobotni oxirgi baholash."
         },
         "mandatoryAudit": {
-            "title": "Majburiy audit",
-            "description": "Moliyaviy hisobot va unga bog'liq moliyaviy ma'lumotlarning ishonchliligi va hisobotlarning muvofiqligini aniqlash uchun audit tashkilotlari tomonidan tekshiriladi."
+            "title": "Majburiy Audit",
+            "description": "Audit iqtisodiy subyektlarning moliyaviy hisobotlari va unga aloqador moliyaviy ma'lumotlarini baholashni o'z ichiga oladi, ularning ishonchliligini va qonunchilikka muvofiqligini aniqlash maqsadida; majburiy yillik auditlar aksiyadorlik jamiyatlari, banklar, sug'urta tashkilotlari, investitsiya fondlari, xayriya fondlari, davlat ulushi bo'lgan korxonalar, birjalar va aktivlar, daromad va xodimlar soni bo'yicha ma'lum mezonlarga javob beradigan tijorat tashkilotlari uchun amalga oshiriladi."
         },
         "initiativeAudit": {
-            "title": "Tashabbuskor audit",
-            "description": "Bu xizmat korxona egalari uchun mo‘ljallangan bo‘lib, buxgalteriya hisobi holatini tekshirish, soliq hisobi holatini o‘rganish va korxonani boshqarish samaradorligini baholashga qaratilgan."
+            "title": "Ijtimoiy Audit",
+            "description": "Ijtimoiy audit tashkilot faoliyatining samaradorligini oshirish uchun kompleks tahlil taqdim etadi, ma'lum tashabbuslarga e'tibor qaratadi va belgilangan vaqt ichida o'tkaziladi, bunda barcha ishtirokchilar zarur hujjatlarni taqdim etishga majbur; uning maqsadlari tashabbuslarning samaradorligini baholash, turli iqtisodiy sektorlar va har qanday amalga oshirish bosqichidagi joriy loyihalarning kuchli va zaif tomonlarini aniqlashni o'z ichiga oladi, shuningdek qaror qabul qilish jarayonlari va resurslarni taqsimlashni yaxshilashga, auditni huquqiy shaxslar, ularning egalar, kamida besh foiz ulushga ega aktsionerlar va nazorat organlari tomonidan buyurtma qilish imkoniyatini taqdim etadi."
         },
         "auditOfProjects": {
-            "title": "Loyihalar va grantlar auditi",
-            "description": "O‘zbekiston Respublikasi byudjet mablag‘lari, Jahon banki, Osiyo taraqqiyot banki (OTB), BMTTD va boshqa notijorat tashkilotlari tomonidan moliyalashtirilgan loyihalar va grantlarning auditi o‘ziga xos xususiyatlarga ega."
+            "title": "Loyihalar va Grantlarni Audit",
+            "description": "O'zbekiston Respublikasi byudjet mablag'lari, Jahon Banki, Osiyo Taraqqiyot Banki, BMT Taraqqiyot Dasturi va boshqa notijorat tashkilotlari tomonidan moliyalashtiriladigan loyihalar va grantlar bo'yicha audit audit standartlariga muvofiq o'tkaziladi va ushbu hisobotlarni tayyorlashni o'z ichiga oladi, mablag'larning kelib chiqishi va sarf-xarajatlari bo'yicha audit, hisobotga ta'sir etuvchi hisobotlar va muhim hisob-kitoblar baholanishini o'z ichiga oladi."
         }
-    },
+    }
+    ,
     "servicesWeOffer": {
         "title": "XMH va ISA bo‘yicha audit xizmatlarini taklif qilamiz",
         "text_1": "Mijozning talabiga binoan, biz uning manfaatlarini soliq va boshqa organlar tomonidan o'tkaziladigan tekshiruvlar paytida himoya qilamiz, tekshiruv natijalari bo'yicha to'liq javobgarlikni o'z zimmamizga olamiz, shuningdek, audit o'tkazilgandan keyin kelgusi yil davomida bepul maslahatlar beramiz.",
@@ -154,25 +155,74 @@ export const uz = {
 
         description_3: "Audit narxi ish hajmi va audit o‘tkazish uchun zarur bo‘lgan mehnat xarajatlari, shuningdek, audit o‘tkaziladigan davr, filiallar mavjudligi, pul oqimlari hajmi, korxona hujjat aylanishi, ishchilar soni, faoliyat turi va korxonaning qaysi soliqlarni to‘lovchi ekanligiga asoslanadi.",
         services: {
-            title: "MCHJ 'Javlon Audit Servis' tomonidan taqdim etilayotgan xizmatlar:",
-            opt: [
-                "Moliyaviy hisobotlarni audit qilish",
-                "Moliyaviy hisobotlarni IFRS ga muvofiq aylantirish",
-                "Iqtisodiy faoliyat, bojxona qonunchiligi, hisob va soliq bo'yicha maslahatlar",
-                "Korxonalar uchun soliqni optimallashtirish",
-                "Korxona faoliyatini moliyaviy tahlil qilish",
-                "Ustav kapitalini shakllantirishning to'g'riligini audit qilish",
-                "Hisobni tiklash va yuritish",
-                "Maxsus masala audit",
-                "Korporativ boshqaruv tizimini baholash",
-                "Xarid va tender jarayonlarini audit qilish",
-                "Hisob siyosatini ishlab chiqish (NASB va IFRS)",
-                "Soliq siyosatini ishlab chiqish",
-                "Hujjat aylanishi bo'yicha nizomlarni ishlab chiqish",
-                "Qimmatli qog'ozlar va investitsiya paketlarini audit qilish",
-                "Due diligence (olingan kompaniya audit)",
-                "Mulkni inventarizatsiya qilish",
-                "Boshqa xizmatlar"
+            "title": "Ta'minlangan xizmatlar metodologiyasi",
+            "approach": {
+                "description": "«Javlon audit servis» auditorlik tashkilotining auditorlik yondoshuvi mijozning loyihasini tushunishga qaratilgan va tegishli rejalashtirishga vaqt va resurslarni sarflaydi. Bu xodimlarning xabardorligini ta'minlaydi, bu esa ularga topshiriqni samarali bajarishga imkon beradi.",
+                "keyFeatures": [
+                    "Xatarni hisobga olgan holda rejalashtirish",
+                    "Auditorlik xatarini baholash",
+                    "Moliyaviy hisobotni tuzish uchun hisob tizimi va nazoratlarni tahlil qilish",
+                    "O'xshash loyihalarga oid to'plangan bilimlarni qo'llash",
+                    "Kasbiy fikrga e'tibor"
+                ],
+                "uniqueApproach": "Biz har bir auditning noyob ekanligini tan olamiz va shunga ko'ra har bir loyihaga mos keladigan malakali xodimlar jamoasi yuboriladi, bu esa eng yuqori sifatga erishishga imkon beradi.",
+                "riskAssessment": "Bizning metodologiyamizning asosiy qismi loyiha ustida ishlaydigan jamoaning kattalari tomonidan xatarlarni baholash bilan bog'liq, chunki bu xatarlar loyiha uchun ta'sir qiladi."
+            },
+            "stages": [
+                {
+                    "stage": 1,
+                    "title": "Strategik rejalashtirish",
+                    "description": "Loyihaga aloqador muayyan muammolarni aniqlash maqsadida auditorlik yondoshuvimizni oldindan rejalashtirish zarur. Rejalashtirish bosqichi bir qator bosqichlardan iborat bo'lib, strategiyani ko'rib chiqish va ma'lumot yig'ishni o'z ichiga oladi.",
+                    "steps": [
+                        {
+                            "title": "Strategiyani ko'rib chiqish",
+                            "factors": [
+                                "Ichki nazorat sifatini baholash",
+                                "Hisob yuritish murakkabligi",
+                                "Subyektivlik va aniqlik yetishmasligi va ruxsatsiz tranzaksiyalar ehtimoli, nazorat tizimining e'tiborsizligi"
+                            ]
+                        },
+                        {
+                            "title": "Ma'lumot yig'ish",
+                            "description": "Ma'lumot yig'ish bizning yondoshuvimizda muhim bosqich bo'lib, uch yo'nalishda amalga oshiriladi:",
+                            "steps": [
+                                "Loyihaning hisob-kitoblari va yozuvlarini ko'rib chiqish",
+                                "Rejalashtirish bosqichida bizning so'rovimiz bo'yicha tayyorlangan loyihaning ma'lumotlarini ko'rib chiqish",
+                                "Loyihaning kundalik operatsiyalarini tushunish maqsadida rahbariyat bilan muzokaralar o'tkazish"
+                            ],
+                            "result": "Rejalashtirish jarayoni ishonchlilik va auditorlik xatari potentsial sohalarini oldindan baholashni taqdim etadi. Biz moliyaviy ma'lumotlarni o'rganamiz, uning loyihaning rivojlanishi haqidagi tushunchamiz bilan uzviyligini baholaymiz va talab etilayotgan auditorlik darajasini tayyorlaymiz."
+                        }
+                    ]
+                },
+                {
+                    "stage": 2,
+                    "title": "Axborot tizimlarini ko'rib chiqish",
+                    "description": "Ushbu bosqichda auditorlik jamoasi hisob tizimlari va nazoratlarni tushunadi va ularning auditorlik yondoshuviga ta'sirini tahlil qiladi. Ushbu tadqiqotlarning natijalariga asoslanib, keyingi auditorlik bosqichlari uchun batafsil ish dasturlarini tuzamiz. Shuningdek, auditorlik jarayonida rahbariyat ma'lumotlari va nazorat tizimlarini takomillashtirish mumkin bo'lgan sohalarni aniqlaymiz va ularni takomillashtirishning samarali usullarini taklif qilamiz."
+                },
+                {
+                    "stage": 3,
+                    "title": "Tranzaksiyalar va qoldiqlarni batafsil sinovdan o'tkazish",
+                    "description": "Loyihaning moliyaviy hisobotlarini auditorlik tekshiruvi komponentlarga bo'linadi va har bir komponent uchun bajariladigan ish darajasi kasbiy fikr bilan aniqlanadi.",
+                    "tests": [
+                        "Mulk va majburiyatlarni o'z vaqtida va to'g'ri aks ettirishini tasdiqlash maqsadida auditorlik dalillarini olish",
+                        "Zarur bo'lganda uchinchi tomondan to'g'ridan-to'g'ri tasdiqlovlarni olish",
+                        "Bankdan tasdiqlovlarni o'z ichiga olgan hisob-kitoblarni sinovdan o'tkazish",
+                        "Hisob-kitoblar bo'yicha hisobning umumiy summalarini tegishli hisobvaraqlarga, shu jumladan asosiy daftarga, buyruq jurnallariga, shartnomalar va boshqa hujjatlarga taqqoslash",
+                        "Tranzaksiyalarni tasdiqlovchi hujjatlarga taqqoslash"
+                    ]
+                },
+                {
+                    "stage": 4,
+                    "title": "Auditni yakunlash",
+                    "description": "Ushbu bosqichda biz korxonaning audit natijalarini to'playmiz va moliyaviy hisobot bo'yicha fikr bildiramiz.",
+                    "steps": [
+                        "Hisobotni batafsil tahlil qilish",
+                        "Moliyaviy ma'lumotlarning umumiy ko'rinishi baholash",
+                        "Auditorlik jarayonida yuzaga kelgan masalalar bo'yicha rahbariyat bilan batafsil muhokamalar",
+                        "Auditorlik tashkilotining hamkorlari va menejerlari tomonidan olib borilgan ishlarni tekshirish",
+                        "Moliyaviy hisobotga kiritilgan summalarning ishonchliligi va ob'ektiv ko'rsatilishi bo'yicha umumiy xulosa"
+                    ]
+                }
             ]
         },
         clients: {
@@ -450,10 +500,10 @@ export const uz = {
             }
         },
         "founders": {
-            "title": "Asoschilar",
+            "title": "Asoschisi",
             "name": "LLC 'Javlon Audit Servis' asoschisi Nuriddinova Shahnaz Tairovna",
             "description": "Asosiy faoliyat o'z mijozlariga audit tekshiruvlari va audit faoliyati to'g'risidagi qonunga, Xalqaro audit standartlariga, hisobga olish standartlariga muvofiq audit xizmatlarini taqdim etishdan iborat. Bu xizmatlar hisobga olish sohasida, hisobni tiklash va olib borish, soliq xizmatlari, maslahat va dasturiy ta'minotni o'z ichiga oladi.",
-            "takingPart": "Ishtirok",
+            "takingPart": "Jahon Kongresslaridagi ishtirokchi",
             "events": [
                 {
                     "date": "Noyabr, 2014.",
@@ -607,17 +657,77 @@ export const uz = {
             "section_2": "Dastur auditning barcha bosqichlarini rejalashtirish, bajarish va hisobot berishni qo‘llab-quvvatlaydi va auditga oid ma’lumotlarni tahlil qilish, hujjatlashtirish, boshqarish va o‘zaro bog‘lash uchun zarur bo‘lgan vositalarni o‘z ichiga oladi."
         },
         "methodologyOfProvidedServices": {
-            "title": "TA'MINLANADIGAN XIZMATLAR METODOLOGIYASI",
-            "introduction": "«Javlon audit servis» audit tashkilotining audit yondoshuvi mijozning loyihasini tushunishga qaratilgan va mos rejalashtirish uchun vaqt va resurslarni sarflaydi. Bu xodimlarning ma'lumotli bo'lishini ta'minlaydi va ularga ushbu vazifani samarali bajarish imkonini beradi.",
-            "section_1": "Tashkilotning yondoshuvini ajratib turadigan quyidagi xususiyatlar: xavfni baholashga asoslangan rejalashtirish; audit riskini baholash; moliyaviy hisobotni tayyorlash uchun hisob tizimi va nazoratlarni tahlil qilish; o'xshash loyihalar bo'yicha to'plangan bilimlardan foydalanish; professional fikrga e'tibor berish. Har bir auditning noyobligini tan olishimiz kerak, shuning uchun har bir loyihaga maksimal sifatga erishish uchun mos malakali xodimlar jamoasi tayinlanadi.",
-            "section_2": "Bizning metodologiyamizning asosiy qismi loyihada ishlayotgan jamoa a'zolari tomonidan risklarni baholash bilan bog'liq, chunki bu risklar loyihaga ta'sir qiladi. Bizning audit metodologiyamizni tashkil etuvchi to'rt bosqich quyidagilardan iborat:",
-            "points": [
-                "1-bosqich - Strategik rejalashtirish: Loyihaga bog'liq maxsus muammolarni aniqlash maqsadida auditga yondoshuvimizni oldindan rejalashtirishimiz kerak. Rejalashtirish bosqichi bir qator bosqichlardan iborat bo'lib, strategiyani ko'rib chiqish va ma'lumot to'plashni o'z ichiga oladi.",
-                "2-bosqich - Axborot tizimlarini ko'rib chiqish: Ushbu bosqichda audit jamoasi hisob tizimlari va nazoratlar haqida tushunchaga ega bo'ladi va ularning audit yondoshuviga ta'sirini tahlil qiladi. Ushbu tadqiqotlar natijalariga asoslanib, biz keyingi audit bosqichlari uchun batafsil ish dasturlarini ishlab chiqamiz.",
-                "3-bosqich - Transaksiyalar va qoldiqlarni batafsil sinovdan o'tkazish: Loyihaning moliyaviy hisobotlarini audit qilish komponentlarga bo'linadi va har bir texnik moliyaviy hisobot komponenti bo'yicha ish hajmi professional fikrga ko'ra aniqlanadi.",
-                "4-bosqich - Auditni yakunlash: Ushbu bosqichda biz korxona bo'yicha auditimiz natijalarini to'playmiz va moliyaviy hisobotlar bo'yicha fikrlar bildiramiz. Ushbu bosqich quyidagilarni o'z ichiga oladi: Hisobotlarni batafsil tahlil qilish; Moliyaviy ma'lumotlarning umumiy taqdimotini baholash; Audit jarayonida yuzaga kelgan masalalar bo'yicha rahbariyat bilan batafsil muhokama; Audit tashkilotining hamkorlari va menejerlari tomonidan bajarilgan ishni ko'rib chiqish; Moliyaviy hisobotga kiritilgan summalarning ishonchliligi va obyektiv taqdimotiga umumiy xulosa."
+            "title": "Ta'minlangan xizmatlar metodologiyasi",
+            "approach": {
+                "description": "«Javlon audit servis» auditorlik tashkilotining auditorlik yondoshuvi mijozning loyihasini tushunishga qaratilgan va tegishli rejalashtirishga vaqt va resurslarni sarflaydi. Bu xodimlarning xabardorligini ta'minlaydi, bu esa ularga topshiriqni samarali bajarishga imkon beradi.",
+                "keyFeatures": [
+                    "Xatarni hisobga olgan holda rejalashtirish",
+                    "Auditorlik xatarini baholash",
+                    "Moliyaviy hisobotni tuzish uchun hisob tizimi va nazoratlarni tahlil qilish",
+                    "O'xshash loyihalarga oid to'plangan bilimlarni qo'llash",
+                    "Kasbiy fikrga e'tibor"
+                ],
+                "uniqueApproach": "Biz har bir auditning noyob ekanligini tan olamiz va shunga ko'ra har bir loyihaga mos keladigan malakali xodimlar jamoasi yuboriladi, bu esa eng yuqori sifatga erishishga imkon beradi.",
+                "riskAssessment": "Bizning metodologiyamizning asosiy qismi loyiha ustida ishlaydigan jamoaning kattalari tomonidan xatarlarni baholash bilan bog'liq, chunki bu xatarlar loyiha uchun ta'sir qiladi."
+            },
+            "stages": [
+                {
+                    "stage": 1,
+                    "title": "Strategik rejalashtirish",
+                    "description": "Loyihaga aloqador muayyan muammolarni aniqlash maqsadida auditorlik yondoshuvimizni oldindan rejalashtirish zarur. Rejalashtirish bosqichi bir qator bosqichlardan iborat bo'lib, strategiyani ko'rib chiqish va ma'lumot yig'ishni o'z ichiga oladi.",
+                    "steps": [
+                        {
+                            "title": "Strategiyani ko'rib chiqish",
+                            "factors": [
+                                "Ichki nazorat sifatini baholash",
+                                "Hisob yuritish murakkabligi",
+                                "Subyektivlik va aniqlik yetishmasligi va ruxsatsiz tranzaksiyalar ehtimoli, nazorat tizimining e'tiborsizligi"
+                            ]
+                        },
+                        {
+                            "title": "Ma'lumot yig'ish",
+                            "description": "Ma'lumot yig'ish bizning yondoshuvimizda muhim bosqich bo'lib, uch yo'nalishda amalga oshiriladi:",
+                            "steps": [
+                                "Loyihaning hisob-kitoblari va yozuvlarini ko'rib chiqish",
+                                "Rejalashtirish bosqichida bizning so'rovimiz bo'yicha tayyorlangan loyihaning ma'lumotlarini ko'rib chiqish",
+                                "Loyihaning kundalik operatsiyalarini tushunish maqsadida rahbariyat bilan muzokaralar o'tkazish"
+                            ],
+                            "result": "Rejalashtirish jarayoni ishonchlilik va auditorlik xatari potentsial sohalarini oldindan baholashni taqdim etadi. Biz moliyaviy ma'lumotlarni o'rganamiz, uning loyihaning rivojlanishi haqidagi tushunchamiz bilan uzviyligini baholaymiz va talab etilayotgan auditorlik darajasini tayyorlaymiz."
+                        }
+                    ]
+                },
+                {
+                    "stage": 2,
+                    "title": "Axborot tizimlarini ko'rib chiqish",
+                    "description": "Ushbu bosqichda auditorlik jamoasi hisob tizimlari va nazoratlarni tushunadi va ularning auditorlik yondoshuviga ta'sirini tahlil qiladi. Ushbu tadqiqotlarning natijalariga asoslanib, keyingi auditorlik bosqichlari uchun batafsil ish dasturlarini tuzamiz. Shuningdek, auditorlik jarayonida rahbariyat ma'lumotlari va nazorat tizimlarini takomillashtirish mumkin bo'lgan sohalarni aniqlaymiz va ularni takomillashtirishning samarali usullarini taklif qilamiz."
+                },
+                {
+                    "stage": 3,
+                    "title": "Tranzaksiyalar va qoldiqlarni batafsil sinovdan o'tkazish",
+                    "description": "Loyihaning moliyaviy hisobotlarini auditorlik tekshiruvi komponentlarga bo'linadi va har bir komponent uchun bajariladigan ish darajasi kasbiy fikr bilan aniqlanadi.",
+                    "tests": [
+                        "Mulk va majburiyatlarni o'z vaqtida va to'g'ri aks ettirishini tasdiqlash maqsadida auditorlik dalillarini olish",
+                        "Zarur bo'lganda uchinchi tomondan to'g'ridan-to'g'ri tasdiqlovlarni olish",
+                        "Bankdan tasdiqlovlarni o'z ichiga olgan hisob-kitoblarni sinovdan o'tkazish",
+                        "Hisob-kitoblar bo'yicha hisobning umumiy summalarini tegishli hisobvaraqlarga, shu jumladan asosiy daftarga, buyruq jurnallariga, shartnomalar va boshqa hujjatlarga taqqoslash",
+                        "Tranzaksiyalarni tasdiqlovchi hujjatlarga taqqoslash"
+                    ]
+                },
+                {
+                    "stage": 4,
+                    "title": "Auditni yakunlash",
+                    "description": "Ushbu bosqichda biz korxonaning audit natijalarini to'playmiz va moliyaviy hisobot bo'yicha fikr bildiramiz.",
+                    "steps": [
+                        "Hisobotni batafsil tahlil qilish",
+                        "Moliyaviy ma'lumotlarning umumiy ko'rinishi baholash",
+                        "Auditorlik jarayonida yuzaga kelgan masalalar bo'yicha rahbariyat bilan batafsil muhokamalar",
+                        "Auditorlik tashkilotining hamkorlari va menejerlari tomonidan olib borilgan ishlarni tekshirish",
+                        "Moliyaviy hisobotga kiritilgan summalarning ishonchliligi va ob'ektiv ko'rsatilishi bo'yicha umumiy xulosa"
+                    ]
+                }
             ]
-        },
+        }
+        ,
         requiredAudit: {
             "title": "Majburiy audit",
             "introduction": "Audit — bu iqtisodiy sub'ektning moliyaviy hisobotlari va u bilan bog'liq bo'lgan moliyaviy ma'lumotlarni auditorlik tashkilotlari tomonidan ishonchliligini va moliyaviy hisobotlarning qonun hujjatlariga muvofiqligini o'rganish jarayonidir...",

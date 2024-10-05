@@ -9,7 +9,7 @@ export const en = {
                 p2: "Auditor certificates",
                 p3: "Vacancies",
                 p4: "Clients",
-                p5: "Founders",
+                p5: "Founder",
                 p6: "Operating principles",
                 p7: "Our specialists",
                 p8: "Management"
@@ -49,7 +49,7 @@ export const en = {
             p2: "Auditor certificates",
             p3: "Vacancies",
             p4: "Clients",
-            p5: "Founders",
+            p5: "Founder",
             p6: "Operating principles",
             p7: "Our specialists",
             p8: "Management"
@@ -92,32 +92,32 @@ export const en = {
         text: "The auditing firm «JAVLON AUDIT SERVIS», operating as a limited liability company, is pleased to offer you its services in the field of auditing, in accordance with the Law on Auditing Activities, International Standards on Auditing, and accounting and financial reporting standards.",
         button: "More"
     },
-    financial: {
-        title: "Services",
-        subtitle: "that we offer",
-        generalInformation: {
-            title: "General information",
-            description: "Preparation and consolidation of financial statements in accordance with IFRS (IFRS (European reporting standards), GAAP (US reporting standards), several other countries)."
+    "financial": {
+        "title": "Services",
+        "subtitle": "that we offer",
+        "generalInformation": {
+            "title": "General Information",
+            "description": "The auditing organization 'JAVLON AUDIT SERVIS', founded in 2004 and having more than eighteen years of experience, provides a wide range of auditing and consulting services for large enterprises and private organizations, focusing on the quality and efficiency of its work, as well as maintaining a positive image in the industry."
         },
-        antiCrisisManagement: {
-            title: "Anti-crisis management",
-            description: "It has a comprehensive, systemic nature and is aimed at preventing or eliminating phenomena unfavorable for business by using the full potential of modern management."
+        "antiCrisisManagement": {
+            "title": "Auditing Technology",
+            "description": "Modern technologies play a key role in conducting effective audits, providing a customizable auditing environment and ensuring that the software and methodologies developed by our specialists support all phases of the audit, including planning, execution, and reporting, with an emphasis on the unique risks and needs of each client."
         },
-        dueDiligence: {
-            title: "Due Diligence procedure",
-            description: "The procedure for forming an objective idea of ​​the investment object. Both parties are interested in the objective and competent conduct of these procedures."
+        "dueDiligence": {
+            "title": "Methodology of Services Provided",
+            "description": "The auditing approach of the organization 'Javlon audit servis' emphasizes understanding the client's project and careful planning, which ensures team awareness and efficiency in task execution; its distinguishing characteristics include risk-based planning, analysis of the accounting system, and the application of accumulated knowledge, and the methodology consists of four stages: strategic planning, review of information systems, detailed testing of transactions, and final assessment of financial reporting."
         },
-        mandatoryAudit: {
-            title: "Mandatory audit",
-            description: "Review by audit organizations of financial statements and related financial information of a business entity in order to establish the reliability and compliance of financial statements."
+        "mandatoryAudit": {
+            "title": "Mandatory Audit",
+            "description": "The audit involves assessing the financial statements and related financial information of economic entities to establish their reliability and compliance with legislation; mandatory annual audits are required for joint-stock companies, banks, insurance organizations, investment funds, charitable funds, enterprises with state participation, exchanges, and commercial organizations that meet certain criteria regarding assets, revenue, and number of employees."
         },
-        initiativeAudit: {
-            title: "Initiative audit",
-            description: "This is a service addressed to the owners of the enterprise, for examination of the state of accounting, examination of the state of tax accounting and assessment of the efficiency of enterprise management."
+        "initiativeAudit": {
+            "title": "Initiative Audit",
+            "description": "The initiative audit provides a comprehensive analysis to improve the efficiency of organizational activities, focusing on specific initiatives and conducted within a set timeframe, with all participants required to provide necessary documentation; its objectives include assessing the effectiveness of initiatives, identifying strengths and weaknesses of current projects in various sectors of the economy and at any stage of implementation, as well as improving decision-making processes and resource allocation, with the possibility of ordering the audit by legal entities, their owners, shareholders with at least five percent equity, and controlling authorities."
         },
-        auditOfProjects: {
-            title: "Audit of projects and grants",
-            description: "Audit of Projects and Grants financed from budgetary funds of the Republic of Uzbekistan, the World Bank, Asian Development Bank (ADB), UNDP and other non-profit organizations has its own specifics."
+        "auditOfProjects": {
+            "title": "Audit of Projects and Grants",
+            "description": "The audit of projects and grants funded from the budgetary funds of the Republic of Uzbekistan, the World Bank, the Asian Development Bank, UNDP, and other non-profit organizations is conducted in accordance with auditing standards and includes the preparation of a plan based on guidelines or technical specifications, focusing on auditing reports on the sources of income and expenditures, auditing accountable accounts, assessing accounting policies and significant calculations, as well as checking for adequate supporting documentation related to expenditure statements and reimbursement requests."
         }
     },
     servicesWeOffer: {
@@ -152,25 +152,74 @@ export const en = {
         description_2: "In line with the tasks of audit organizations, we perform an analysis and confirmation of the reliability of financial statements of an economic entity based on a real and objective assessment of the efficiency of economic activity. We develop constructive proposals to improve the efficiency of economic entities. By identifying risks and problems for each client and considering their individual needs, we ensure that all issues related to legislation, operations, and the financial reporting system are properly addressed. The reputation of our audit organization is of great importance to us, and for this reason, our specialists with auditor qualification certificates create and maintain a sustainable positive image of the organization. The organization has ten employees, including 4 certified auditors, 4 auditor assistants, 1 securities expert, 1 construction specialist, and others working on a contractual basis. Two specialists hold CIPA certificates (Certified International Professional Accountant), and five specialists have CAP certificates (Certified Accounting Practitioner). Upon request from the client, we defend their interests during inspections by tax authorities and other bodies, take full responsibility for the audit results, and provide free consultations for the following year after the audit. We guarantee the high quality of our audit services and assume responsibility for any inaccurate audit conclusions. We sincerely thank you for your attention and look forward to long-term mutually beneficial cooperation. Should you be interested in partnering with our organization, we are ready to meet with you at any convenient time to discuss the details.",
         description_3: "The cost of an audit is determined based on the scope of work and the labor required to conduct the audit, as well as the audit period, the presence of branches, the size of cash flows, the company's document turnover, the number of employees, the type of business, and the taxes the company is liable to pay.",
         services: {
-            title: "Services Provided by LLC 'JavlonAuditServis':",
-            opt: [
-                "Audit of financial statements",
-                "Transformation of financial statements in accordance with IFRS",
-                "Consulting on economic activities, customs legislation, accounting and taxation",
-                "Tax optimization for enterprises",
-                "Financial analysis of enterprise activities",
-                "Audit of the correctness of forming the authorized capital",
-                "Restoration and maintenance of accounting",
-                "Special issue audit",
-                "Evaluation of the corporate governance system",
-                "Audit of procurement and procurement procedures",
-                "Development of accounting policy (NASB and IFRS)",
-                "Development of tax policy",
-                "Development of document flow regulations",
-                "Audit of securities and investment packages",
-                "Due diligence (audit of the acquired company)",
-                "Conducting inventory of assets",
-                "Other services"
+            "title": "Methodology of Provided Services",
+            "approach": {
+                "description": "The audit approach of the auditing organization «Javlon audit servis» is aimed at understanding the client’s project, as well as investing time and resources in proper planning. This ensures that employees are well-informed, which allows them to efficiently complete the task.",
+                "keyFeatures": [
+                    "Risk-based planning",
+                    "Audit risk assessment",
+                    "Analysis of the accounting system and controls as the basis for preparing financial statements",
+                    "Applying accumulated knowledge from similar projects",
+                    "Emphasis on professional judgment"
+                ],
+                "uniqueApproach": "We recognize that every audit is unique, and therefore a team of employees with the appropriate qualifications is assigned to each project to achieve the highest quality.",
+                "riskAssessment": "A key part of our methodology is related to risk assessment by senior members of the team working on the project, as these risks impact the project."
+            },
+            "stages": [
+                {
+                    "stage": 1,
+                    "title": "Strategic Planning",
+                    "description": "We need to plan our audit approach in advance, in order to identify specific issues related to the project. The planning stage consists of several phases, including a strategy review and information gathering.",
+                    "steps": [
+                        {
+                            "title": "Strategy Review",
+                            "factors": [
+                                "Quality of internal control",
+                                "Complexity of accounting",
+                                "Inherent subjectivity, lack of precision, possibility of unauthorized transactions, neglect of control systems"
+                            ]
+                        },
+                        {
+                            "title": "Information Gathering",
+                            "description": "Information gathering is an important step in our approach and is carried out in three directions:",
+                            "steps": [
+                                "Review of the project’s accounting books and records",
+                                "Review of information prepared by the project at our request during the planning phase",
+                                "Discussions with management to understand the daily operations of the project"
+                            ],
+                            "result": "The planning process provides a preliminary assessment of reliability and potential areas of audit risk. We will review financial information, assess its consistency with our understanding of the project, and prepare a preliminary analysis of the required audit level."
+                        }
+                    ]
+                },
+                {
+                    "stage": 2,
+                    "title": "Information Systems Review",
+                    "description": "At this stage, the audit team will gain an understanding of the accounting systems and controls and analyze their impact on the audit approach. Based on the results of these studies, we will develop detailed work programs for the next stages of the audit. Also, throughout the audit, we will identify areas where management information and control systems can be improved, and offer effective methods for improvement."
+                },
+                {
+                    "stage": 3,
+                    "title": "Detailed Testing of Transactions and Balances",
+                    "description": "The audit of the project's financial statements will be divided into components, and the degree of work on each component of the financial reporting will be determined by professional judgment.",
+                    "tests": [
+                        "Obtaining audit evidence to ensure the timely and accurate reflection of assets and liabilities",
+                        "Where necessary, obtaining direct confirmations from third parties",
+                        "Testing reconciliations, including bank confirmations",
+                        "Reconciliation of balance sheet amounts with the respective account balances, including the general ledger, journals, contracts, and other documents",
+                        "Reconciliation of transactions with supporting documents"
+                    ]
+                },
+                {
+                    "stage": 4,
+                    "title": "Audit Completion",
+                    "description": "At this stage, we will gather all the results of our audit for the entity and express our opinions on the financial statements as a whole.",
+                    "steps": [
+                        "Detailed analytical review of the reports",
+                        "Evaluation of the overall presentation of financial information",
+                        "Detailed discussions with management regarding issues arising during the audit",
+                        "Review of work performed by the partners and managers of the audit organization",
+                        "Overall conclusion on the reliability and objective presentation of amounts included in the financial statements"
+                    ]
+                }
             ]
         },
         clients: {
@@ -471,10 +520,10 @@ export const en = {
             }
         },
         "founders": {
-            "title": "Founders",
+            "title": "Founder",
             "name": "The founder of LLC 'Javlon Audit Servis' Nuriddinova Shahnaz Tairovna",
             "description": "The main activity is to provide its clients with audit services in the form of audit checks and related services in accordance with the Law on Audit Activities, International Audit Standards in accordance with accounting standards, services in the field of accounting, restoration and maintenance of accounting, tax services, consulting, and software.",
-            "takingPart": "Participation",
+            "takingPart": "Participant in the World Congresses",
             "events": [
                 {
                     "date": "November, 2014.",
@@ -628,15 +677,74 @@ export const en = {
             "section_2": "It supports all phases of the audit planning, execution, and reporting and includes the necessary tools for analysis, documentation, management, and interaction of audit-related information."
         },
         "methodologyOfProvidedServices": {
-            "title": "Methodology of provided services",
-            "introduction": "The audit approach of the audit organization «Javlon audit servis» is aimed at understanding the client’s project and invests time and resources into proper planning. This ensures that staff are informed, allowing them to effectively carry out the task.",
-            "section_1": "The following characteristics distinguish the organization’s approach: Planning based on risk assessment; Evaluation of audit risk; Analysis of the accounting system and controls as a basis for preparing financial statements; Application of accumulated knowledge from similar projects; Emphasis on professional judgment. We acknowledge that each audit is unique, and therefore, a team of qualified staff is assigned to each project to achieve maximum quality.",
-            "section_2": "The main part of our methodology is related to risk assessment by the senior team members working on the project, as these risks impact the project. The following four stages make up our audit methodology:",
-            "points": [
-                "Stage 1 - Strategic Planning: We need to plan our approach to the audit in advance to identify specific issues related to the Project. The planning stage consists of several phases, including strategy review and information gathering.",
-                "Stage 2 - Review of Information Systems: At this stage, the audit team will gain an understanding of the accounting systems and controls and analyze their impact on the audit approach. Based on the results of these studies, we will develop detailed working programs for the next stages of the audit.",
-                "Stage 3 - Detailed Testing of Transactions and Balances: The audit of the Project's financial statements will be broken down into components, and the extent of work on each component of the technical financial reporting will be determined by professional judgment.",
-                "Stage 4 - Completion of the Audit: During this stage, we will gather all the results of our audit of the enterprise and express opinions on the financial statements as a whole. This stage includes: Detailed analytical review of the reporting; Assessment of the overall presentation of financial information; Detailed discussions with management regarding issues that arose during the audit; Review of the work performed by partners and managers of the audit organization; Overall conclusion on the reliability and fair presentation of the amounts included in the financial statements."
+            "title": "Methodology of Provided Services",
+            "approach": {
+                "description": "The audit approach of the auditing organization «Javlon audit servis» is aimed at understanding the client’s project, as well as investing time and resources in proper planning. This ensures that employees are well-informed, which allows them to efficiently complete the task.",
+                "keyFeatures": [
+                    "Risk-based planning",
+                    "Audit risk assessment",
+                    "Analysis of the accounting system and controls as the basis for preparing financial statements",
+                    "Applying accumulated knowledge from similar projects",
+                    "Emphasis on professional judgment"
+                ],
+                "uniqueApproach": "We recognize that every audit is unique, and therefore a team of employees with the appropriate qualifications is assigned to each project to achieve the highest quality.",
+                "riskAssessment": "A key part of our methodology is related to risk assessment by senior members of the team working on the project, as these risks impact the project."
+            },
+            "stages": [
+                {
+                    "stage": 1,
+                    "title": "Strategic Planning",
+                    "description": "We need to plan our audit approach in advance, in order to identify specific issues related to the project. The planning stage consists of several phases, including a strategy review and information gathering.",
+                    "steps": [
+                        {
+                            "title": "Strategy Review",
+                            "factors": [
+                                "Quality of internal control",
+                                "Complexity of accounting",
+                                "Inherent subjectivity, lack of precision, possibility of unauthorized transactions, neglect of control systems"
+                            ]
+                        },
+                        {
+                            "title": "Information Gathering",
+                            "description": "Information gathering is an important step in our approach and is carried out in three directions:",
+                            "steps": [
+                                "Review of the project’s accounting books and records",
+                                "Review of information prepared by the project at our request during the planning phase",
+                                "Discussions with management to understand the daily operations of the project"
+                            ],
+                            "result": "The planning process provides a preliminary assessment of reliability and potential areas of audit risk. We will review financial information, assess its consistency with our understanding of the project, and prepare a preliminary analysis of the required audit level."
+                        }
+                    ]
+                },
+                {
+                    "stage": 2,
+                    "title": "Information Systems Review",
+                    "description": "At this stage, the audit team will gain an understanding of the accounting systems and controls and analyze their impact on the audit approach. Based on the results of these studies, we will develop detailed work programs for the next stages of the audit. Also, throughout the audit, we will identify areas where management information and control systems can be improved, and offer effective methods for improvement."
+                },
+                {
+                    "stage": 3,
+                    "title": "Detailed Testing of Transactions and Balances",
+                    "description": "The audit of the project's financial statements will be divided into components, and the degree of work on each component of the financial reporting will be determined by professional judgment.",
+                    "tests": [
+                        "Obtaining audit evidence to ensure the timely and accurate reflection of assets and liabilities",
+                        "Where necessary, obtaining direct confirmations from third parties",
+                        "Testing reconciliations, including bank confirmations",
+                        "Reconciliation of balance sheet amounts with the respective account balances, including the general ledger, journals, contracts, and other documents",
+                        "Reconciliation of transactions with supporting documents"
+                    ]
+                },
+                {
+                    "stage": 4,
+                    "title": "Audit Completion",
+                    "description": "At this stage, we will gather all the results of our audit for the entity and express our opinions on the financial statements as a whole.",
+                    "steps": [
+                        "Detailed analytical review of the reports",
+                        "Evaluation of the overall presentation of financial information",
+                        "Detailed discussions with management regarding issues arising during the audit",
+                        "Review of work performed by the partners and managers of the audit organization",
+                        "Overall conclusion on the reliability and objective presentation of amounts included in the financial statements"
+                    ]
+                }
             ]
         },
         requiredAudit: {
