@@ -122,8 +122,8 @@ export const uz = {
     },
     "servicesWeOffer": {
         "title": "XMH va ISA bo‘yicha audit xizmatlarini taklif qilamiz",
-        "text_1": "Bugungi kunda Xalqaro moliyaviy hisobot standartlari (XMH) O‘zbekistonda tobora ommalashib bormoqda. 2015 yil 24 aprel kuni qabul qilingan Prezidentning PQ-4720-sonli farmoniga ko‘ra, 2015-2018 yillarda barcha aksiyadorlik jamiyatlari Xalqaro audit standartlari va Xalqaro moliyaviy hisobot standartlariga muvofiq yillik moliyaviy hisobotlarni e’lon qilish va tashqi auditni amalga oshirishga o‘tadilar. XMH va ISA bo‘yicha xizmatlar, shuningdek, O‘zbekiston hududida ro‘yxatdan o‘tgan korxonalarda ulushga ega bo‘lgan xorijiy investorlar uchun ham dolzarbdir.",
-        "text_2": "XMH standartlari (XMH, GAAP) dunyoning ko‘plab kompaniyalarining moliyaviy hisobotlarini tayyorlashda qo‘llaniladi. O‘zbekiston kompaniyalari uchun XMH qo‘llanilishi menejerlarga boshqaruv samaradorligini sezilarli darajada oshiradigan ma'lumotlarni taqdim etadi va bozor va aksiyadorlar bilan malakali muloqot qilish imkonini beradi. Bizning XMH bo‘yicha xizmatlarimiz quyidagilarni o‘z ichiga oladi:",
+        "text_1": "Mijozning talabiga binoan, biz uning manfaatlarini soliq va boshqa organlar tomonidan o'tkaziladigan tekshiruvlar paytida himoya qilamiz, tekshiruv natijalari bo'yicha to'liq javobgarlikni o'z zimmamizga olamiz, shuningdek, audit o'tkazilgandan keyin kelgusi yil davomida bepul maslahatlar beramiz.",
+        "text_2": "Biz audit xizmatlarining yuqori sifatini kafolatlaymiz va noto'g'ri audit xulosasi uchun javobgarlik riskini o'z zimmamizga olamiz. Sizning e'tiboringiz uchun chin dildan rahmat aytamiz va uzoq muddatli o'zaro manfaatli hamkorlikka umid qilamiz.",
         "button": "Batafsil"
     },
     "forma": {
@@ -243,6 +243,7 @@ export const uz = {
         },
         auditorCertificates: {
             title: "Auditorlar sertifikatlari",
+            description: "Tashkilotda to'qqiz nafar xodim ishlaydi, ulardan: 4 ta sertifikatlangan auditor, 4 ta auditor yordamchisi, 1 ta qimmatli qog'ozlar bo'yicha mutaxassis, 1 ta qurilish bo'yicha mutaxassis va boshqa shartnomaga asosan. Ikki mutaxassis CIPA (Sertifikatlangan xalqaro professional buxgalter) sertifikatiga ega, to'rt nafar mutaxassis esa CPA (Sertifikatlangan davlat buxgalteri) sertifikatiga ega."
         },
         vacancies: {
             jobListing: {
@@ -449,9 +450,48 @@ export const uz = {
             }
         },
         "founders": {
-            "title": "Tashkilotchilar",
-            "name": "MChJ 'Javlon Audit Servis' asoschisi Nuridinova Shaxnoza Tairovna",
-            "description": "Asosiy faoliyat — mijozlarga auditorlik faoliyati to‘g‘risidagi qonunga, xalqaro auditorlik standartlariga va buxgalteriya hisobi standartlariga muvofiq auditorlik tekshiruvlari va ularga bog‘liq xizmatlarni, shuningdek, buxgalteriya hisobi sohasidagi xizmatlar, buxgalteriya hisobini tiklash va yuritish xizmatlari, soliq solish xizmatlari, konsalting va dasturiy ta'minot xizmatlarini ko‘rsatish."
+            "title": "Asoschilar",
+            "name": "LLC 'Javlon Audit Servis' asoschisi Nuriddinova Shahnaz Tairovna",
+            "description": "Asosiy faoliyat o'z mijozlariga audit tekshiruvlari va audit faoliyati to'g'risidagi qonunga, Xalqaro audit standartlariga, hisobga olish standartlariga muvofiq audit xizmatlarini taqdim etishdan iborat. Bu xizmatlar hisobga olish sohasida, hisobni tiklash va olib borish, soliq xizmatlari, maslahat va dasturiy ta'minotni o'z ichiga oladi.",
+            "takingPart": "Ishtirok",
+            "events": [
+                {
+                    "date": "Noyabr, 2014.",
+                    "description": "Italiyaning Rim shahrida o'tkazilgan Butunjahon buxgalterlar kongressida ishtirok etgan."
+                },
+                {
+                    "date": "Noyabr, 2015.",
+                    "description": "Singapurdagi SuperTree by IndoChine, Gardens by the Bay, 19 Marina Gardens Drive da bo'lib o'tgan IFAC Kengash va IFAC Boshqaruvining yig'ilishida ishtirok etgan."
+                },
+                {
+                    "date": "Noyabr, 2017.",
+                    "description": "Bryusselda bo'lib o'tgan IFAC Kengashining navbatdagi yig'ilishida ishtirok etgan."
+                },
+                {
+                    "date": "Noyabr, 2018.",
+                    "description": "Avstraliyaning Sidneydagi Butunjahon buxgalterlar kongressida ishtirok etgan. Ushbu Kongress WCOA ning 20-yilligiga bag'ishlangan."
+                },
+                {
+                    "date": "Aprel, 2019.",
+                    "description": "Moskva shahrida bo'lib o'tgan xalqaro ilmiy-amaliy konferensiyada ishtirok etgan."
+                },
+                {
+                    "date": "Noyabr, 2019.",
+                    "description": "Bokuda bo'lib o'tgan xalqaro ilmiy-amaliy konferensiyada ishtirok etgan."
+                },
+                {
+                    "date": "Oktyabr, 2022.",
+                    "description": "Bishkekda bo'lib o'tgan xalqaro ilmiy-amaliy konferensiyada ishtirok etgan."
+                },
+                {
+                    "date": "Aprel, 2023.",
+                    "description": "Bokuda bo'lib o'tgan xalqaro ilmiy-amaliy konferensiyada ishtirok etgan."
+                },
+                {
+                    "date": "Sentabr, 2024.",
+                    "description": "Bokuda bo'lib o'tgan xalqaro ilmiy-amaliy konferensiyada ishtirok etgan."
+                }
+            ]
         },
         specialists: {
             "ourSpecialists": [
@@ -722,7 +762,7 @@ export const uz = {
     },
     auditConclusions: {
         title: "Audit hisobotlari",
-        description: "San'atga muvofiq. «Auditorlik faoliyati to‘g‘risida»gi Qonunning 29-moddasi Auditorlik tashkiloti o‘zining rasmiy veb-saytida yoki respublika auditorlar jamoat birlashmalarining rasmiy veb-saytlarida xo‘jalik yurituvchi subyektning shaxsini tasdiqlovchi ma’lumotlar va auditorlik xulosasini ko‘rsatgan holda o‘tkazilgan majburiy auditlar to‘g‘risidagi ma’lumotlarni joylashtirishga majburdir;"
+        description: "Auditorlik tashkiloti o'zining rasmiy veb-saytida yoki auditorlar Respublikasi jamoat birlashmalarining rasmiy veb-saytlarida o'tkazilgan majburiy auditlar to'g'risida, iqtisodiy sub'ektning identifikatsiya ma'lumotlari va audit xulosasini ko'rsatgan holda ma'lumot joylashtirishga majburdir."
     },
     "becameAClient": {
         "warning": "Yulduzcha (*) bilan belgilangan barcha maydonlar majburiydir.",

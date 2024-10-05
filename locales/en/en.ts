@@ -122,8 +122,8 @@ export const en = {
     },
     servicesWeOffer: {
         title: "We offer services in the field of IFRS and audit according to ISA",
-        text_1: "Today, International Financial Reporting Standards (IFRS) are becoming increasingly popular in Uzbekistan. In connection with Presidential Decree No. UP-4720 dated April 24, 2015, during 2015-2018, all joint-stock companies will move to publishing annual financial statements and conducting an external audit of them in accordance with International Standards on Auditing and International Financial Reporting Standards. Also, services in accordance with IFRS and ISA are relevant for foreign investors who have a stake in enterprises registered in the territory of the Republic of Uzbekistan.",
-        text_2: "IFRS standards (IFRS, GAAP) are used in the preparation of financial statements of many companies around the world. For Uzbek companies, the use of IFRS will provide managers with information that significantly increases management efficiency and makes it possible to competently communicate with the market and shareholders. Our IFRS services include:",
+        "text_1": "At the request of the client, we advocate for their interests during inspections by tax and other authorities, assuming full responsibility for the results of the inspection, as well as providing free consultations for the following year after the audit.",
+        "text_2": "We guarantee high quality of audit services and take on the risk of liability for an inaccurate audit opinion. We express our sincere gratitude for your attention and hope for long-term mutually beneficial cooperation.",
         button: "More"
     },
     forma: {
@@ -241,6 +241,7 @@ export const en = {
         },
         auditorCertificates: {
             title: "Auditor Certificates",
+            description: "Nine employees work in the organization, including: 4 certified auditors, 4 audit assistants, 1 securities expert, 1 construction specialist, and others on a contractual basis. Two specialists have CIPA (Certified International Professional Accountant) certificates, and four specialists have CPA (Certified Public Accountant) certificates."
         },
         vacancies: {
             jobListing: {
@@ -471,8 +472,47 @@ export const en = {
         },
         "founders": {
             "title": "Founders",
-            "name": "Founder of LLC 'Javlon Audit Servis': Nuriddinova Shakhnoza Tairovna",
-            "description": "The main activity is to provide audit services to clients in the form of audit inspections and related services in accordance with the Law on Auditing, International Auditing Standards, and accounting standards, as well as services in the field of accounting, restoration and maintenance of accounting records, taxation services, consulting, and software development."
+            "name": "The founder of LLC 'Javlon Audit Servis' Nuriddinova Shahnaz Tairovna",
+            "description": "The main activity is to provide its clients with audit services in the form of audit checks and related services in accordance with the Law on Audit Activities, International Audit Standards in accordance with accounting standards, services in the field of accounting, restoration and maintenance of accounting, tax services, consulting, and software.",
+            "takingPart": "Participation",
+            "events": [
+                {
+                    "date": "November, 2014.",
+                    "description": "participant in the World Congress of Accountants in Rome, Italy."
+                },
+                {
+                    "date": "November, 2015.",
+                    "description": "participant in the Council meeting and the IFAC Board meeting, which took place at SuperTree by IndoChine, Gardens by the Bay, 19 Marina Gardens Drive, Singapore."
+                },
+                {
+                    "date": "November, 2017.",
+                    "description": "participant in the next IFAC Council meeting, which took place in Brussels."
+                },
+                {
+                    "date": "November, 2018.",
+                    "description": "participant in the World Congress of Accountants in Sydney, Australia. This Congress was dedicated to the 20th anniversary of WCOA."
+                },
+                {
+                    "date": "April, 2019.",
+                    "description": "participant in the international scientific-practical conference in Moscow."
+                },
+                {
+                    "date": "November, 2019.",
+                    "description": "participant in the international scientific-practical conference in Baku."
+                },
+                {
+                    "date": "October, 2022.",
+                    "description": "participant in the international scientific-practical conference in Bishkek."
+                },
+                {
+                    "date": "April, 2023.",
+                    "description": "participant in the international scientific-practical conference in Baku."
+                },
+                {
+                    "date": "September, 2024.",
+                    "description": "participant in the international scientific-practical conference in Baku."
+                }
+            ]
         },
         specialists: {
             "ourSpecialists": [
@@ -749,7 +789,7 @@ export const en = {
     },
     auditConclusions: {
         title: "Audit reports",
-        description: "According to Art. 29 of the Law on Auditing Activities The audit organization is obliged to post on its official website or the official websites of republican public associations of auditors, information about the mandatory audits carried out, indicating the identifying data of the business entity and the audit report;"
+        description: "The auditing organization is required to publish on its official website or the official websites of republican public associations of auditors information about conducted mandatory audits, indicating the identifying data of the economic entity and the audit conclusion."
     },
     "becameAClient": {
         "title": "Become a Client",
