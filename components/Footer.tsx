@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Card, CardContent, CardFooter } from "./ui/card";
 
 
-// "/certificates", "/about/clients",
-const about_company_links = ["/audit-certificates", "/about/vacancies", "/about/founders", "/work-principles", "/about/our-specialists", "/about/management"];
+//  "/about/clients",
+const about_company_links = ["/certificates", "/audit-certificates", "/about/vacancies", "/about/founders", "/work-principles", "/about/our-specialists", "/about/management"];
 const services_links = ["/services/general-information", "/services/audit-technology", "/services/methodology-of-provided-services", "/services/required-audit", "/services/initiative-audit", "/services/project-scholarship-audit", "/services/consulting", "/services/accounting-services"];
 const more_links = ["/audit-reports", "/became-a-client", "/help"]
 
@@ -83,8 +83,8 @@ export default function Footer({ translation }: {
                         </Button>
                     </Link>
                     <ul className="space-y-2">
-                        {/* translation?.about?.p1, translation?.about?.p4,*/}
-                        {[translation?.about?.p2, translation?.about?.p3, translation?.about?.p5, translation?.about?.p6, translation?.about?.p7, translation?.about?.p8].map((item, idx) => (
+                        {/*  translation?.about?.p4,*/}
+                        {[translation?.about?.p1, translation?.about?.p2, translation?.about?.p3, translation?.about?.p5, translation?.about?.p6, translation?.about?.p7, translation?.about?.p8].map((item, idx) => (
                             <li key={item}>
                                 <Link href={about_company_links[idx]}>
                                     <Button variant="link" className="text-sm lg:text-base p-0 h-auto text-gray-500">{item}</Button>

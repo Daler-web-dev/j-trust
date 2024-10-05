@@ -1,23 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { cn } from '@/lib/utils';
 import { Container } from '@/components/Container';
-// import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-// import Image from 'next/image';
-// import TranslateContext from '@/contexts/useTranslate';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Image from 'next/image';
+import TranslateContext from '@/contexts/useTranslate';
 
 interface Props {
     className?: string;
 }
 
 const Index: React.FC<Props> = ({ className }) => {
-    // const { aboutCompanyPage } = useContext(TranslateContext);
-    // const { certificates: translation } = aboutCompanyPage;
+    const { aboutCompanyPage } = useContext(TranslateContext);
+    const { certificates: translation } = aboutCompanyPage;
 
     return (
         <Container className={cn("mt-10 mb-20", className)}>
             {/* <Placeholder /> */}
 
-            {/* <Card>
+            <Card>
                 <CardHeader>
                     <CardTitle>{translation?.title}</CardTitle>
                 </CardHeader>
@@ -26,16 +26,16 @@ const Index: React.FC<Props> = ({ className }) => {
                         <Image src={"/certificates/certificate_1.jpg"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/certificates/certificate_2.png"} alt="certificate" width={300} height={200} />
-                    </div> */}
-            {/* <div className='w-full h-full border border-gray-200'>
+                        <Image src={"/certificates/certificate_2.jpg"} alt="certificate" width={300} height={200}/>
+                    </div>
+                    {/* <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_3.png"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_4.png"} alt="certificate" width={300} height={200} />
                     </div> */}
-            {/* </CardContent>
-            </Card> */}
+                </CardContent>
+            </Card>
         </Container>
     );
 };

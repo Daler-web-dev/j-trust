@@ -54,7 +54,7 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
             label: translation?.about?.title,
             href: '/about',
             children: [
-                // { key: 'p1', label: translation?.about?.p1, href: '/certificates' },
+                { key: 'p1', label: translation?.about?.p1, href: '/certificates' },
                 { key: 'p2', label: translation?.about?.p2, href: '/audit-certificates' },
                 { key: 'p3', label: translation?.about?.p3, href: '/about/vacancies' },
                 // { key: 'p4', label: translation?.about?.p4, href: '/about/clients' },
