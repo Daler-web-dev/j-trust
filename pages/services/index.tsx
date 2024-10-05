@@ -8,6 +8,7 @@ import { RiFilePaper2Line } from "react-icons/ri"
 import { TbHandClick } from "react-icons/tb"
 import Link from "next/link"
 import { useContext } from "react"
+import { Calculator, Newspaper } from "lucide-react"
 
 export default function ServicesGrid() {
     const { services } = useContext(TranslateContext)
@@ -116,7 +117,7 @@ export default function ServicesGrid() {
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
-                                    <TbHandClick width={40} height={40} color="gray" />
+                                    <Newspaper width={30} height={30} color="gray" />
                                 </div>
                                 {translation?.consulting?.title}
                             </CardTitle>
@@ -133,7 +134,7 @@ export default function ServicesGrid() {
                         <CardHeader>
                             <CardTitle className="flex items-center justify-start gap-5">
                                 <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
-                                    <GiDiscussion width={40} height={40} color="gray" />
+                                    <Calculator width={30} height={30} color="gray" />
                                 </div>
                                 {translation?.accounting?.title}
                             </CardTitle>
