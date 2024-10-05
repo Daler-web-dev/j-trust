@@ -39,7 +39,6 @@ export default function FinancialLayoutsInfo({ translation }: {
     return (
         <div className="container mx-auto py-6 space-y-6 mb-20">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-10"><span className="text-cblue">{translation?.title}</span> {translation?.subtitle}</h1>
-
             <div className="flex flex-wrap gap-6">
                 <Link href={'/services/general-information'} className="flex-grow">
                     <Card className="flex flex-col h-full">

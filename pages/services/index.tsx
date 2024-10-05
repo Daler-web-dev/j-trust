@@ -1,7 +1,11 @@
 import { Container } from "@/components/Container"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import TranslateContext from "@/contexts/useTranslate"
-import { UserIcon, HandIcon, SearchIcon, FileTextIcon, CalculatorIcon, PenToolIcon, HelpCircleIcon, BookOpenIcon } from "lucide-react"
+import { FaRegHandshake, FaRegNewspaper } from "react-icons/fa"
+import { FiPaperclip } from "react-icons/fi"
+import { GiDiscussion } from "react-icons/gi"
+import { RiFilePaper2Line } from "react-icons/ri"
+import { TbHandClick } from "react-icons/tb"
 import Link from "next/link"
 import { useContext } from "react"
 
@@ -10,136 +14,145 @@ export default function ServicesGrid() {
     const { main: translation } = services
 
     return (
-        <Container className="mt-10 mb-20">
-            <Card className="w-full">
-                <CardHeader>
-                    <CardTitle className="text-3xl font-bold">{translation?.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <Link href="/services/general-information" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <UserIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_1?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_1?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/crisis-management" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <HandIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_2?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_2?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/procedure-due-diligence" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <HelpCircleIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_3?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_3?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/required-audit" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <SearchIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_4?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_4?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/initiative-audit" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <BookOpenIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_5?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_5?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/project-scholarship-audit" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <PenToolIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_6?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_6?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/consulting" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <FileTextIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_7?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_7?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                        <Link href="/services/accounting-services" className="block hover:no-underline">
-                            <Card className="h-full hover:shadow-md transition-shadow duration-200">
-                                <CardContent className="pt-6">
-                                    <div className="flex flex-col items-start text-start space-y-2">
-                                        <div className="flex items-center gap-3">
-                                            <div className="border border-gray-400 rounded-full p-5">
-                                                <CalculatorIcon width={20} height={20} color="gray" />
-                                            </div>
-                                            <h3 className="text-lg font-semibold">{translation?.card_8?.title}</h3>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">{translation?.card_8?.description}</p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                    </div>
-                </CardContent>
-            </Card>
+        <Container className="mx-auto py-6 space-y-6 mt-10 mb-20">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-10"><span className="text-cblue">{translation?.title}</span> {translation?.subtitle}</h1>
+            <div className="flex flex-wrap gap-6">
+                <Link href={'/services/general-information'} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <GiDiscussion width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.generalInformation?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.generalInformation?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+
+                <Link href={"/services/audit-technology"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <TbHandClick width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.antiCrisisManagement?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.antiCrisisManagement?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+
+                <Link href={"/services/methodology-of-provided-services"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <FaRegHandshake width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.dueDiligence?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.dueDiligence?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+
+                <Link href={"/services/required-audit"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <FiPaperclip width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.mandatoryAudit?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">{translation?.mandatoryAudit?.description}</CardContent>
+                    </Card>
+                </Link>
+
+                <Link href={"/services/initiative-audit"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <FaRegNewspaper width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.initiativeAudit?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.initiativeAudit?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+
+                <Link href={"/services/project-scholarship-audit"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <RiFilePaper2Line width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.auditOfProjects?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.auditOfProjects?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+
+                <Link href={"/services/consulting"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <TbHandClick width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.consulting?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.consulting?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+
+
+                <Link href={"/services/accounting-services"} className="flex-grow">
+                    <Card className="flex flex-col h-full">
+                        <CardHeader>
+                            <CardTitle className="flex items-center justify-start gap-5">
+                                <div className="rounded-full border border-gray-200 p-5 flex items-center justify-center">
+                                    <GiDiscussion width={40} height={40} color="gray" />
+                                </div>
+                                {translation?.accounting?.title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            {translation?.accounting?.description}
+                        </CardContent>
+                    </Card>
+                </Link>
+            </div>
+
+            {/* <Card>
+            <CardHeader>
+                <CardTitle>Additional Information</CardTitle>
+            </CardHeader>
+            <CardContent>
+
+            </CardContent>
+        </Card> */}
         </Container>
     )
 }

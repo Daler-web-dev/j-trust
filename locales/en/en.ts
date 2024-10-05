@@ -7,10 +7,10 @@ export const en = {
                 title: "About Company",
                 p1: "Licenses and certificates",
                 p2: "Auditor certificates",
-                p3: "Vacancies",
+                p3: "Vacancy",
                 p4: "Clients",
                 p5: "Founder",
-                p6: "Operating principles",
+                p6: "Operating principle",
                 p7: "Our specialists",
                 p8: "Management"
             },
@@ -22,7 +22,7 @@ export const en = {
                 p4: "Mandatory audit",
                 p5: "Initiative audit",
                 p6: "Audit of projects and grants",
-                p7: "Consulting",
+                p7: "Consultation",
                 p8: "Accounting services"
             },
             auditReports: "Audit Reports",
@@ -47,10 +47,10 @@ export const en = {
             title: "About Company",
             p1: "Licenses and certificates",
             p2: "Auditor certificates",
-            p3: "Vacancies",
+            p3: "Vacancy",
             p4: "Clients",
             p5: "Founder",
-            p6: "Operating principles",
+            p6: "Operating principle",
             p7: "Our specialists",
             p8: "Management"
         },
@@ -62,7 +62,7 @@ export const en = {
             p4: "Mandatory audit",
             p5: "Initiative audit",
             p6: "Audit of projects and grants",
-            p7: "Consulting",
+            p7: "Consultation",
             p8: "Accounting services"
         },
         more: {
@@ -632,37 +632,38 @@ export const en = {
     services: {
         main: {
             "title": "Services",
-            "card_1": {
+            "subtitle": "that we offer",
+            "generalInformation": {
                 "title": "General Information",
-                "description": "Preparation and consolidation of financial statements in accordance with IFRS (International Financial Reporting Standards), GAAP (US accounting standards), and the standards of several other countries."
+                "description": "The auditing organization 'JAVLON AUDIT SERVIS', founded in 2004 and having more than eighteen years of experience, provides a wide range of auditing and consulting services for large enterprises and private organizations, focusing on the quality and efficiency of its work, as well as maintaining a positive image in the industry."
             },
-            "card_2": {
-                "title": "Crisis Management",
-                "description": "It has a comprehensive, systematic nature and is aimed at preventing or eliminating adverse business conditions through the use of modern management tools."
+            "antiCrisisManagement": {
+                "title": "Auditing Technology",
+                "description": "Modern technologies play a key role in conducting effective audits, providing a customizable auditing environment and ensuring that the software and methodologies developed by our specialists support all phases of the audit, including planning, execution, and reporting, with an emphasis on the unique risks and needs of each client."
             },
-            "card_3": {
-                "title": "Due Diligence Procedure",
-                "description": "A procedure for forming an objective view of the investment object. Both parties are interested in the objective and competent implementation of these procedures."
+            "dueDiligence": {
+                "title": "Methodology of Services Provided",
+                "description": "The auditing approach of the organization 'Javlon audit servis' emphasizes understanding the client's project and careful planning, which ensures team awareness and efficiency in task execution; its distinguishing characteristics include risk-based planning, analysis of the accounting system, and the application of accumulated knowledge, and the methodology consists of four stages: strategic planning, review of information systems, detailed testing of transactions, and final assessment of financial reporting."
             },
-            "card_4": {
+            "mandatoryAudit": {
                 "title": "Mandatory Audit",
-                "description": "Audit of financial statements and related financial information of an entity by auditing organizations to establish the accuracy and compliance of the financial statements."
+                "description": "The audit involves assessing the financial statements and related financial information of economic entities to establish their reliability and compliance with legislation; mandatory annual audits are required for joint-stock companies, banks, insurance organizations, investment funds, charitable funds, enterprises with state participation, exchanges, and commercial organizations that meet certain criteria regarding assets, revenue, and number of employees."
             },
-            "card_5": {
-                "title": "Voluntary Audit",
-                "description": "This is a service aimed at business owners, focusing on the examination of accounting conditions, tax accounting, and the assessment of the efficiency of business management."
+            "initiativeAudit": {
+                "title": "Initiative Audit",
+                "description": "The initiative audit provides a comprehensive analysis to improve the efficiency of organizational activities, focusing on specific initiatives and conducted within a set timeframe, with all participants required to provide necessary documentation; its objectives include assessing the effectiveness of initiatives, identifying strengths and weaknesses of current projects in various sectors of the economy and at any stage of implementation, as well as improving decision-making processes and resource allocation, with the possibility of ordering the audit by legal entities, their owners, shareholders with at least five percent equity, and controlling authorities."
             },
-            "card_6": {
-                "title": "Project and Grant Audit",
-                "description": "An audit of projects and grants financed from the budget of the Republic of Uzbekistan, the World Bank, the Asian Development Bank, UNDP, and other NGOs."
+            "auditOfProjects": {
+                "title": "Audit of Projects and Grants",
+                "description": "The audit of projects and grants funded from the budgetary funds of the Republic of Uzbekistan, the World Bank, the Asian Development Bank, UNDP, and other non-profit organizations is conducted in accordance with auditing standards and includes the preparation of a plan based on guidelines or technical specifications, focusing on auditing reports on the sources of income and expenditures, auditing accountable accounts, assessing accounting policies and significant calculations, as well as checking for adequate supporting documentation related to expenditure statements and reimbursement requests."
             },
-            "card_7": {
-                "title": "Consulting",
-                "description": "If you want to avoid mistakes in bookkeeping and tax calculation, if you have questions."
+            "consulting": {
+                "title": "Consultation",
+                "description": "We offer professional consulting services to address your important issues and achieve your goals. Our team of experts is ready to provide individual recommendations and support in various areas. Audits of projects and grants funded by the budget of the Republic of Uzbekistan, the World Bank, the Asian Development Bank, UNDP, and other non-profit organizations are conducted in accordance with auditing standards and include the development of a plan based on the Guidelines or Technical Assignment, with an emphasis on auditing reports on the receipt and use of funds, auditing accountable sums, evaluating accounting policies and calculations, as well as checking the adequacy of supporting documentation related to expenditure statements and reimbursement requests."
             },
-            "card_8": {
+            "accounting": {
                 "title": "Accounting Services",
-                "description": "It may be a well-known fact, but in modern conditions, it is impossible to manage a business effectively without timely and reliable information."
+                "description": "JAVLON AUDIT SERVIS LLC offers professional accounting services that ensure reliable accounting, financial operations control, and tax optimization, allowing companies to reduce risks and focus on business development."
             }
         },
         "generalInformation": {

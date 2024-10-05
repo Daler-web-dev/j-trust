@@ -7,10 +7,10 @@ export const uz = {
                 title: "Kompaniya Haqida",
                 p1: "Litsenziyalar va sertifikatlar",
                 p2: "Auditor sertifikatlari",
-                p3: "Bo'sh ish o'rinlari",
+                p3: "Bo'sh ish o'rini",
                 p4: "Mijozlar",
                 p5: "Asoschisi",
-                p6: "Ishlash prinsiplari",
+                p6: "Ishlash prinsipi",
                 p7: "Bizning mutaxassislar",
                 p8: "Boshqaruv"
             },
@@ -22,7 +22,7 @@ export const uz = {
                 p4: "Majburiy audit",
                 p5: "Initsiatil audit",
                 p6: "Loyihalar va grantlar audit",
-                p7: "Konsalting",
+                p7: "Maslahat",
                 p8: "Buxgalteriya xizmatlari"
             },
             auditReports: "Audit Hisobotlari",
@@ -47,10 +47,10 @@ export const uz = {
             title: "Kompaniya Haqida",
             p1: "Litsenziyalar va sertifikatlar",
             p2: "Auditorlar sertifikatlari",
-            p3: "Bo'sh ish o'rinlari",
+            p3: "Bo'sh ish o'rini",
             p4: "Mijozlar",
             p5: "Asoschisi",
-            p6: "Ishlash prinsiplari",
+            p6: "Ishlash prinsipi",
             p7: "Bizning mutaxassislar",
             p8: "Boshqaruv"
         },
@@ -62,7 +62,7 @@ export const uz = {
             p4: "Majburiy audit",
             p5: "Initsiatil audit",
             p6: "Loyihalar va grantlar audit",
-            p7: "Konsalting",
+            p7: "Maslahat",
             p8: "Buxgalteriya xizmatlari"
         },
         more: {
@@ -612,37 +612,38 @@ export const uz = {
     services: {
         main: {
             "title": "Xizmatlar",
-            "card_1": {
+            "subtitle": "biz taklif qiladigan",
+            "generalInformation": {
                 "title": "Umumiy Ma'lumot",
-                "description": "Moliya hisobotini tayyorlash va konsolidatsiya qilish, Xalqaro Moliya Hisobot Standartlari (IFRS), AQSh buxgalteriya standartlari (GAAP), va boshqa davlatlar standartlariga muvofiq."
+                "description": "2004 yilda tashkil etilgan va o'n sakkiz yildan ortiq tajribaga ega bo'lgan 'JAVLON AUDIT SERVIS' audit tashkiloti katta korxonalar va xususiy tashkilotlar uchun keng turdagi audit va maslahat xizmatlarini taqdim etadi, ishining sifatiga va samaradorligiga hamda sohadagi ijobiy imidjini saqlashga e'tibor beradi."
             },
-            "card_2": {
-                "title": "Inqirozga qarshi boshqaruv",
-                "description": "Bu zamonaviy boshqaruv vositalaridan foydalanish orqali biznes uchun salbiy holatlarni oldini olish yoki bartaraf etishga qaratilgan keng qamrovli, tizimli xarakterga ega."
+            "antiCrisisManagement": {
+                "title": "Audit Texnologiyasi",
+                "description": "Zamonaviy texnologiyalar samarali audit o'tkazishda muhim rol o'ynaydi, individual ravishda sozlanadigan audit muhitini ta'minlaydi va bizning mutaxassislarimiz tomonidan ishlab chiqilgan dasturiy ta'minot va metodologiyalar auditning barcha bosqichlarini, jumladan rejalashtirish, ijro etish va hisobot berishni qo'llab-quvvatlashini kafolatlaydi, har bir mijozning noyob xavf va ehtiyojlariga e'tibor qaratadi."
             },
-            "card_3": {
-                "title": "Due Diligence Jarayoni",
-                "description": "Investitsiya obyekti bo'yicha obyektiv fikr shakllantirish jarayoni. Ushbu jarayonlarni ob'ektiv va malakali o'tkazishda ikkala tomon ham manfaatdor."
+            "dueDiligence": {
+                "title": "Ta'minlanadigan Xizmatlar Metodologiyasi",
+                "description": "'Javlon audit servis' tashkilotining audit yondashuvi mijozning loyihasini tushunishga va ehtiyotkorona rejalashtirishga e'tibor qaratadi, bu esa jamoaning xabardorligini va vazifalarni bajarish samaradorligini ta'minlaydi; uning farqlovchi xususiyatlari xavflarni baholash asosida rejalashtirish, buxgalteriya tizimini tahlil qilish va to'plangan bilimlarni qo'llashni o'z ichiga oladi, va metodologiya to'rtta bosqichdan iborat: strategik rejalashtirish, axborot tizimlarini ko'rib chiqish, tranzaktsiyalarni batafsil sinovdan o'tkazish va moliyaviy hisobotni oxirgi baholash."
             },
-            "card_4": {
-                "title": "Majburiy audit",
-                "description": "Moliya hisobotini va tegishli moliyaviy ma'lumotlarni auditorlik tashkilotlari tomonidan tekshirish, moliyaviy hisobotlarning to'g'riligi va muvofiqligini aniqlash uchun."
+            "mandatoryAudit": {
+                "title": "Majburiy Audit",
+                "description": "Audit iqtisodiy subyektlarning moliyaviy hisobotlari va unga aloqador moliyaviy ma'lumotlarini baholashni o'z ichiga oladi, ularning ishonchliligini va qonunchilikka muvofiqligini aniqlash maqsadida; majburiy yillik auditlar aksiyadorlik jamiyatlari, banklar, sug'urta tashkilotlari, investitsiya fondlari, xayriya fondlari, davlat ulushi bo'lgan korxonalar, birjalar va aktivlar, daromad va xodimlar soni bo'yicha ma'lum mezonlarga javob beradigan tijorat tashkilotlari uchun amalga oshiriladi."
             },
-            "card_5": {
-                "title": "Ixtiyoriy audit",
-                "description": "Bu xizmat, hisob raqamlarini tekshirish, soliq hisobini ko'rib chiqish va biznesni boshqarish samaradorligini baholashga qaratilgan."
+            "initiativeAudit": {
+                "title": "Ijtimoiy Audit",
+                "description": "Ijtimoiy audit tashkilot faoliyatining samaradorligini oshirish uchun kompleks tahlil taqdim etadi, ma'lum tashabbuslarga e'tibor qaratadi va belgilangan vaqt ichida o'tkaziladi, bunda barcha ishtirokchilar zarur hujjatlarni taqdim etishga majbur; uning maqsadlari tashabbuslarning samaradorligini baholash, turli iqtisodiy sektorlar va har qanday amalga oshirish bosqichidagi joriy loyihalarning kuchli va zaif tomonlarini aniqlashni o'z ichiga oladi, shuningdek qaror qabul qilish jarayonlari va resurslarni taqsimlashni yaxshilashga, auditni huquqiy shaxslar, ularning egalar, kamida besh foiz ulushga ega aktsionerlar va nazorat organlari tomonidan buyurtma qilish imkoniyatini taqdim etadi."
             },
-            "card_6": {
-                "title": "Loyihalar va grantlar bo'yicha audit",
-                "description": "O'zbekiston Respublikasi byudjetidan, Jahon Bankidan, Osiyo Taraqqiyot Bankidan, BMT rivojlantirish dasturidan va boshqa NNTlardan moliyalashtiriladigan loyihalar va grantlar bo'yicha audit."
+            "auditOfProjects": {
+                "title": "Loyihalar va Grantlarni Audit",
+                "description": "O'zbekiston Respublikasi byudjet mablag'lari, Jahon Banki, Osiyo Taraqqiyot Banki, BMT Taraqqiyot Dasturi va boshqa notijorat tashkilotlari tomonidan moliyalashtiriladigan loyihalar va grantlar bo'yicha audit audit standartlariga muvofiq o'tkaziladi va ushbu hisobotlarni tayyorlashni o'z ichiga oladi, mablag'larning kelib chiqishi va sarf-xarajatlari bo'yicha audit, hisobotga ta'sir etuvchi hisobotlar va muhim hisob-kitoblar baholanishini o'z ichiga oladi."
             },
-            "card_7": {
-                "title": "Konsalting",
-                "description": "Agar siz buxgalteriya hisobini yuritish va soliqlarni hisoblashda xatolardan qochmoqchi bo'lsangiz, agar sizda savollar bo'lsa."
+            "consulting": {
+                "title": "Maslahat berish",
+                "description": "Biz sizning muhim masalalaringizni hal qilish va maqsadlaringizga erishish uchun professional maslahat xizmatlarini taklif etamiz. Bizning mutaxassislar jamoamiz turli sohalarda individual tavsiyalar va qo‘llab-quvvatlashni taqdim etishga tayyor. O‘zbekiston Respublikasi byudjeti, Jahon Banki, Osiyo Taraqqiyot Banki, BMT Taraqqiyot Dasturi va boshqa notijorat tashkilotlari tomonidan moliyalashtiriladigan loyihalar va grantlarga oid auditlar audit standartlariga muvofiq amalga oshiriladi va Ushbu yo‘riqnomalar yoki Texnik topshiriqqa asoslangan reja ishlab chiqishni, mablag‘larning kelishi va ishlatilishiga doir hisobotlarni audit qilishni, mas’ul hisoblar auditini, buxgalteriya siyosati va hisob-kitoblarni baholashni, shuningdek, xarajatlar hisobotlari va xarajatlarni qaytarish uchun arizalarga doir yordamchi hujjatlarning yetarliligini tekshirishni o‘z ichiga oladi."
             },
-            "card_8": {
+            "accounting": {
                 "title": "Buxgalteriya xizmatlari",
-                "description": "Bu keng tarqalgan haqiqat bo'lishi mumkin, lekin zamonaviy sharoitlarda biznesni samarali boshqarish uchun o'z vaqtida va ishonchli ma'lumotlarga ega bo'lmaslik qiyin."
+                "description": "JAVLON AUDIT SERVIS MChJ ishonchli hisob, moliyaviy operatsiyalarni nazorat qilish va soliq optimallashtirishni ta'minlaydigan professional buxgalteriya xizmatlarini taklif etadi, bu kompaniyalarga xavflarni kamaytirish va biznesni rivojlantirishga e'tibor qaratish imkonini beradi."
             }
         },
         "generalInformation": {
