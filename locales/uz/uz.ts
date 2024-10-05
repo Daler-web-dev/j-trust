@@ -17,8 +17,8 @@ export const uz = {
             services: {
                 title: "Xizmatlar",
                 p1: "Umumiy ma'lumot",
-                p2: "Anti-krisis boshqaruvi",
-                p3: "Due Diligence jarayoni",
+                p2: "Auditorlik texnologiyasi",
+                p3: "Ko'rsatiladigan xizmatlar metodologiyasi",
                 p4: "Majburiy audit",
                 p5: "Initsiatil audit",
                 p6: "Loyihalar va grantlar audit",
@@ -57,8 +57,8 @@ export const uz = {
         services: {
             title: "Xizmatlar",
             p1: "Umumiy ma'lumot",
-            p2: "Anti-krisis boshqaruvi",
-            p3: "Due Diligence jarayoni",
+            p2: "Auditorlik texnologiyasi",
+            p3: "Ko'rsatiladigan xizmatlar metodologiyasi",
             p4: "Majburiy audit",
             p5: "Initsiatil audit",
             p6: "Loyihalar va grantlar audit",
@@ -89,7 +89,7 @@ export const uz = {
         "company": "JAVLON AUDIT SERVIS",
         "title": "Audit tashkiloti",
         "subtitle": "buxgalteriya va soliq sohasida",
-        "text": "MChJ shaklidagi «JAVLON AUDIT SERVIS» auditorlik tashkiloti siz bilan hamkorlik qilishdan mamnun va audit sohasida o‘z xizmatlarini, Auditorlik faoliyati to‘g‘risidagi qonun, Xalqaro audit standartlari hamda buxgalteriya hisobi va moliyaviy hisobot standartlariga muvofiq, taklif etadi.",
+        "text": "«JAVLON AUDIT SERVIS» mas'uliyati cheklangan jamiyati sifatida faoliyat yurituvchi auditorlik tashkiloti Sizga auditorlik sohasida xizmatlarini taklif etishdan mamnun, Auditorlik faoliyati to'g'risidagi Qonun, Xalqaro auditorlik standartlari va buxgalteriya hamda moliyaviy hisobot standartlariga muvofiq.",
         "button": "Batafsil"
     },
     "financial": {
@@ -557,48 +557,48 @@ export const uz = {
         },
         "generalInformation": {
             "title": "Umumiy Ma'lumot",
-            "text_1": "Auditorlik va buxgalteriya va soliq sohasidagi professional maslahatlar (konsalting) O'zbekiston Respublikasi kompaniyalari tomonidan uzoq vaqtdan beri talab qilinmoqda. Ammo ushbu xizmatlarning samaradorligi, siz murojaat qilmoqchi bo'lgan kompaniya mutaxassislari tomonidan muammolarni mustaqil va innovatsion ravishda hal qilish qobiliyati, tajribasi va professionalizmidan kelib chiqadi. «JAVLON AUDIT SERVIS» MCHJ sizga amaliy tajribaga ega bunday mutaxassislarni taqdim etishga tayyor. Hozirgi O'zbekiston qonunchiligi buxgalteriya hisobi va soliq sohasida juda keng, doimiy ravishda o'zgarib turadi, ko'p qarama-qarshiliklarni o'z ichiga oladi, lekin afsuski, ko'pincha munozarali va murakkab savollarga to'g'ridan-to'g'ri javob bermaydi. Shu sababli, hatto yuqori malakali buxgalterlar ham qiyin vaziyatda to'g'ri qaror qabul qilishda qiyinchiliklarga duch kelishlari ko'p uchraydi.",
-            "text_2": "«JAVLON AUDIT SERVIS» MCHJ katta sanoat korxonalarining turli faoliyat turlaridagi auditorlik tekshiruvlariga ixtisoslashgan va quyidagi xizmatlarni ko'rsatadi: buxgalteriya va boshqaruv buxgalteriyati bo'yicha maslahatlar, huquqiy va soliq bo'yicha maslahatlar, soliqni optimallashtirish, buxgalteriya hisobini yuritish, moliyaviy hisobotlarni MDS (Xalqaro Moliyaviy Hisobot Standartlari) ga muvofiq o'zgartirish, moliyaviy hisobotni tahlil qilish, korxonalar va tashkilotlarni nazorat organlari tomonidan tekshirishlar vaqtida qo'llab-quvvatlash, va mijozlarning manfaatlarini davlat va sud organlarida maxsus masalalar bo'yicha himoya qilish."
+            "text_1": "«JAVLON AUDIT SERVIS» auditorlik tashkiloti auditorlik xizmatlari bozorida o‘n sakkiz yildan ortiq vaqtdan beri faoliyat yuritmoqda. Bizning tashkilotimiz 2004 yil 1 martda tashkil etilgan. Tashkilotning ustav fondi 240 000 000 so‘mni tashkil etadi, yillik sug‘urta polisi esa 400 000 000 so‘mga teng. Tashkilotning mutaxassislari auditorlik tashkilotlarida uch yildan yigirma yilgacha bo‘lgan tajribaga ega bo‘lib, yirik sanoat korxonalari, tashkilotlar, aksiyadorlik jamiyatlari, mas'uliyati cheklangan jamiyatlar va xususiy korxonalarda tekshiruv o‘tkazishga ixtisoslashgan. Tashkilotda milliy va xalqaro standartlarga muvofiq buxgalteriya tizimi metodologiyasini yaxshi biladigan malakali mutaxassislar mavjud bo‘lib, ular audit xizmatlarini ko‘rsatishlari va audit standartlariga muvofiq moliyaviy hisobotlarni tahlil qilishlari mumkin. Biz o‘z mijozlarimizga quyidagi xizmatlarni taklif etamiz: audit, buxgalteriya hisobi standartlariga muvofiq buxgalteriya hisobi xizmatlari, buxgalteriya hisobotlarini tiklash va yuritish, soliq xizmatlari, konsalting, qurilish ishlari bo‘yicha ekspertlar xizmati, dasturiy ta’minot.",
+            "text_2": "Bizning asosiy vazifamiz – mijozlarimizga sifatli xizmatlar ko‘rsatishdir, bu esa kelgusida ularning faoliyatini yaxshilashga va daromadlarini oshirishga yordam beradi. Auditorlik tashkilotlari vazifalariga muvofiq, xo‘jalik yurituvchi subyektning moliyaviy hisobotlarini tahlil qilamiz va ularning ishonchliligini tasdiqlaymiz, bu xo‘jalik faoliyatining samaradorligini real va ob’ektiv baholash asosida amalga oshiriladi. Biz xo‘jalik yurituvchi subyektlarning faoliyat samaradorligini oshirish bo‘yicha konstruktiv takliflar ishlab chiqamiz. Har bir mijozning xavf va muammolarini, shuningdek, ularning individual ehtiyojlarini aniqlash orqali, mijozning qonunchilik, faoliyat va moliyaviy hisobot tizimiga oid barcha masalalarni to‘g‘ri aks ettirishga harakat qilamiz. Bizning auditorlik tashkilotimizning obro‘si biz uchun katta ahamiyatga ega va shu sababli auditorlik sertifikatlariga ega bo‘lgan mutaxassislar tashkilotning barqaror ijobiy imidjini yaratadi va qo‘llab-quvvatlaydi."
         },
-        antiCrisisManagement: {
-            "title": "Inqirozga qarshi boshqaruv",
-            "introduction": "Zamonaviy iqtisodiyotning chaqiriqlari va global moliyaviy inqiroz biznesni yangi g'oyalar va samarali yechimlar izlashga majbur qiladi.",
-            "section_1": "Bugungi kunda O'zbekistonning ishbilarmonlik hayotidagi eng mashhur atamalardan biri inqirozga qarshi boshqaruv bo'lib qolmoqda. Ba'zi hollarda bu atama kompaniyani umumiy iqtisodiy inqiroz sharoitida boshqarishni anglatadi, boshqalarda esa bankrotlik arafasidagi kompaniyani boshqarishni bildiradi, uchinchi toifa esa inqirozga qarshi boshqaruvni sud bankrotlik jarayonlarida inqiroz menejerlarining faoliyati bilan bog'laydi.",
-            "section_2": "Talabgir mutaxassislarning fikriga ko'ra, inqirozga qarshi boshqaruvga tizimli yondashuv to'g'ri hisoblanadi, bunda inqirozga qarshi boshqaruv inqirozni oldindan aniqlashdan tortib uni bartaraf etish va kompaniyaning normal faoliyatini tiklashgacha bo'lgan choralar majmui sifatida ko'rib chiqiladi."
+        "auditTechnology": {
+            "title": "Auditorlik texnologiyasi",
+            "introduction": "Hozirgi kunda zamonaviy texnologiyalar samarali auditni optimal muddatlarda amalga oshirish uchun asosiy omillardan biri hisoblanadi. Bizning auditorlik texnologiyamiz xavflarni ko'rib chiqish va tahlil qilish jarayonlarini samarali o'tkazishni ta'minlaydi va mijoz uchun qo'shimcha foyda keltiradi.",
+            "section_1": "Mutaxassislarimiz tomonidan ishlab chiqilgan dasturiy ta'minot tashkilot tomonidan qo'llaniladigan yagona auditorlik metodologiyasi va hujjatlari uchun asos bo'lib xizmat qiladi. Har bir mijoz bilan bog'liq bo'lgan o'ziga xos xavf va muammolarni aniqlash orqali, bu dastur audit o'tkazish uchun mijozning individual ehtiyojlariga moslashtirilgan muhit yaratadi va mijozning qonunchilik, faoliyat va moliyaviy hisobot tizimiga oid barcha masalalarning to‘g‘ri aks ettirilishini ta’minlaydi.",
+            "section_2": "Dastur auditning barcha bosqichlarini rejalashtirish, bajarish va hisobot berishni qo‘llab-quvvatlaydi va auditga oid ma’lumotlarni tahlil qilish, hujjatlashtirish, boshqarish va o‘zaro bog‘lash uchun zarur bo‘lgan vositalarni o‘z ichiga oladi."
         },
-        procedureDueDiligence: {
-            "title": "Due Diligence Jarayoni",
-            "introduction": "«JAVLON AUDIT SERVIS» audit kompaniyasi turli iqtisodiyot sektorlarida faoliyat yurituvchi kompaniyalar bilan shartnomalar asosida kompleks Due Diligence xizmatlarini taqdim etish bo'yicha tajribaga ega.",
-            "section_1": "Due Diligence jarayoni investitsiya obyektining ob'ektiv tasvirini shakllantirish jarayonidir. Ushbu jarayonlarni ob'ektiv va malakali amalga oshirishdan ham investor (sotib oluvchi), ham investitsiya jalb qiluvchi tomon (sotuvchi) manfaatdor.",
-            "section_2": "Due Diligence ning asosiy maqsadi mustaqil va ob'ektiv tasvirni shakllantirishdir:",
+        "methodologyOfProvidedServices": {
+            "title": "TA'MINLANADIGAN XIZMATLAR METODOLOGIYASI",
+            "introduction": "«Javlon audit servis» audit tashkilotining audit yondoshuvi mijozning loyihasini tushunishga qaratilgan va mos rejalashtirish uchun vaqt va resurslarni sarflaydi. Bu xodimlarning ma'lumotli bo'lishini ta'minlaydi va ularga ushbu vazifani samarali bajarish imkonini beradi.",
+            "section_1": "Tashkilotning yondoshuvini ajratib turadigan quyidagi xususiyatlar: xavfni baholashga asoslangan rejalashtirish; audit riskini baholash; moliyaviy hisobotni tayyorlash uchun hisob tizimi va nazoratlarni tahlil qilish; o'xshash loyihalar bo'yicha to'plangan bilimlardan foydalanish; professional fikrga e'tibor berish. Har bir auditning noyobligini tan olishimiz kerak, shuning uchun har bir loyihaga maksimal sifatga erishish uchun mos malakali xodimlar jamoasi tayinlanadi.",
+            "section_2": "Bizning metodologiyamizning asosiy qismi loyihada ishlayotgan jamoa a'zolari tomonidan risklarni baholash bilan bog'liq, chunki bu risklar loyihaga ta'sir qiladi. Bizning audit metodologiyamizni tashkil etuvchi to'rt bosqich quyidagilardan iborat:",
             "points": [
-                "investitsiya obyektining haqiqiy moliyaviy holati;",
-                "investitsiya obyektining moliyaviy holatini sezilarli darajada yomonlashtirishi mumkin bo'lgan barcha xavflar;",
-                "investitsiya obyektining aksiyalari bozor qiymati."
-            ],
-            "section_3": "Mulk egasi o'zgarishida mustaqil baho berish jarayoni zarur, chunki bu shartnoma tomonlari o'rtasida ekspertlar xulosalari va tavsiyalariga asoslangan ma'lum darajada ishonch o'rnatishga imkon beradi va mumkin bo'lgan manfaatlar to'qnashuvini yengib o'tish uchun zarur murosalarni topishga yordam beradi.",
-            "section_4": "Due Diligence jarayonida, odatda, ish uchta o'zaro bog'liq qismlarga bo'linadi: buxgalteriya hisobi tizimini baholash, hisobotlarning ishonchliligi va moliyaviy tahlil; soliq xavflarini baholash; yuridik tavakkalchiliklarni baholash va tuzilgan shartnomalar. Bu jarayonda tahlilchilar, auditorlar va yuristlar yaqindan hamkorlikda ishlaydi, chunki shartnomani tasdiqlash ba'zan faqat auditorlar va yuristlar tomonidan birgalikda amalga oshirilishi mumkin."
+                "1-bosqich - Strategik rejalashtirish: Loyihaga bog'liq maxsus muammolarni aniqlash maqsadida auditga yondoshuvimizni oldindan rejalashtirishimiz kerak. Rejalashtirish bosqichi bir qator bosqichlardan iborat bo'lib, strategiyani ko'rib chiqish va ma'lumot to'plashni o'z ichiga oladi.",
+                "2-bosqich - Axborot tizimlarini ko'rib chiqish: Ushbu bosqichda audit jamoasi hisob tizimlari va nazoratlar haqida tushunchaga ega bo'ladi va ularning audit yondoshuviga ta'sirini tahlil qiladi. Ushbu tadqiqotlar natijalariga asoslanib, biz keyingi audit bosqichlari uchun batafsil ish dasturlarini ishlab chiqamiz.",
+                "3-bosqich - Transaksiyalar va qoldiqlarni batafsil sinovdan o'tkazish: Loyihaning moliyaviy hisobotlarini audit qilish komponentlarga bo'linadi va har bir texnik moliyaviy hisobot komponenti bo'yicha ish hajmi professional fikrga ko'ra aniqlanadi.",
+                "4-bosqich - Auditni yakunlash: Ushbu bosqichda biz korxona bo'yicha auditimiz natijalarini to'playmiz va moliyaviy hisobotlar bo'yicha fikrlar bildiramiz. Ushbu bosqich quyidagilarni o'z ichiga oladi: Hisobotlarni batafsil tahlil qilish; Moliyaviy ma'lumotlarning umumiy taqdimotini baholash; Audit jarayonida yuzaga kelgan masalalar bo'yicha rahbariyat bilan batafsil muhokama; Audit tashkilotining hamkorlari va menejerlari tomonidan bajarilgan ishni ko'rib chiqish; Moliyaviy hisobotga kiritilgan summalarning ishonchliligi va obyektiv taqdimotiga umumiy xulosa."
+            ]
         },
         requiredAudit: {
             "title": "Majburiy audit",
             "introduction": "Audit — bu iqtisodiy sub'ektning moliyaviy hisobotlari va u bilan bog'liq bo'lgan moliyaviy ma'lumotlarni auditorlik tashkilotlari tomonidan ishonchliligini va moliyaviy hisobotlarning qonun hujjatlariga muvofiqligini o'rganish jarayonidir...",
-            "section_1": "Eng maqbul rejim — bu rejadan tashqari audit...",
-            "section_2": "Majburiy audit o'tkazishda qo'shimcha xizmatlar ko'rsatiladi: soliq optimallashtirish...",
+            "section_1": "Quyidagi tashkilotlar majburiy yillik audit tekshiruvi ostida bo'ladi:",
+            // "section_2": "Majburiy audit o'tkazish jarayonida qo'shimcha xizmatlar ko'rsatildi: soliq optimallashtirish...",
             "points": [
-                "aksiyadorlik jamiyatlari;",
+                "aktsiyadorlik jamiyatlari;",
                 "banklar va boshqa kredit tashkilotlari;",
                 "sug'urta tashkilotlari;",
-                "investitsiya va boshqa jamg'armalar;",
-                "xayriya va boshqa jamoat fondlari;",
-                "byudjetdan tashqari fondlar;",
-                "davlat ulushi bo'lgan xo'jalik yurituvchi subyektlar."
+                "investitsiya va boshqa fondlar, qonuniy va jismoniy shaxslardan mablag' to'playdigan va ularning ishonchli boshqaruvchilari — investitsion aktivlarni boshqaruvchi;",
+                "xayriya, jamoat va boshqa fondlar, manbalari qonuniy va jismoniy shaxslardan kelib tushadigan badallar;",
+                "davlatga tegishli ulushga ega bo'lgan moliya tashkilotlari va davlat unitar korxonalari;",
+                "birjalar;",
+                "hisoboti yilida quyidagi ikki shartdan birini bajaradigan tijorat tashkilotlari: aktivlarning balansi qiymati asosiy hisoblash miqdorining yuz ming barobardan oshishi, mahsulot (ish, xizmat) sotilishidan tushgan tushumning asosiy hisoblash miqdorining ikki yuz ming barobardan oshishi, o'rtacha yillik ishchilar soni yuzdan oshishi."
             ],
-            "section_3": "Majburiy auditorlik tekshiruvi buyurtmachilari — bu xo'jalik yurituvchi subyektlar...",
-            "section_4": "Majburiy auditorlik tekshiruvi o'tkazishdan qochish ma'muriy jarimalarga olib keladi..."
+            // "section_3": "Majburiy audit tekshiruvi buyurtmachilari moliya tashkilotlaridir...",
+            // "section_4": "Majburiy audit tekshiruvidan qochish ma'muriy jazolarga olib keladi..."
         },
         initiativeAudit: {
             "title": "Initsiatika Audit",
-            "description": "Initsiatika auditi tashkilot faoliyatining samaradorligini oshirish uchun kompleks tahlil taqdim etadi.",
+            "description_1": "Initsiatika auditi tashkilot faoliyatining samaradorligini oshirish uchun kompleks tahlil taqdim etadi.",
             "conditions": {
                 "title": "Shartlar",
                 "subject": "Audit tashkilot tomonidan amalga oshirilayotgan muayyan initsiatikalarga qaratiladi.",
@@ -621,12 +621,13 @@ export const uz = {
             "opportunities": {
                 "title": "Imkoniyatlar",
                 "text": "Qaror qabul qilish jarayonini va resurslarni taqsimlashni yaxshilash."
-            }
+            },
+            "description_2": "Ixtiyoriy auditning buyurtmachilari qonuniy shaxslar, ularning egalari, ishtirokchilari va aktsiyadorlar bo'lishi mumkin, ular vakolatli kapitalda kamida besh foizlik ulushga ega, shuningdek, nazorat qiluvchi yoki huquqni muhofaza qilish organlari ham kiradi."
         },
         projectGrandsAudit: {
             "title": "Loyihalar va grantlar bo'yicha audit",
             "description": "O‘zbekiston Respublikasi byudjet mablag‘lari, Jahon Banki, Osiyo Taraqqiyot Banki (OTB), BMT Taraqqiyot Dasturi va boshqa nodavlat tashkilotlari tomonidan moliyalashtiriladigan loyihalar va grantlar bo‘yicha audit o‘ziga xos xususiyatlarga ega.",
-            "conducting": "Audit Milliy Audit Standartlariga yoki Xalqaro Audit Standartlariga muvofiq o‘tkaziladi.",
+            "conducting": "Audit audit standartlariga muvofiq amalga oshiriladi.",
             "auditPlan": "Loyihalar va grantlar bo‘yicha audit rejasi Jahon Banki, OTB, BMT Taraqqiyot Dasturi talablari asosida ko‘rsatmalar yoki texnik topshiriqlar asosida tuziladi va mablag‘larning manbalari va foydalanilishi haqidagi hisobotlarning, hisobga oluvchi hisoblar auditini, tatbiq etilayotgan buxgalteriya siyosatini va muhim hisob-kitoblarni baholashni o‘z ichiga oladi, shuningdek, moliyaviy hisobotlarning taqdimotini keng qamrovli baholashni o‘z ichiga oladi.",
             "documentationCheck": "Bundan tashqari, zarur qo‘llab-quvvatlovchi hujjatlarning mavjudligi tekshiriladi:",
             "documentationPoints": [

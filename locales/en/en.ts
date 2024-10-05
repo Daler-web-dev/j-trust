@@ -17,8 +17,8 @@ export const en = {
             services: {
                 title: "Services",
                 p1: "General information",
-                p2: "Anti-crisis management",
-                p3: "Due Diligence procedure",
+                p2: "Auditing technology",
+                p3: "Methodology of provided services",
                 p4: "Mandatory audit",
                 p5: "Initiative audit",
                 p6: "Audit of projects and grants",
@@ -57,8 +57,8 @@ export const en = {
         services: {
             title: "Services",
             p1: "General information",
-            p2: "Anti-crisis management",
-            p3: "Due Diligence procedure",
+            p2: "Auditing technology",
+            p3: "Methodology of provided services",
             p4: "Mandatory audit",
             p5: "Initiative audit",
             p6: "Audit of projects and grants",
@@ -89,7 +89,7 @@ export const en = {
         company: "JAVLON AUDIT SERVIS",
         title: "Audit organization",
         subtitle: "in the field of accounting and taxes",
-        text: "The audit organization 'JAVLON AUDIT SERVIS', in the form of a limited liability company, is pleased to cooperate with you and offer its services in the field of audit in accordance with the Law on Auditing Activities, International Auditing Standards, and accounting and financial reporting standards.",
+        text: "The auditing firm «JAVLON AUDIT SERVIS», operating as a limited liability company, is pleased to offer you its services in the field of auditing, in accordance with the Law on Auditing Activities, International Standards on Auditing, and accounting and financial reporting standards.",
         button: "More"
     },
     financial: {
@@ -578,48 +578,48 @@ export const en = {
         },
         "generalInformation": {
             "title": "General Information",
-            "text_1": "Audit and professional consulting (consulting) in the field of accounting and taxation have long been in demand by most companies in the Republic of Uzbekistan. However, the effectiveness of these services depends on the experience, professionalism, and ability to solve emerging problems independently and innovatively by specialists of the company you have chosen to contact. LLC 'JAVLON AUDIT SERVIS' is ready to provide you with exactly such specialists who have practical experience. The current Uzbek legislation in the field of accounting and taxation is quite extensive, constantly changing, contains many contradictions, but unfortunately often does not provide direct answers to controversial and complex questions. This is why even highly qualified accountants often find it difficult to make the right decision in complicated situations.",
-            "text_2": "LLC 'JAVLON AUDIT SERVIS' specializes in audit checks of large industrial enterprises in various fields of activity and provides related services: consulting in accounting and management accounting, legal and tax consulting, tax optimization, bookkeeping, transformation of financial statements in accordance with IFRS (International Financial Reporting Standards), financial statement analysis, support of enterprises and organizations during inspections by regulatory authorities, and protection of clients' interests in governmental and judicial bodies on special issues."
+            "text_1": "The auditing firm «JAVLON AUDIT SERVIS» has been operating in the audit services market for over eighteen years. Our organization was established on March 1, 2004. The organization's charter capital is 240,000,000 UZS, and the annual insurance policy is 400,000,000 UZS. The organization's specialists have work experience in auditing firms ranging from three to twenty years and specialize in auditing large industrial enterprises, organizations, joint-stock companies, limited liability companies, and private enterprises. The organization has qualified specialists proficient in the methodology of the accounting system according to national and international standards, who can provide audit services and analyze financial statements in accordance with auditing standards We offer our clients the following services: audit in accordance with auditing standards and accounting standards, accounting services, restoration and maintenance of accounting records, taxation services, consulting, expert services for construction work, and software.",
+            "text_2": "Our primary mission is to provide high-quality services to our clients, which will help improve their operations and contribute to increasing their profitability in the future. In line with the tasks of auditing organizations, we conduct an analysis and confirm the accuracy of the financial statements of business entities based on a real and objective assessment of the efficiency of economic activity. We develop constructive proposals to improve the efficiency of business entities. By identifying the risks and challenges of each client and their individual needs, we strive to ensure the proper reflection of all issues related to the specifics of the client's legislation, operations, and financial reporting system. The reputation of our auditing firm is of great importance to us, and for this reason, our specialists, who hold auditor qualification certificates, create and maintain a strong positive image of the organization."
         },
-        antiCrisisManagement: {
-            "title": "Crisis Management",
-            "introduction": "The challenges of the modern economy and the global financial crisis force businesses to seek new ideas and effective solutions.",
-            "section_1": "Today, one of the most popular terms in Uzbekistan's business life has become crisis management. In some cases, this term refers to managing a company during a general economic crisis, in others – managing a company on the brink of bankruptcy, while the third category connects crisis management with the work of crisis managers within judicial bankruptcy procedures.",
-            "section_2": "According to highly demanded specialists, a systematic approach to crisis management is the right one, where crisis management is seen as a set of measures, from preliminary crisis diagnostics to methods for its elimination and the restoration of normal company operations."
+        "auditTechnology": {
+            "title": "Auditing Technology",
+            "introduction": "Today, modern technologies are one of the key factors for conducting an effective audit in optimal timeframes. Our auditing technology ensures that risk reviews and analytical procedures are conducted efficiently and provide additional value for the client.",
+            "section_1": "The software developed by our specialists serves as the foundation for the unified auditing methodology and documentation used by the organization. By identifying the unique risks and challenges associated with each client, it creates an environment for conducting audits that is tailored to the individual needs of the client, ensuring proper reflection of all issues related to the client's legislation, activities, and financial reporting system.",
+            "section_2": "It supports all phases of the audit planning, execution, and reporting and includes the necessary tools for analysis, documentation, management, and interaction of audit-related information."
         },
-        procedureDueDiligence: {
-            "title": "Due Diligence Procedure",
-            "introduction": "The auditing company «JAVLON AUDIT SERVIS» has experience providing comprehensive Due Diligence services under contracts with companies operating in various sectors of the economy.",
-            "section_1": "The Due Diligence procedure is a process for forming an objective representation of the investment object. Both parties, the investor (buyer) and the investment-attracting side (seller), are interested in the competent and objective execution of these procedures.",
-            "section_2": "The main goal of Due Diligence is to form an independent, objective representation of:",
+        "methodologyOfProvidedServices": {
+            "title": "Methodology of provided services",
+            "introduction": "The audit approach of the audit organization «Javlon audit servis» is aimed at understanding the client’s project and invests time and resources into proper planning. This ensures that staff are informed, allowing them to effectively carry out the task.",
+            "section_1": "The following characteristics distinguish the organization’s approach: Planning based on risk assessment; Evaluation of audit risk; Analysis of the accounting system and controls as a basis for preparing financial statements; Application of accumulated knowledge from similar projects; Emphasis on professional judgment. We acknowledge that each audit is unique, and therefore, a team of qualified staff is assigned to each project to achieve maximum quality.",
+            "section_2": "The main part of our methodology is related to risk assessment by the senior team members working on the project, as these risks impact the project. The following four stages make up our audit methodology:",
             "points": [
-                "the real financial condition of the investment object;",
-                "all risks that could significantly worsen the financial condition of the investment object;",
-                "the market value of the investment object’s shares."
-            ],
-            "section_3": "Carrying out an independent assessment is a necessary procedure when changing ownership of an object, as it helps establish a certain level of trust between the parties to the transaction, relying on experts' conclusions and recommendations to find the necessary compromises to overcome potential conflicts of interest.",
-            "section_4": "In the process of conducting Due Diligence, work is usually divided into three interrelated parts: evaluation of the accounting system, reliability of reporting, and financial analysis; assessment of tax risks; legal evaluation of risks arising from obligations and completed transactions. Analysts, auditors, and lawyers work closely together, as the qualification of the deal can sometimes only be provided jointly by auditors and lawyers."
+                "Stage 1 - Strategic Planning: We need to plan our approach to the audit in advance to identify specific issues related to the Project. The planning stage consists of several phases, including strategy review and information gathering.",
+                "Stage 2 - Review of Information Systems: At this stage, the audit team will gain an understanding of the accounting systems and controls and analyze their impact on the audit approach. Based on the results of these studies, we will develop detailed working programs for the next stages of the audit.",
+                "Stage 3 - Detailed Testing of Transactions and Balances: The audit of the Project's financial statements will be broken down into components, and the extent of work on each component of the technical financial reporting will be determined by professional judgment.",
+                "Stage 4 - Completion of the Audit: During this stage, we will gather all the results of our audit of the enterprise and express opinions on the financial statements as a whole. This stage includes: Detailed analytical review of the reporting; Assessment of the overall presentation of financial information; Detailed discussions with management regarding issues that arose during the audit; Review of the work performed by partners and managers of the audit organization; Overall conclusion on the reliability and fair presentation of the amounts included in the financial statements."
+            ]
         },
         requiredAudit: {
             "title": "Mandatory Audit",
             "introduction": "An audit is an audit of the financial statements and related financial information of an economic entity by audit organizations to establish the reliability and compliance of financial statements with the legislation...",
-            "section_1": "The optimal mode is an unscheduled audit...",
-            "section_2": "During the mandatory audit, additional services will be provided: tax optimization...",
+            "section_1": "The following organizations are subject to mandatory annual audit checks:",
+            // "section_2": "In the course of mandatory auditing, accompanying services will be provided: tax optimization...",
             "points": [
                 "joint-stock companies;",
-                "banks and other credit institutions;",
+                "banks and other credit organizations;",
                 "insurance organizations;",
-                "investment and other funds;",
-                "charitable and other public funds;",
-                "off-budget funds;",
-                "business entities with a share in the authorized capital belonging to the state."
+                "investment and other funds that accumulate resources from legal and natural persons, and their trust managers — managing investment assets;",
+                "charitable, public, and other funds whose sources are contributions from legal and natural persons;",
+                "business entities that have a share in the authorized capital owned by the state, and state unitary enterprises;",
+                "exchanges;",
+                "commercial organizations that simultaneously meet two of the following conditions based on the results of the reporting year: the book value of assets exceeds one hundred thousand times the basic calculation amount, revenue from the sale of goods (works, services) exceeds two hundred thousand times the basic calculation amount, and the average annual number of employees exceeds one hundred."
             ],
-            "section_3": "The customers of the mandatory audit are business entities...",
-            "section_4": "Failure to conduct a mandatory audit entails administrative penalties..."
+            // "section_3": "The clients of mandatory audit checks are business entities...",
+            // "section_4": "Avoiding mandatory audit checks leads to administrative penalties..."
         },
         initiativeAudit: {
             "title": "Initiative Audit",
-            "description": "An initiative audit provides a comprehensive analysis to enhance the effectiveness of organizational activities.",
+            "description_1": "An initiative audit provides a comprehensive analysis to enhance the effectiveness of organizational activities.",
             "conditions": {
                 "title": "Conditions",
                 "subject": "The audit will focus on specific initiatives undertaken by the organization.",
@@ -642,12 +642,13 @@ export const en = {
             "opportunities": {
                 "title": "Opportunities",
                 "text": "To improve decision-making and resource allocation."
-            }
+            },
+            "description_2": "Clients of the initiative audit can include legal entities, their owners, participants, and shareholders who have at least a five percent share in the authorized capital, as well as controlling or law enforcement agencies."
         },
         projectGrandsAudit: {
             "title": "Audit of projects and grants",
             "description": "The audit of projects and grants financed by the budgetary funds of the Republic of Uzbekistan, the World Bank, the Asian Development Bank (ADB), UNDP, and other non-profit organizations has its own specifics.",
-            "conducting": "The audit is conducted in accordance with National Auditing Standards or International Auditing Standards.",
+            "conducting": "The audit is conducted in accordance with auditing standards.",
             "auditPlan": "The audit plan for projects and grants is developed based on guidelines or technical assignments according to the requirements of the World Bank, ADB, UNDP, and includes audits of reports on the sources of funds and their usage, auditing of accountable accounts, evaluation of the applied accounting policy and significant calculations, as well as a comprehensive assessment of the presentation of financial statements.",
             "documentationCheck": "Additionally, the presence of adequate supporting documentation is checked:",
             "documentationPoints": [

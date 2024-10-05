@@ -70,8 +70,8 @@ export const CustomNavBar: React.FC<Props> = ({ className, translation }) => {
             href: '/services',
             children: [
                 { key: 'p1', label: translation?.services?.p1, href: '/services/general-information' },
-                { key: 'p2', label: translation?.services?.p2, href: '/services/crisis-management' },
-                { key: 'p3', label: translation?.services?.p3, href: '/services/procedure-due-diligence' },
+                { key: 'p2', label: translation?.services?.p2, href: '/services/audit-technology' },
+                { key: 'p3', label: translation?.services?.p3, href: '/services/methodology-of-provided-services' },
                 { key: 'p4', label: translation?.services?.p4, href: '/services/required-audit' },
                 { key: 'p5', label: translation?.services?.p5, href: '/services/initiative-audit' },
                 { key: 'p6', label: translation?.services?.p6, href: '/services/project-scholarship-audit' },

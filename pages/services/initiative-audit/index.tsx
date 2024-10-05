@@ -16,7 +16,7 @@ const Index: React.FC<Props> = ({ className }) => {
         <Container className={cn("mt-10 mb-20", className)}>
             <Card className="mx-auto my-4 p-6 shadow-md bg-white rounded-lg">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">{translation.title}</h2>
-                <p className="text-gray-600 mb-2">{translation.description}</p>
+                <p className="text-gray-600 mb-2">{translation.description_1}</p>
 
                 <h3 className="text-xl font-semibold text-gray-800 mt-4">{translation.conditions.title}</h3>
                 <div className="space-y-2">
@@ -39,6 +39,7 @@ const Index: React.FC<Props> = ({ className }) => {
 
                 <h3 className="text-xl font-semibold text-gray-800 mt-4">{translation.opportunities.title}</h3>
                 <p className="text-gray-600 mb-2">{translation.opportunities.text}</p>
+                <p className="text-gray-600 mb-2">{translation.description_2}</p>
             </Card>
         </Container>
     );

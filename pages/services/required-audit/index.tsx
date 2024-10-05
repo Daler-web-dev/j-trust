@@ -20,14 +20,14 @@ const Index: React.FC<Props> = ({ className }) => {
                 <CardContent>
                     <p>{translation.introduction}</p>
                     <p>{translation.section_1}</p>
-                    <p>{translation.section_2}</p>
+                    {/* <p>{translation.section_2}</p> */}
                     <ul>
                         {translation.points.map((point: string, index: number) => (
-                            <li key={index}>{point}</li>
+                            <li key={index} className='list-disc ml-5'>{point}</li>
                         ))}
                     </ul>
-                    <p>{translation.section_3}</p>
-                    <p>{translation.section_4}</p>
+                    {/* <p>{translation.section_3}</p> */}
+                    {/* <p>{translation.section_4}</p> */}
                 </CardContent>
             </Card>
         </Container>

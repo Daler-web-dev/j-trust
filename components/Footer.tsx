@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Card, CardContent, CardFooter } from "./ui/card";
 
 const about_company_links = ["/certificates", "/audit-certificates", "/about/vacancies", "/about/clients", "/about/founders", "/work-principles", "/about/our-specialists", "/about/management"];
-const services_links = ["/services/general-information", "/services/crisis-management", "/services/procedure-due-diligence", "/services/required-audit", "/services/initiative-audit", "/services/project-scholarship-audit", "/services/consulting", "/services/accounting-services"];
+const services_links = ["/services/general-information", "/services/audit-technology", "/services/methodology-of-provided-services", "/services/required-audit", "/services/initiative-audit", "/services/project-scholarship-audit", "/services/consulting", "/services/accounting-services"];
 const more_links = ["/audit-reports", "/became-a-client", "/help"]
 
 export default function Footer({ translation }: {
