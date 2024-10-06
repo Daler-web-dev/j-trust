@@ -21,12 +21,12 @@ const Index: React.FC<Props> = ({ className }) => {
                 <CardHeader>
                     <CardTitle>{translation?.title}</CardTitle>
                 </CardHeader>
-                <CardContent className='grid grid-cols-4 justify-center items-center gap-5'>
+                <CardContent className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-5'>
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_1.jpg"} alt="certificate" width={300} height={200} />
                     </div>
                     <div className='w-full h-full border border-gray-200'>
-                        <Image src={"/certificates/certificate_2.jpg"} alt="certificate" width={300} height={200}/>
+                        <Image src={"/certificates/certificate_2.jpg"} alt="certificate" width={300} height={200} />
                     </div>
                     {/* <div className='w-full h-full border border-gray-200'>
                         <Image src={"/certificates/certificate_3.png"} alt="certificate" width={300} height={200} />

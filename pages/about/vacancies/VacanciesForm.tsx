@@ -277,7 +277,7 @@ export default function VacanciesForm({ translation }: Props) {
                         </div>
                     </div>
 
-                    <Button type="submit" className="mt-4">
+                    <Button type="submit" size={"lg"} className="mt-4 bg-cblue hover:bg-blue-600">
                         {translation?.submit}
                     </Button>
                 </form>

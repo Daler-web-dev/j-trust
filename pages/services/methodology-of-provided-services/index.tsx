@@ -41,7 +41,7 @@ const Index: React.FC<Props> = ({ className }) => {
 
                     {/* Этапы методологии */}
                     <h3 className="text-xl font-semibold text-gray-900 mt-6">
-                        Этапы методологии
+                        {translation.stages_title}
                     </h3>
 
                     {translation.stages.map((stage: {

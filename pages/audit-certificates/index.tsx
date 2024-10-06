@@ -22,7 +22,7 @@ const Index: React.FC<Props> = ({ className }) => {
                     <CardTitle>{translation?.title}</CardTitle>
                     <CardDescription className='mt-2 text-base lg:text-lg'>{translation?.description}</CardDescription>
                 </CardHeader>
-                <CardContent className='grid grid-cols-4 justify-center items-center gap-5'>
+                <CardContent className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-5'>
                     <div className='w-full h-full border border-gray-200'>
                         <Image src={"/auditor_certificates/auditor_7.png"} alt="certificate" width={300} height={200} />
                     </div>

@@ -22,48 +22,15 @@ interface FormData {
 export default function AuditRequestForm({ translation }: {
     translation: {
         warning: string;
+        number_warning: string;
         name: string;
         surname: string;
         email: string;
         phone: string;
         company: string;
         role: string;
-        typeAudit: string;
-        typeAudit_1: string;
-        typeAudit_2: string;
-        typeAudit_3: string;
-        mainJob: string;
-        mainJob_1: string;
-        mainJob_2: string;
-        mainJob_3: string;
-        status: string;
-        status_placeholder: string;
-        time: string;
-        time_1: string;
-        time_2: string;
-        time_3: string;
-        tax: string;
-        tax_1: string;
-        tax_2: string;
-        currency: string;
-        currency_1: string;
-        currency_2: string;
-        method: string;
-        method_1: string;
-        method_2: string;
-        employees: string;
-        accounting: string;
-        banks: string;
-        invoices: string;
-        revenue: string;
-        turnover: string;
-        date: string;
-        assets: string;
-        branches: string;
         additional: string;
         submit: string;
-        writeCount: string;
-        writePrice: string;
         additionalPlaceholder: string;
         toast: {
             title: string;
@@ -87,7 +54,6 @@ export default function AuditRequestForm({ translation }: {
         msg += `📌 Компания: ${info?.company} \n`;
         msg += `📌 Дополнительно: ${info?.additional} \n`;
 
-
         const res = sendMessages(msg);
         res.then((res) => {
             if (res?.res?.status === 200 || res?.res?.status === 201) {
@@ -107,7 +73,7 @@ export default function AuditRequestForm({ translation }: {
 
     return (
         <Card className="w-full mx-auto">
-            <CardHeader className="bg-blue-600 text-white">
+            <CardHeader className="bg-cblue text-white">
                 <CardTitle className="text-lg">{translation?.warning}</CardTitle>
             </CardHeader>
             <CardContent>
@@ -118,7 +84,8 @@ export default function AuditRequestForm({ translation }: {
                             <Input
                                 id="firstName"
                                 placeholder={translation?.name}
-                                {...register("firstName", { required: "First name is required" })}
+                                required
+                                {...register("firstName")}
                             />
                             {errors.firstName && <p className="text-red-600">{errors.firstName.message}</p>}
                         </div>
@@ -127,7 +94,8 @@ export default function AuditRequestForm({ translation }: {
                             <Input
                                 id="lastName"
                                 placeholder={translation?.surname}
-                                {...register("lastName", { required: "Last name is required" })}
+                                {...register("lastName")}
+                                required
                             />
                             {errors.lastName && <p className="text-red-600">{errors.lastName.message}</p>}
                         </div>
@@ -137,7 +105,8 @@ export default function AuditRequestForm({ translation }: {
                                 id="email"
                                 type="email"
                                 placeholder={translation?.email}
-                                {...register("email", { required: "Email is required" })}
+                                {...register("email")}
+                                required
                             />
                             {errors.email && <p className="text-red-600">{errors.email.message}</p>}
                         </div>
@@ -146,7 +115,14 @@ export default function AuditRequestForm({ translation }: {
                             <Input
                                 id="phone"
                                 placeholder="+998 XX XXX XX XX"
-                                {...register("phone", { required: "Phone number is required" })}
+                                {...register("phone", {
+                                    required: "Phone number is required",
+                                    pattern: {
+                                        value: /^\+998[0-9]{9}$/,
+                                        message: translation?.number_warning
+                                    }
+                                })}
+                                required
                             />
                             {errors.phone && <p className="text-red-600">{errors.phone.message}</p>}
                         </div>
@@ -160,8 +136,6 @@ export default function AuditRequestForm({ translation }: {
                         </div>
                     </div>
 
-                    {/* Additional fields with similar structure... */}
-
                     <div>
                         <Label htmlFor="additional">{translation?.additional}</Label>
                         <Textarea
@@ -173,7 +147,7 @@ export default function AuditRequestForm({ translation }: {
                         />
                     </div>
 
-                    <Button type="submit" className="w-full md:w-auto">{translation?.submit}</Button>
+                    <Button type="submit" size={"lg"} className="w-full md:w-auto bg-cblue hover:bg-blue-600">{translation?.submit}</Button>
                 </form>
             </CardContent>
         </Card>

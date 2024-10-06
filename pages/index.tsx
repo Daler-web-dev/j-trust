@@ -53,7 +53,7 @@ export default function Home() {
                         </p>
                     </CardContent>
                     <CardFooter className="mt-4">
-                        <Link href="/">
+                        <Link href="/services">
                             <Button size="lg" className="w-full sm:w-auto bg-cblue hover:bg-blue-600 text-white text-lg py-4 sm:px-16 sm:py-5">
                                 {translation.servicesWeOffer.button}
                             </Button>

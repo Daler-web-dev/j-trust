@@ -165,6 +165,7 @@ export const en = {
                 "uniqueApproach": "We recognize that every audit is unique, and therefore a team of employees with the appropriate qualifications is assigned to each project to achieve the highest quality.",
                 "riskAssessment": "A key part of our methodology is related to risk assessment by senior members of the team working on the project, as these risks impact the project."
             },
+            "stages_title": "Methodology stages",
             "stages": [
                 {
                     "stage": 1,
@@ -521,7 +522,7 @@ export const en = {
         },
         "founders": {
             "title": "Founder",
-            "name": "The founder of LLC 'Javlon Audit Servis' Nuriddinova Shahnaz Tairovna",
+            "name": "The founder of LLC 'Javlon Audit Servis' Nuriddinova Shahnoza Tairovna",
             "description": "The main activity is to provide its clients with audit services in the form of audit checks and related services in accordance with the Law on Audit Activities, International Audit Standards in accordance with accounting standards, services in the field of accounting, restoration and maintenance of accounting, tax services, consulting, and software.",
             "takingPart": "Participant in the World Congresses",
             "events": [
@@ -595,7 +596,7 @@ export const en = {
         }
     },
     "workPrinciples": {
-        "title": "Principles of Work",
+        "title": "Principle of Work",
         "card": {
             "title": "Control of the Auditor-Partner",
             "description": "The lead auditor has the right to sign the audit report and bears full responsibility for conducting the audit. The lead auditor is required to instruct auditors and assistant auditors about their responsibilities and the objectives of the procedures they are to perform, the activities of the entity being audited, and potential accounting issues that may affect the essence, timing, and scope of the audit procedures. The lead auditor must continuously be involved in the audit process...",
@@ -691,6 +692,7 @@ export const en = {
                 "uniqueApproach": "We recognize that every audit is unique, and therefore a team of employees with the appropriate qualifications is assigned to each project to achieve the highest quality.",
                 "riskAssessment": "A key part of our methodology is related to risk assessment by senior members of the team working on the project, as these risks impact the project."
             },
+            "stages_title": "Methodology stages",
             "stages": [
                 {
                     "stage": 1,
@@ -904,6 +906,7 @@ export const en = {
         "title": "Become a Client",
         "forma": {
             "warning": "All fields marked with * are required.",
+            "number_warning": "Invalid Uzbekistan phone number format. Use +998 XX XXX XX XX",
             "name": "Name *",
             "surname": "Surname *",
             "email": "Email *",
@@ -942,7 +945,7 @@ export const en = {
             "date": "dd.mm.yyyy",
             "assets": "Total Assets at Year-End",
             "branches": "Number of Branches",
-            "additional": "Additional Information",
+            "additionalPlaceholder": "Additional Information",
             "submit": "Submit",
             "writeCount": "Enter the quantity",
             "writePrice": "Enter the amount",

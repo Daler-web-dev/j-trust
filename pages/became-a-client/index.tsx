@@ -18,6 +18,7 @@ export interface TranslationContextType {
         title: string;
         forma: {
             warning: string;
+            number_warning: string;
             name: string;
             surname: string;
             email: string;

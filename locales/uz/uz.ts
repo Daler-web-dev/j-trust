@@ -81,7 +81,7 @@ export const uz = {
         },
         company: {
             title: "Javlon Audit Servis",
-            termsAndConditions: "Shartlar va shartlar",
+            termsAndConditions: "Shartlar va qoidalar",
             privacyPolicy: "Maxfiylik siyosati",
         }
     },
@@ -168,6 +168,7 @@ export const uz = {
                 "uniqueApproach": "Biz har bir auditning noyob ekanligini tan olamiz va shunga ko'ra har bir loyihaga mos keladigan malakali xodimlar jamoasi yuboriladi, bu esa eng yuqori sifatga erishishga imkon beradi.",
                 "riskAssessment": "Bizning metodologiyamizning asosiy qismi loyiha ustida ishlaydigan jamoaning kattalari tomonidan xatarlarni baholash bilan bog'liq, chunki bu xatarlar loyiha uchun ta'sir qiladi."
             },
+            "stages_title": "Metodologiya bosqichlari",
             "stages": [
                 {
                     "stage": 1,
@@ -501,7 +502,7 @@ export const uz = {
         },
         "founders": {
             "title": "Asoschisi",
-            "name": "LLC 'Javlon Audit Servis' asoschisi Nuriddinova Shahnaz Tairovna",
+            "name": "LLC 'Javlon Audit Servis' asoschisi Nuriddinova Shahnoza Tairovna",
             "description": "Asosiy faoliyat o'z mijozlariga audit tekshiruvlari va audit faoliyati to'g'risidagi qonunga, Xalqaro audit standartlariga, hisobga olish standartlariga muvofiq audit xizmatlarini taqdim etishdan iborat. Bu xizmatlar hisobga olish sohasida, hisobni tiklash va olib borish, soliq xizmatlari, maslahat va dasturiy ta'minotni o'z ichiga oladi.",
             "takingPart": "Jahon Kongresslaridagi ishtirokchi",
             "events": [
@@ -575,7 +576,7 @@ export const uz = {
         }
     },
     "workPrinciples": {
-        "title": "Ish Prinsiplari",
+        "title": "Ish Prinsipi",
         "card": {
             "title": "Auditor- Hamkorni Boshqarish",
             "description": "Bosh auditor audit xulosasini imzolash huquqiga ega va auditni o'tkazishda to'liq javobgarlikni o'z zimmasiga oladi. Bosh auditor auditorlarni va yordamchi auditorlarni (assistentlarni) ularning javobgarliklari va bajarishi kerak bo'lgan protseduralarning maqsadlari haqida o'rgatishi shart, auditi o'tkazilayotgan sub'ekt faoliyati va audit protseduralarining mohiyati, vaqti va ko'lami ustida ta'sir ko'rsatishi mumkin bo'lgan hisobga olish muammolari haqida. Bosh auditor audit jarayonida doimiy ravishda ishtirok etishi kerak...",
@@ -671,6 +672,7 @@ export const uz = {
                 "uniqueApproach": "Biz har bir auditning noyob ekanligini tan olamiz va shunga ko'ra har bir loyihaga mos keladigan malakali xodimlar jamoasi yuboriladi, bu esa eng yuqori sifatga erishishga imkon beradi.",
                 "riskAssessment": "Bizning metodologiyamizning asosiy qismi loyiha ustida ishlaydigan jamoaning kattalari tomonidan xatarlarni baholash bilan bog'liq, chunki bu xatarlar loyiha uchun ta'sir qiladi."
             },
+            "stages_title": "Metodologiya bosqichlari",
             "stages": [
                 {
                     "stage": 1,
@@ -876,9 +878,10 @@ export const uz = {
         description: "Auditorlik tashkiloti o'zining rasmiy veb-saytida yoki auditorlar Respublikasi jamoat birlashmalarining rasmiy veb-saytlarida o'tkazilgan majburiy auditlar to'g'risida, iqtisodiy sub'ektning identifikatsiya ma'lumotlari va audit xulosasini ko'rsatgan holda ma'lumot joylashtirishga majburdir."
     },
     "becameAClient": {
-        "warning": "Yulduzcha (*) bilan belgilangan barcha maydonlar majburiydir.",
         "title": "Mijoz bo'lish",
         "forma": {
+            "warning": "Yulduzcha (*) bilan belgilangan barcha maydonlar majburiydir.",
+            "number_warning": "Noto‘g‘ri O‘zbekiston telefon raqami formati. +998 XX XXX XX XX formatidan foydalaning",
             "name": "Ism *",
             "surname": "Familiya *",
             "email": "Email *",
@@ -917,7 +920,7 @@ export const uz = {
             "date": "dd.mm.yyyy",
             "assets": "Yil oxiridagi aktivlar summasi",
             "branches": "Filiallar soni",
-            "additional": "Qo'shimcha ma'lumot",
+            "additionalPlaceholder": "Qo'shimcha ma'lumot",
             "submit": "Jo'natish",
             "writeCount": "Soni kiriting",
             "writePrice": "Summa kiriting",
