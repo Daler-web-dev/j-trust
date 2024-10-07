@@ -39,7 +39,7 @@ export const uz = {
     },
     footer: {
         address: {
-            title: "Javlon Audit Servis",
+            title: "JAVLON AUDIT SERVIS",
             street: "1) Samarqand shahri, Rudakiy ko‘chasi 140/18",
             street2: "2) Toshkent shahri, Uchtepa tumani, Qurilish, 3-tor ko‘chasi, Uy 3a, Kvartira 2"
         },
@@ -80,7 +80,7 @@ export const uz = {
             number_2: "+99833 288 01 02",
         },
         company: {
-            title: "Javlon Audit Servis",
+            title: "JAVLON AUDIT SERVIS",
             termsAndConditions: "Shartlar va qoidalar",
             privacyPolicy: "Maxfiylik siyosati",
         }
@@ -105,7 +105,7 @@ export const uz = {
         },
         "dueDiligence": {
             "title": "Ta'minlanadigan Xizmatlar Metodologiyasi",
-            "description": "'Javlon audit servis' tashkilotining audit yondashuvi mijozning loyihasini tushunishga va ehtiyotkorona rejalashtirishga e'tibor qaratadi, bu esa jamoaning xabardorligini va vazifalarni bajarish samaradorligini ta'minlaydi; uning farqlovchi xususiyatlari xavflarni baholash asosida rejalashtirish, buxgalteriya tizimini tahlil qilish va to'plangan bilimlarni qo'llashni o'z ichiga oladi, va metodologiya to'rtta bosqichdan iborat: strategik rejalashtirish, axborot tizimlarini ko'rib chiqish, tranzaktsiyalarni batafsil sinovdan o'tkazish va moliyaviy hisobotni oxirgi baholash."
+            "description": "'JAVLON AUDIT SERVIS' tashkilotining audit yondashuvi mijozning loyihasini tushunishga va ehtiyotkorona rejalashtirishga e'tibor qaratadi, bu esa jamoaning xabardorligini va vazifalarni bajarish samaradorligini ta'minlaydi; uning farqlovchi xususiyatlari xavflarni baholash asosida rejalashtirish, buxgalteriya tizimini tahlil qilish va to'plangan bilimlarni qo'llashni o'z ichiga oladi, va metodologiya to'rtta bosqichdan iborat: strategik rejalashtirish, axborot tizimlarini ko'rib chiqish, tranzaktsiyalarni batafsil sinovdan o'tkazish va moliyaviy hisobotni oxirgi baholash."
         },
         "mandatoryAudit": {
             "title": "Majburiy Audit",
@@ -157,7 +157,7 @@ export const uz = {
         services: {
             "title": "Ta'minlangan xizmatlar metodologiyasi",
             "approach": {
-                "description": "«Javlon audit servis» auditorlik tashkilotining auditorlik yondoshuvi mijozning loyihasini tushunishga qaratilgan va tegishli rejalashtirishga vaqt va resurslarni sarflaydi. Bu xodimlarning xabardorligini ta'minlaydi, bu esa ularga topshiriqni samarali bajarishga imkon beradi.",
+                "description": "«JAVLON AUDIT SERVIS» auditorlik tashkilotining auditorlik yondoshuvi mijozning loyihasini tushunishga qaratilgan va tegishli rejalashtirishga vaqt va resurslarni sarflaydi. Bu xodimlarning xabardorligini ta'minlaydi, bu esa ularga topshiriqni samarali bajarishga imkon beradi.",
                 "keyFeatures": [
                     "Xatarni hisobga olgan holda rejalashtirish",
                     "Auditorlik xatarini baholash",
@@ -502,7 +502,7 @@ export const uz = {
         },
         "founders": {
             "title": "Asoschisi",
-            "name": "LLC 'Javlon Audit Servis' asoschisi Nuriddinova Shahnoza Tairovna",
+            "name": "MChJ 'JAVLON AUDIT SERVIS' asoschisi Nuriddinova Shahnoza Tairovna",
             "description": "Asosiy faoliyat o'z mijozlariga audit tekshiruvlari va audit faoliyati to'g'risidagi qonunga, Xalqaro audit standartlariga, hisobga olish standartlariga muvofiq audit xizmatlarini taqdim etishdan iborat. Bu xizmatlar hisobga olish sohasida, hisobni tiklash va olib borish, soliq xizmatlari, maslahat va dasturiy ta'minotni o'z ichiga oladi.",
             "takingPart": "Jahon Kongresslaridagi ishtirokchi",
             "events": [
@@ -624,7 +624,7 @@ export const uz = {
             },
             "dueDiligence": {
                 "title": "Ta'minlanadigan Xizmatlar Metodologiyasi",
-                "description": "'Javlon audit servis' tashkilotining audit yondashuvi mijozning loyihasini tushunishga va ehtiyotkorona rejalashtirishga e'tibor qaratadi, bu esa jamoaning xabardorligini va vazifalarni bajarish samaradorligini ta'minlaydi; uning farqlovchi xususiyatlari xavflarni baholash asosida rejalashtirish, buxgalteriya tizimini tahlil qilish va to'plangan bilimlarni qo'llashni o'z ichiga oladi, va metodologiya to'rtta bosqichdan iborat: strategik rejalashtirish, axborot tizimlarini ko'rib chiqish, tranzaktsiyalarni batafsil sinovdan o'tkazish va moliyaviy hisobotni oxirgi baholash."
+                "description": "'JAVLON AUDIT SERVIS' tashkilotining audit yondashuvi mijozning loyihasini tushunishga va ehtiyotkorona rejalashtirishga e'tibor qaratadi, bu esa jamoaning xabardorligini va vazifalarni bajarish samaradorligini ta'minlaydi; uning farqlovchi xususiyatlari xavflarni baholash asosida rejalashtirish, buxgalteriya tizimini tahlil qilish va to'plangan bilimlarni qo'llashni o'z ichiga oladi, va metodologiya to'rtta bosqichdan iborat: strategik rejalashtirish, axborot tizimlarini ko'rib chiqish, tranzaktsiyalarni batafsil sinovdan o'tkazish va moliyaviy hisobotni oxirgi baholash."
             },
             "mandatoryAudit": {
                 "title": "Majburiy Audit",
@@ -661,7 +661,7 @@ export const uz = {
         "methodologyOfProvidedServices": {
             "title": "Ta'minlangan xizmatlar metodologiyasi",
             "approach": {
-                "description": "«Javlon audit servis» auditorlik tashkilotining auditorlik yondoshuvi mijozning loyihasini tushunishga qaratilgan va tegishli rejalashtirishga vaqt va resurslarni sarflaydi. Bu xodimlarning xabardorligini ta'minlaydi, bu esa ularga topshiriqni samarali bajarishga imkon beradi.",
+                "description": "«JAVLON AUDIT SERVIS» auditorlik tashkilotining auditorlik yondoshuvi mijozning loyihasini tushunishga qaratilgan va tegishli rejalashtirishga vaqt va resurslarni sarflaydi. Bu xodimlarning xabardorligini ta'minlaydi, bu esa ularga topshiriqni samarali bajarishga imkon beradi.",
                 "keyFeatures": [
                     "Xatarni hisobga olgan holda rejalashtirish",
                     "Auditorlik xatarini baholash",

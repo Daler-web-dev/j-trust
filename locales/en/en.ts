@@ -39,7 +39,7 @@ export const en = {
     },
     footer: {
         address: {
-            title: "Javlon Audit Servis",
+            title: "JAVLON AUDIT SERVIS",
             street: "1) Samarkand city, Rudaki street 140/18",
             street2: "2) Tashkent city, Uchtepa district, Qurilish, 3rd narrow street, House 3a, Apartment 2"
         },
@@ -80,7 +80,7 @@ export const en = {
             number_2: "+99833 288 01 02",
         },
         company: {
-            title: "Javlon Audit Servis",
+            title: "JAVLON AUDIT SERVIS",
             termsAndConditions: "Terms and Conditions",
             privacyPolicy: "Privacy Policy",
         }
@@ -105,7 +105,7 @@ export const en = {
         },
         "dueDiligence": {
             "title": "Methodology of Services Provided",
-            "description": "The auditing approach of the organization 'Javlon audit servis' emphasizes understanding the client's project and careful planning, which ensures team awareness and efficiency in task execution; its distinguishing characteristics include risk-based planning, analysis of the accounting system, and the application of accumulated knowledge, and the methodology consists of four stages: strategic planning, review of information systems, detailed testing of transactions, and final assessment of financial reporting."
+            "description": "The auditing approach of the organization 'JAVLON AUDIT SERVIS' emphasizes understanding the client's project and careful planning, which ensures team awareness and efficiency in task execution; its distinguishing characteristics include risk-based planning, analysis of the accounting system, and the application of accumulated knowledge, and the methodology consists of four stages: strategic planning, review of information systems, detailed testing of transactions, and final assessment of financial reporting."
         },
         "mandatoryAudit": {
             "title": "Mandatory Audit",
@@ -154,7 +154,7 @@ export const en = {
         services: {
             "title": "Methodology of Provided Services",
             "approach": {
-                "description": "The audit approach of the auditing organization «Javlon audit servis» is aimed at understanding the client’s project, as well as investing time and resources in proper planning. This ensures that employees are well-informed, which allows them to efficiently complete the task.",
+                "description": "The audit approach of the auditing organization «JAVLON AUDIT SERVIS» is aimed at understanding the client’s project, as well as investing time and resources in proper planning. This ensures that employees are well-informed, which allows them to efficiently complete the task.",
                 "keyFeatures": [
                     "Risk-based planning",
                     "Audit risk assessment",
@@ -522,7 +522,7 @@ export const en = {
         },
         "founders": {
             "title": "Founder",
-            "name": "The founder of LLC 'Javlon Audit Servis' Nuriddinova Shahnoza Tairovna",
+            "name": "The founder of LLC 'JAVLON AUDIT SERVIS' Nuriddinova Shahnoza Tairovna",
             "description": "The main activity is to provide its clients with audit services in the form of audit checks and related services in accordance with the Law on Audit Activities, International Audit Standards in accordance with accounting standards, services in the field of accounting, restoration and maintenance of accounting, tax services, consulting, and software.",
             "takingPart": "Participant in the World Congresses",
             "events": [
@@ -644,7 +644,7 @@ export const en = {
             },
             "dueDiligence": {
                 "title": "Methodology of Services Provided",
-                "description": "The auditing approach of the organization 'Javlon audit servis' emphasizes understanding the client's project and careful planning, which ensures team awareness and efficiency in task execution; its distinguishing characteristics include risk-based planning, analysis of the accounting system, and the application of accumulated knowledge, and the methodology consists of four stages: strategic planning, review of information systems, detailed testing of transactions, and final assessment of financial reporting."
+                "description": "The auditing approach of the organization 'JAVLON AUDIT SERVIS' emphasizes understanding the client's project and careful planning, which ensures team awareness and efficiency in task execution; its distinguishing characteristics include risk-based planning, analysis of the accounting system, and the application of accumulated knowledge, and the methodology consists of four stages: strategic planning, review of information systems, detailed testing of transactions, and final assessment of financial reporting."
             },
             "mandatoryAudit": {
                 "title": "Mandatory Audit",
@@ -681,7 +681,7 @@ export const en = {
         "methodologyOfProvidedServices": {
             "title": "Methodology of Provided Services",
             "approach": {
-                "description": "The audit approach of the auditing organization «Javlon audit servis» is aimed at understanding the client’s project, as well as investing time and resources in proper planning. This ensures that employees are well-informed, which allows them to efficiently complete the task.",
+                "description": "The audit approach of the auditing organization «JAVLON AUDIT SERVIS» is aimed at understanding the client’s project, as well as investing time and resources in proper planning. This ensures that employees are well-informed, which allows them to efficiently complete the task.",
                 "keyFeatures": [
                     "Risk-based planning",
                     "Audit risk assessment",
